@@ -1,0 +1,474 @@
+{
+  "org_number": "923609016",
+  "legal_name": "EQUINOR ASA",
+  "status": "ACTIVE",
+  "org_form": "Allmennaksjeselskap (ASA)",
+  "registered_date": "1995-03-12",
+  "nace_codes": [
+    "06.100 - Utvinning av råolje",
+    "06.200 - Utvinning av naturgass",
+    "19.200 - Produksjon av raffinerte petroleumsprodukter og fossile brenselsprodukter"
+  ],
+  "address": "Forusbeen 50, 4035 STAVANGER",
+  "municipality": "STAVANGER",
+  "municipality_number": "1103",
+  "employees": 21231,
+  "vat_registered": true,
+  "website": "https://www.equinor.com",
+  "contact": {
+    "email": "apost@equinor.com",
+    "phone": "+47 20 06 96 15",
+    "postal_address": "Forusbeen 50, 4035 STAVANGER",
+    "visiting_address": "Forusbeen 50, 4035 STAVANGER"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Anders Opedal",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Jarle Kjell Roth",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Finn Bjørn Ruyter",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Haakon Stephen Bruun-Hanssen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Fernanda Lopes Larsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Hilde Møllerstad",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Frank Indreland Gundersen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Geir Leon Vadheim",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Anne Drinkwater",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Mikael Roland Karlsson",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Dawn Summers",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Hans Einar Haldorsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Anette Heggholmen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Terje Werner Hansen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "ERNST & YOUNG AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 106462000000.0,
+      "profit": 25353000000.0,
+      "operating_profit": 25353000000.0,
+      "net_profit": 5058000000.0,
+      "assets": 131727000000.0,
+      "equity": 40497000000.0,
+      "currency": "USD",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016"
+    },
+    {
+      "year": 2024,
+      "revenue": 103774000000.0,
+      "profit": 30928000000.0,
+      "operating_profit": 30928000000.0,
+      "net_profit": 8829000000.0,
+      "assets": 131141000000.0,
+      "equity": 42380000000.0,
+      "currency": "USD",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016"
+    },
+    {
+      "year": 2023,
+      "revenue": 107174000000.0,
+      "profit": 35770000000.0,
+      "operating_profit": 35770000000.0,
+      "net_profit": 11904000000.0,
+      "assets": 143580000000.0,
+      "equity": 48500000000.0,
+      "currency": "USD",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016"
+    }
+  ],
+  "description": "We are an international energy company headquartered in Norway, around 25,000 employees and with offices in more than 20 countries worldwide.",
+  "social_links": [
+    "https://www.facebook.com/Equinor",
+    "https://www.instagram.com/equinor",
+    "https://www.linkedin.com/company/equinor",
+    "https://www.youtube.com/equinor"
+  ],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "EQUINOR ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T09:22:25.179466+00:00",
+      "evidence": "enhet.navn: EQUINOR ASA",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T09:22:25.179466+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Allmennaksjeselskap (ASA)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T09:22:25.179466+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ASA'}}, 'beskrivelse': 'Allmennaksjeselskap', 'kode': 'ASA'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "1995-03-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T09:22:25.179466+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 1995-03-12",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "06.100 - Utvinning av råolje",
+        "06.200 - Utvinning av naturgass",
+        "19.200 - Produksjon av raffinerte petroleumsprodukter og fossile brenselsprodukter"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T09:22:25.179466+00:00",
+      "evidence": "naeringskoder: ['06.100 - Utvinning av råolje', '06.200 - Utvinning av naturgass', '19.200 - Produksjon av raffinerte petroleumsprodukter og fossile brenselsprodukter']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Forusbeen 50, 4035 STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T09:22:25.179466+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Forusbeen 50'], 'kommune': 'STAVANGER', 'kommunenummer': '1103', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '4035', 'poststed': 'STAVANGER'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "employees",
+      "value": 21231,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T09:22:25.179466+00:00",
+      "evidence": "antallAnsatte: 21231",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered employee headcount reported to the Aa-register (NAV/SSB)."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T09:22:25.179466+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://www.equinor.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T09:22:25.179466+00:00",
+      "evidence": "hjemmeside: www.equinor.com",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Anders Opedal",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T09:22:25.179466+00:00",
+      "evidence": "rolle: Daglig leder -> Anders Opedal",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Jarle Kjell Roth",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923609016/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T09:22:25.179466+00:00",
+      "evidence": "rolle: Styrets leder -> Jarle Kjell Roth",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 106462000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T09:22:25.180435+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 106462000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 25353000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T09:22:25.180435+00:00",
+      "evidence": "driftsresultat.driftsresultat: 25353000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 40497000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T09:22:25.180435+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 40497000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 131727000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T09:22:25.180435+00:00",
+      "evidence": "eiendeler.sumEiendeler: 131727000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 103774000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T09:22:25.180435+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 103774000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 30928000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T09:22:25.180435+00:00",
+      "evidence": "driftsresultat.driftsresultat: 30928000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 42380000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T09:22:25.180435+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 42380000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 131141000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T09:22:25.180435+00:00",
+      "evidence": "eiendeler.sumEiendeler: 131141000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 107174000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T09:22:25.180435+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 107174000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 35770000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T09:22:25.180435+00:00",
+      "evidence": "driftsresultat.driftsresultat: 35770000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 48500000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T09:22:25.180435+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 48500000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 143580000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923609016",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T09:22:25.180435+00:00",
+      "evidence": "eiendeler.sumEiendeler: 143580000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T09:22:41.108596+00:00",
+  "last_checked_at": "2026-10-14T09:22:41.108596+00:00",
+  "history_ref": "rev_1791969761_923609016",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 16318,
+    "cached": false
+  }
+}

@@ -16,15 +16,33 @@ from sqlmodel import Session, SQLModel, create_engine, select
 
 logger = logging.getLogger(__name__)
 
+from pathlib import Path
+
 # Connect_args needed for SQLite thread concurrency
-connect_args = {"check_same_thread": False} if settings.database_url.startswith("sqlite") else {}
-engine = create_engine(settings.database_url, echo=False, connect_args=connect_args)
+connect_args = {"check_same_thread": False} if settings.effective_database_url.startswith("sqlite") else {}
+engine = create_engine(settings.effective_database_url, echo=False, connect_args=connect_args)
+
+
+def seed_default_profiles(session: Session) -> None:
+    """Pre-populates database with sample featured Norwegian enterprise profiles."""
+    seed_dir = Path(__file__).resolve().parent / "seed_profiles"
+    if not seed_dir.is_dir():
+        return
+    for json_file in sorted(seed_dir.glob("*.json")):
+        try:
+            with open(json_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            profile = CompanyProfile.model_validate(data)
+            save_or_update_profile(profile, session)
+            logger.info(f"Seeded profile for {profile.org_number}: {profile.legal_name}")
+        except Exception as e:  # noqa: BLE001
+            logger.warning(f"Error seeding {json_file.name}: {e}")
 
 
 def init_db() -> None:
     """Creates database tables if they do not exist, and applies lightweight schema migrations."""
-    SQLModel.metadata.create_all(engine)
     try:
+        SQLModel.metadata.create_all(engine)
         with engine.connect() as conn:
             result = conn.exec_driver_sql("PRAGMA table_info(company_profiles)")
             columns = [row[1] for row in result.fetchall()]
@@ -32,7 +50,16 @@ def init_db() -> None:
                 conn.exec_driver_sql("ALTER TABLE company_profiles ADD COLUMN is_tracked BOOLEAN DEFAULT 0")
                 conn.commit()
     except Exception as e:  # noqa: BLE001
-        logger.debug(f"Schema migration check: {e}")
+        logger.warning(f"Schema migration check: {e}")
+
+    try:
+        from sqlmodel import func
+        with Session(engine) as session:
+            count = session.exec(select(func.count(CompanyProfileModel.org_number))).one()
+            if count == 0:
+                seed_default_profiles(session)
+    except Exception as e:  # noqa: BLE001
+        logger.warning(f"Seed default profiles check: {e}")
 
 
 def get_session() -> Generator[Session, None, None]:

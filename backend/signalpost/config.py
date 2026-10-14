@@ -3,7 +3,7 @@ from pathlib import Path
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-is_vercel = bool(os.environ.get("VERCEL"))
+is_vercel = bool(os.environ.get("VERCEL")) or bool(os.environ.get("AWS_LAMBDA_FUNCTION_NAME"))
 
 
 class Settings(BaseSettings):
@@ -50,6 +50,32 @@ class Settings(BaseSettings):
 
     # Output Directory
     out_dir: Path = Path("/tmp/out" if is_vercel else "./out")
+
+    @property
+    def effective_database_url(self) -> str:
+        # On Vercel / serverless, any SQLite DB must reside in /tmp
+        if is_vercel or os.path.exists("/var/task"):
+            if "sqlite" in self.database_url:
+                return "sqlite:////tmp/signalpost.db"
+        return self.database_url
+
+    @property
+    def effective_cache_dir(self) -> Path:
+        target = Path("/tmp/cache") if (is_vercel or os.path.exists("/var/task")) else self.cache_dir
+        try:
+            target.mkdir(parents=True, exist_ok=True)
+        except OSError:
+            pass
+        return target
+
+    @property
+    def effective_out_dir(self) -> Path:
+        target = Path("/tmp/out") if (is_vercel or os.path.exists("/var/task")) else self.out_dir
+        try:
+            target.mkdir(parents=True, exist_ok=True)
+        except OSError:
+            pass
+        return target
 
 
 settings = Settings()

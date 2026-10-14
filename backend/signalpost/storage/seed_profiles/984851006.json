@@ -1,0 +1,278 @@
+{
+  "org_number": "984851006",
+  "legal_name": "DNB BANK ASA",
+  "status": "ACTIVE",
+  "org_form": "Allmennaksjeselskap (ASA)",
+  "registered_date": "2002-09-12",
+  "nace_codes": [
+    "64.190 - Banker og kredittforetak"
+  ],
+  "address": "Dronning Eufemias gate 30, 0191 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": 7347,
+  "vat_registered": true,
+  "website": "https://www.dnb.no",
+  "contact": {
+    "email": null,
+    "phone": "+47 20 01 17 49",
+    "postal_address": "Dronning Eufemias gate 30, 0191 OSLO",
+    "visiting_address": "Dronning Eufemias gate 30, 0191 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Kjerstin Elisabeth Rasmussen Braathen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Eimund Nygaard",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Gro Bakstad",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Petter-Børre Furberg",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Jens Petter Olsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Berit Irene Behring",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Vivian Lund",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Lars Røsæg",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Lillian Christin Hattrem",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Eli Solhaug",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Haakon Christopher Sandven",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Ann-Mari Sæterlid",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Geir Jarle Ness",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Sigmund Hollerud Våpenstad",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "ERNST & YOUNG AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [],
+  "description": "DNB - Norges største bank. Samle alle dine banktjenester hos oss og få våre beste råd tilpasset din økonomi.",
+  "social_links": [
+    "https://www.facebook.com/dnb",
+    "https://www.youtube.com/user/DNB"
+  ],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "DNB BANK ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984851006",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:14.719007+00:00",
+      "evidence": "enhet.navn: DNB BANK ASA",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984851006",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:14.719007+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Allmennaksjeselskap (ASA)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984851006",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:14.719007+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ASA'}}, 'beskrivelse': 'Allmennaksjeselskap', 'kode': 'ASA'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2002-09-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984851006",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:14.719007+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2002-09-12",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "64.190 - Banker og kredittforetak"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984851006",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:14.719007+00:00",
+      "evidence": "naeringskoder: ['64.190 - Banker og kredittforetak']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Dronning Eufemias gate 30, 0191 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984851006",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:14.719007+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Dronning Eufemias gate 30'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0191', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "employees",
+      "value": 7347,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984851006",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:14.719007+00:00",
+      "evidence": "antallAnsatte: 7347",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered employee headcount reported to the Aa-register (NAV/SSB)."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984851006",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:14.719007+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://www.dnb.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984851006",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:14.719007+00:00",
+      "evidence": "hjemmeside: www.dnb.no",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Kjerstin Elisabeth Rasmussen Braathen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984851006/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:14.719007+00:00",
+      "evidence": "rolle: Daglig leder -> Kjerstin Elisabeth Rasmussen Braathen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Eimund Nygaard",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/984851006/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:14.719007+00:00",
+      "evidence": "rolle: Styrets leder -> Eimund Nygaard",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:43:21.707866+00:00",
+  "last_checked_at": "2026-10-14T08:43:21.707866+00:00",
+  "history_ref": "rev_1791967401_984851006",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 4,
+    "cost_usd": 0.0,
+    "duration_ms": 7394,
+    "cached": false
+  }
+}

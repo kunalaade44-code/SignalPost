@@ -59,9 +59,12 @@ class BaseConnector(abc.ABC):
         self.license_note = license_note
         self.source_url_base = source_url_base
         self.cache_ttl_seconds = cache_ttl_seconds
-        self.cache_dir = settings.cache_dir / name
+        self.cache_dir = settings.effective_cache_dir / name
         if settings.cache_enabled:
-            self.cache_dir.mkdir(parents=True, exist_ok=True)
+            try:
+                self.cache_dir.mkdir(parents=True, exist_ok=True)
+            except OSError:
+                pass
 
     def _get_cache_path(self, cache_key: str) -> Path:
         hashed = hashlib.sha256(cache_key.encode("utf-8")).hexdigest()

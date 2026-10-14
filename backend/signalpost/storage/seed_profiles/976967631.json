@@ -1,0 +1,446 @@
+{
+  "org_number": "976967631",
+  "legal_name": "TELENOR NORGE AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "1996-12-09",
+  "nace_codes": [
+    "61.100 - Kabelbasert, satellittbasert og trådløs telekommunikasjon"
+  ],
+  "address": "Snarøyveien 30, 1360 FORNEBU",
+  "municipality": "BÆRUM",
+  "municipality_number": "3201",
+  "employees": 2723,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Snarøyveien 30, 1360 FORNEBU",
+    "visiting_address": "Snarøyveien 30, 1360 FORNEBU"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Birgitte Engebretsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Jon Omund Revhaug",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Elisabeth Melander Stene",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Magnhild Øvsthus Hanssen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Kenneth Pettersen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Hege Karita Ottesen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Ine Elisabeth Edvardsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Marius Gigernes",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "May-Iren Arnøy",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Hege Sletten",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Xinli Wang",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Mariann Øvstegård",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Jørgen Aril Wienpahl-Jensen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "ERNST & YOUNG AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 27153000000.0,
+      "profit": 5954000000.0,
+      "operating_profit": 5954000000.0,
+      "net_profit": 4845000000.0,
+      "assets": 30808000000.0,
+      "equity": 5542000000.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631"
+    },
+    {
+      "year": 2024,
+      "revenue": 25787000000.0,
+      "profit": 5010000000.0,
+      "operating_profit": 5010000000.0,
+      "net_profit": 3485000000.0,
+      "assets": 30550000000.0,
+      "equity": 4658000000.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631"
+    },
+    {
+      "year": 2023,
+      "revenue": 25975000000.0,
+      "profit": 4706000000.0,
+      "operating_profit": 4706000000.0,
+      "net_profit": 3320000000.0,
+      "assets": 30743000000.0,
+      "equity": 4260000000.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "TELENOR NORGE AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976967631",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:27.487682+00:00",
+      "evidence": "enhet.navn: TELENOR NORGE AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976967631",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:27.487682+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976967631",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:27.487682+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "1996-12-09",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976967631",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:27.487682+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 1996-12-09",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "61.100 - Kabelbasert, satellittbasert og trådløs telekommunikasjon"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976967631",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:27.487682+00:00",
+      "evidence": "naeringskoder: ['61.100 - Kabelbasert, satellittbasert og trådløs telekommunikasjon']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Snarøyveien 30, 1360 FORNEBU",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976967631",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:27.487682+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Snarøyveien 30'], 'kommune': 'BÆRUM', 'kommunenummer': '3201', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1360', 'poststed': 'FORNEBU'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "employees",
+      "value": 2723,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976967631",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:27.487682+00:00",
+      "evidence": "antallAnsatte: 2723",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered employee headcount reported to the Aa-register (NAV/SSB)."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976967631",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:27.487682+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Birgitte Engebretsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976967631/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:27.487682+00:00",
+      "evidence": "rolle: Daglig leder -> Birgitte Engebretsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Jon Omund Revhaug",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/976967631/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:27.487682+00:00",
+      "evidence": "rolle: Styrets leder -> Jon Omund Revhaug",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 27153000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T11:17:27.488764+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 27153000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 5954000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T11:17:27.488764+00:00",
+      "evidence": "driftsresultat.driftsresultat: 5954000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 5542000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T11:17:27.488764+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 5542000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 30808000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T11:17:27.488764+00:00",
+      "evidence": "eiendeler.sumEiendeler: 30808000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 25787000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T11:17:27.488764+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 25787000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 5010000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T11:17:27.488764+00:00",
+      "evidence": "driftsresultat.driftsresultat: 5010000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 4658000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T11:17:27.488764+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 4658000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 30550000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T11:17:27.488764+00:00",
+      "evidence": "eiendeler.sumEiendeler: 30550000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 25975000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T11:17:27.488764+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 25975000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 4706000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T11:17:27.488764+00:00",
+      "evidence": "driftsresultat.driftsresultat: 4706000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 4260000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T11:17:27.488764+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 4260000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 30743000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/976967631",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T11:17:27.488764+00:00",
+      "evidence": "eiendeler.sumEiendeler: 30743000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T11:17:27.532555+00:00",
+  "last_checked_at": "2026-10-14T11:17:27.532555+00:00",
+  "history_ref": "rev_1791976647_976967631",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 0,
+    "cost_usd": 0.0,
+    "duration_ms": 505,
+    "cached": false
+  }
+}

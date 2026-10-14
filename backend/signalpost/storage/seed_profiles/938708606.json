@@ -1,0 +1,275 @@
+{
+  "org_number": "938708606",
+  "legal_name": "KOMMUNAL LANDSPENSJONSKASSE GJENSIDIG FORSIKRINGSSELSKAP",
+  "status": "ACTIVE",
+  "org_form": "Gjensidig forsikringsselskap (GFS)",
+  "registered_date": "1995-02-19",
+  "nace_codes": [
+    "65.110 - Livsforsikring"
+  ],
+  "address": "Dronning Eufemias gate 10, 0191 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": 734,
+  "vat_registered": true,
+  "website": "https://www.klp.no",
+  "contact": {
+    "email": "info@klp.no",
+    "phone": "+47 20 12 13 42",
+    "postal_address": "Dronning Eufemias gate 10, 0191 OSLO",
+    "visiting_address": "Dronning Eufemias gate 10, 0191 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Sverre Thornes",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Tine Sundtoft",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Kjerstin Fyllingen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Terje Rootwelt-Revheim",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Torkild Sindre Varran",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Vibeke Heldal",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Eirik Johansen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Eli Arnstad",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Svend Morten Voldsrud",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Erling Bendiksen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Rune Simensen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Tone Ikdahl",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Gjermund Grimsby",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Pål Einar Skarsbak",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "ERNST & YOUNG AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [],
+  "description": "KLP er et gjensidig forsikringsselskap med fem heleide datterselskaper organisert som aksjeselskaper. KLP forvalter offentlig tjenestepensjon på vegne av eierne våre.",
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "KOMMUNAL LANDSPENSJONSKASSE GJENSIDIG FORSIKRINGSSELSKAP",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938708606",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:38.862096+00:00",
+      "evidence": "enhet.navn: KOMMUNAL LANDSPENSJONSKASSE GJENSIDIG FORSIKRINGSSELSKAP",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938708606",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:38.862096+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Gjensidig forsikringsselskap (GFS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938708606",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:38.862096+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/GFS'}}, 'beskrivelse': 'Gjensidig forsikringsselskap', 'kode': 'GFS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "1995-02-19",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938708606",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:38.862096+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 1995-02-19",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "65.110 - Livsforsikring"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938708606",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:38.862096+00:00",
+      "evidence": "naeringskoder: ['65.110 - Livsforsikring']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Dronning Eufemias gate 10, 0191 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938708606",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:38.862096+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Dronning Eufemias gate 10'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0191', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "employees",
+      "value": 734,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938708606",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:38.862096+00:00",
+      "evidence": "antallAnsatte: 734",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered employee headcount reported to the Aa-register (NAV/SSB)."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938708606",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:38.862096+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://www.klp.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938708606",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:38.862096+00:00",
+      "evidence": "hjemmeside: www.klp.no",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Sverre Thornes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938708606/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:38.862096+00:00",
+      "evidence": "rolle: Daglig leder -> Sverre Thornes",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Tine Sundtoft",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938708606/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T11:17:38.862096+00:00",
+      "evidence": "rolle: Styrets leder -> Tine Sundtoft",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T11:18:09.357845+00:00",
+  "last_checked_at": "2026-10-14T11:18:09.357845+00:00",
+  "history_ref": "rev_1791976689_938708606",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 4,
+    "cost_usd": 0.0,
+    "duration_ms": 30892,
+    "cached": false
+  }
+}
