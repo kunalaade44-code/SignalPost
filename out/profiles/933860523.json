@@ -1,0 +1,283 @@
+{
+  "org_number": "933860523",
+  "legal_name": "3 J EIENDOM AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-08-01",
+  "nace_codes": [
+    "68.200 - Utleie av egen eller leid fast eiendom"
+  ],
+  "address": "Industriveien 11, 4879 GRIMSTAD",
+  "municipality": "GRIMSTAD",
+  "municipality_number": "4202",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Industriveien 11, 4879 GRIMSTAD",
+    "visiting_address": "Industriveien 11, 4879 GRIMSTAD"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Arve Andersson",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Jens Tveite",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Jon Tveite",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Jørn Tveite",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "PRICEWATERHOUSECOOPERS AS",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "MS CONSULTING AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -73811.0,
+      "operating_profit": -73811.0,
+      "net_profit": -66986.0,
+      "assets": 61899359.0,
+      "equity": 61501480.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933860523"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -2050.0,
+      "operating_profit": -2050.0,
+      "net_profit": 4177500.0,
+      "assets": 65748682.0,
+      "equity": 61568466.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933860523"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3 J EIENDOM AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933860523",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:37.510159+00:00",
+      "evidence": "enhet.navn: 3 J EIENDOM AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933860523",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:37.510159+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933860523",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:37.510159+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-08-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933860523",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:37.510159+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-08-01",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "68.200 - Utleie av egen eller leid fast eiendom"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933860523",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:37.510159+00:00",
+      "evidence": "naeringskoder: ['68.200 - Utleie av egen eller leid fast eiendom']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Industriveien 11, 4879 GRIMSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933860523",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:37.510159+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Industriveien 11'], 'kommune': 'GRIMSTAD', 'kommunenummer': '4202', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '4879', 'poststed': 'GRIMSTAD'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933860523",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:37.510159+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Arve Andersson",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933860523/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:37.510159+00:00",
+      "evidence": "rolle: Styrets leder -> Arve Andersson",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -73811.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933860523",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:38.337355+00:00",
+      "evidence": "driftsresultat.driftsresultat: -73811.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 61501480.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933860523",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:38.337355+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 61501480.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 61899359.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933860523",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:38.337355+00:00",
+      "evidence": "eiendeler.sumEiendeler: 61899359.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -2050.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933860523",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:38.337355+00:00",
+      "evidence": "driftsresultat.driftsresultat: -2050.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 61568466.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933860523",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:38.337355+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 61568466.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 65748682.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933860523",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:38.337355+00:00",
+      "evidence": "eiendeler.sumEiendeler: 65748682.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:38.344163+00:00",
+  "last_checked_at": "2026-10-14T08:50:38.344163+00:00",
+  "history_ref": "rev_1791967838_933860523",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5601,
+    "cached": false
+  }
+}

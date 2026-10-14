@@ -1,0 +1,271 @@
+{
+  "org_number": "934792203",
+  "legal_name": "111 HOLDING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-01-06",
+  "nace_codes": [
+    "47.810 - Detaljhandel med motorvogner"
+  ],
+  "address": "Inges gate 36, 2004 LILLESTRØM",
+  "municipality": "LILLESTRØM",
+  "municipality_number": "3205",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Inges gate 36, 2004 LILLESTRØM",
+    "visiting_address": "Inges gate 36, 2004 LILLESTRØM"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Adam Gajas",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Eroll Sadriu",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Yousef Ali Gajas",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "TANDBERG REVISJON AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -3605.0,
+      "operating_profit": -3605.0,
+      "net_profit": -1538.0,
+      "assets": 22672.0,
+      "equity": 22672.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934792203"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -5790.0,
+      "operating_profit": -5790.0,
+      "net_profit": -5790.0,
+      "assets": 24210.0,
+      "equity": 24210.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934792203"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "111 HOLDING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934792203",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.051436+00:00",
+      "evidence": "enhet.navn: 111 HOLDING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934792203",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.051436+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934792203",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.051436+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-01-06",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934792203",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.051436+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-01-06",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "47.810 - Detaljhandel med motorvogner"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934792203",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.051436+00:00",
+      "evidence": "naeringskoder: ['47.810 - Detaljhandel med motorvogner']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Inges gate 36, 2004 LILLESTRØM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934792203",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.051436+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Inges gate 36'], 'kommune': 'LILLESTRØM', 'kommunenummer': '3205', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '2004', 'poststed': 'LILLESTRØM'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934792203",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.051436+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Adam Gajas",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934792203/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.051436+00:00",
+      "evidence": "rolle: Styrets leder -> Adam Gajas",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -3605.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934792203",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.800817+00:00",
+      "evidence": "driftsresultat.driftsresultat: -3605.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 22672.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934792203",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.800817+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 22672.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 22672.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934792203",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.800817+00:00",
+      "evidence": "eiendeler.sumEiendeler: 22672.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -5790.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934792203",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.800817+00:00",
+      "evidence": "driftsresultat.driftsresultat: -5790.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 24210.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934792203",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.800817+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 24210.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 24210.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934792203",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.800817+00:00",
+      "evidence": "eiendeler.sumEiendeler: 24210.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:50.817741+00:00",
+  "last_checked_at": "2026-10-14T08:50:50.817741+00:00",
+  "history_ref": "rev_1791967850_934792203",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4555,
+    "cached": false
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "org_number": "923271805",
+  "legal_name": "0-STRESS FRISØR AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2019-08-28",
+  "nace_codes": [
+    "96.210 - Frisering og barbering"
+  ],
+  "address": "Dragsundvegen 6, 6080 GURSKØY",
+  "municipality": "HERØY",
+  "municipality_number": "1515",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Dragsundvegen 6, 6080 GURSKØY",
+    "visiting_address": "Dragsundvegen 6, 6080 GURSKØY"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Kristin Myrvågnes",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 1444186.0,
+      "profit": 88705.0,
+      "operating_profit": 88705.0,
+      "net_profit": 87532.0,
+      "assets": 1064337.0,
+      "equity": 857501.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805"
+    },
+    {
+      "year": 2024,
+      "revenue": 1422595.0,
+      "profit": 91675.0,
+      "operating_profit": 91675.0,
+      "net_profit": 72800.0,
+      "assets": 966367.0,
+      "equity": 769968.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805"
+    },
+    {
+      "year": 2023,
+      "revenue": 1409555.0,
+      "profit": 135795.0,
+      "operating_profit": 135795.0,
+      "net_profit": 109047.0,
+      "assets": 936567.0,
+      "equity": 697167.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "0-STRESS FRISØR AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923271805",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:58.622993+00:00",
+      "evidence": "enhet.navn: 0-STRESS FRISØR AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923271805",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:58.622993+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923271805",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:58.622993+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2019-08-28",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923271805",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:58.622993+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2019-08-28",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "96.210 - Frisering og barbering"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923271805",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:58.622993+00:00",
+      "evidence": "naeringskoder: ['96.210 - Frisering og barbering']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Dragsundvegen 6, 6080 GURSKØY",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923271805",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:58.622993+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Dragsundvegen 6'], 'kommune': 'HERØY', 'kommunenummer': '1515', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '6080', 'poststed': 'GURSKØY'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923271805",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:58.622993+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Kristin Myrvågnes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/923271805/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:58.622993+00:00",
+      "evidence": "rolle: Styrets leder -> Kristin Myrvågnes",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 1444186.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:59.424251+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 1444186.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 88705.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:59.424251+00:00",
+      "evidence": "driftsresultat.driftsresultat: 88705.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 857501.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:59.424251+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 857501.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 1064337.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:59.424251+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1064337.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 1422595.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:59.424251+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 1422595.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 91675.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:59.424251+00:00",
+      "evidence": "driftsresultat.driftsresultat: 91675.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 769968.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:59.424251+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 769968.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 966367.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:59.424251+00:00",
+      "evidence": "eiendeler.sumEiendeler: 966367.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 1409555.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:59.424251+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 1409555.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 135795.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:59.424251+00:00",
+      "evidence": "driftsresultat.driftsresultat: 135795.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 697167.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:59.424251+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 697167.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 936567.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/923271805",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:59.424251+00:00",
+      "evidence": "eiendeler.sumEiendeler: 936567.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:48:00.193607+00:00",
+  "last_checked_at": "2026-10-14T08:48:00.193607+00:00",
+  "history_ref": "rev_1791967680_923271805",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 8815,
+    "cached": false
+  }
+}

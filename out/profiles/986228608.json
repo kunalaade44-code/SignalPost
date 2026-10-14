@@ -1,0 +1,509 @@
+{
+  "org_number": "986228608",
+  "legal_name": "YARA INTERNATIONAL ASA",
+  "status": "ACTIVE",
+  "org_form": "Allmennaksjeselskap (ASA)",
+  "registered_date": "2003-11-12",
+  "nace_codes": [
+    "20.150 - Produksjon av gjødsel og nitrogenforbindelser",
+    "72.100 - Forskning og eksperimentell utvikling innenfor naturvitenskap og teknikk"
+  ],
+  "address": "Drammensveien 131, 0277 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": 536,
+  "vat_registered": true,
+  "website": "https://www.yara.com",
+  "contact": {
+    "email": null,
+    "phone": "+47 20 04 56 12",
+    "postal_address": "Drammensveien 131, 0277 OSLO",
+    "visiting_address": "Drammensveien 131, 0277 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Svein Tore Holsether",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Helge Lund",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Jannicke Hilland",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Tina Elizabeth Lawton",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Harald Lauritz Thorstein",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Jais Stampe Li Valeur",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Martina Merz",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Ivar Andreas Vatne",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Rune Asle Bratteberg",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Amund Myrstad",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Kari Marie Nøstberg",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Edina Ringdal Wickholm",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Roger Hansen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Karl Edvard Juul",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Maiken Sandland",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Inger Aandahl Raastad",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Øystein Botillen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Veronique Elisabeth Anahid Revoy",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Kristian Johnsen Haukalid",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Simon Brage Fossdal Høimyr",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "DELOITTE AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 15715000000.0,
+      "profit": 1571000000.0,
+      "operating_profit": 1571000000.0,
+      "net_profit": 1372000000.0,
+      "assets": 17139000000.0,
+      "equity": 8744000000.0,
+      "currency": "USD",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608"
+    },
+    {
+      "year": 2024,
+      "revenue": 13934000000.0,
+      "profit": 695000000.0,
+      "operating_profit": 695000000.0,
+      "net_profit": 15000000.0,
+      "assets": 14995000000.0,
+      "equity": 7004000000.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608"
+    },
+    {
+      "year": 2023,
+      "revenue": 15548000000.0,
+      "profit": 312000000.0,
+      "operating_profit": 312000000.0,
+      "net_profit": 55000000.0,
+      "assets": 16027000000.0,
+      "equity": 7571000000.0,
+      "currency": "USD",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608"
+    }
+  ],
+  "description": "Yara's mission is to responsibly feed the world and protect the planet. We are working to decarbonize food, shipping and other energy-intensive industries.",
+  "social_links": [
+    "https://twitter.com/yara",
+    "https://www.facebook.com/yarainternational",
+    "https://www.instagram.com/yarainternational",
+    "https://www.linkedin.com/company/yara",
+    "https://www.youtube.com/user/yarainternationalasa"
+  ],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "YARA INTERNATIONAL ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986228608",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:42:29.498758+00:00",
+      "evidence": "enhet.navn: YARA INTERNATIONAL ASA",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986228608",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:42:29.498758+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Allmennaksjeselskap (ASA)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986228608",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:42:29.498758+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ASA'}}, 'beskrivelse': 'Allmennaksjeselskap', 'kode': 'ASA'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2003-11-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986228608",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:42:29.498758+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2003-11-12",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "20.150 - Produksjon av gjødsel og nitrogenforbindelser",
+        "72.100 - Forskning og eksperimentell utvikling innenfor naturvitenskap og teknikk"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986228608",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:42:29.498758+00:00",
+      "evidence": "naeringskoder: ['20.150 - Produksjon av gjødsel og nitrogenforbindelser', '72.100 - Forskning og eksperimentell utvikling innenfor naturvitenskap og teknikk']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Drammensveien 131, 0277 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986228608",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:42:29.498758+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Drammensveien 131'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0277', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "employees",
+      "value": 536,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986228608",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:42:29.498758+00:00",
+      "evidence": "antallAnsatte: 536",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered employee headcount reported to the Aa-register (NAV/SSB)."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986228608",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:42:29.498758+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://www.yara.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986228608",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:42:29.498758+00:00",
+      "evidence": "hjemmeside: www.yara.com",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Svein Tore Holsether",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986228608/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:42:29.498758+00:00",
+      "evidence": "rolle: Daglig leder -> Svein Tore Holsether",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Helge Lund",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/986228608/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:42:29.498758+00:00",
+      "evidence": "rolle: Styrets leder -> Helge Lund",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 15715000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:42:29.868938+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 15715000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 1571000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:42:29.868938+00:00",
+      "evidence": "driftsresultat.driftsresultat: 1571000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 8744000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:42:29.868938+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 8744000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 17139000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:42:29.868938+00:00",
+      "evidence": "eiendeler.sumEiendeler: 17139000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 13934000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:42:29.868938+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 13934000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 695000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:42:29.868938+00:00",
+      "evidence": "driftsresultat.driftsresultat: 695000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 7004000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:42:29.868938+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 7004000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 14995000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:42:29.868938+00:00",
+      "evidence": "eiendeler.sumEiendeler: 14995000000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 15548000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:42:29.868938+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 15548000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 312000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:42:29.868938+00:00",
+      "evidence": "driftsresultat.driftsresultat: 312000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 7571000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:42:29.868938+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 7571000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 16027000000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/986228608",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:42:29.868938+00:00",
+      "evidence": "eiendeler.sumEiendeler: 16027000000.0 USD",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:42:35.093901+00:00",
+  "last_checked_at": "2026-10-14T08:42:35.093901+00:00",
+  "history_ref": "rev_1791967355_986228608",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 6,
+    "cost_usd": 0.0,
+    "duration_ms": 9051,
+    "cached": false
+  }
+}

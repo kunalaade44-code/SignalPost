@@ -1,0 +1,322 @@
+{
+  "org_number": "929484428",
+  "legal_name": "342 GROUP AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2022-07-30",
+  "nace_codes": [
+    "62.100 - Dataprogrammeringstjenester"
+  ],
+  "address": "c/o Svensk Bo og Jobbformidling AS,, Storgata 34C, 0182 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "c/o Svensk Bo og Jobbformidling AS,, Storgata 34C, 0182 OSLO",
+    "visiting_address": "c/o Svensk Bo og Jobbformidling AS,, Storgata 34C, 0182 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Vincent Basri Shala",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Vincent Basri Shala",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": 0.0,
+      "operating_profit": 0.0,
+      "net_profit": 0.0,
+      "assets": 2025.0,
+      "equity": 30000.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/929484428"
+    },
+    {
+      "year": 2024,
+      "revenue": 0.0,
+      "profit": 0.0,
+      "operating_profit": 0.0,
+      "net_profit": 0.0,
+      "assets": 0.0,
+      "equity": 30000.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/929484428"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": null,
+      "operating_profit": null,
+      "net_profit": 0.0,
+      "assets": 30000.0,
+      "equity": 30000.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/929484428"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "342 GROUP AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929484428",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:33.138168+00:00",
+      "evidence": "enhet.navn: 342 GROUP AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929484428",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:33.138168+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929484428",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:33.138168+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2022-07-30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929484428",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:33.138168+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2022-07-30",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "62.100 - Dataprogrammeringstjenester"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929484428",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:33.138168+00:00",
+      "evidence": "naeringskoder: ['62.100 - Dataprogrammeringstjenester']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "c/o Svensk Bo og Jobbformidling AS,, Storgata 34C, 0182 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929484428",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:33.138168+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['c/o Svensk Bo og Jobbformidling AS,', 'Storgata 34C'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0182', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929484428",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:33.138168+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Vincent Basri Shala",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929484428/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:33.138168+00:00",
+      "evidence": "rolle: Daglig leder -> Vincent Basri Shala",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Vincent Basri Shala",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/929484428/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:33.138168+00:00",
+      "evidence": "rolle: Styrets leder -> Vincent Basri Shala",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/929484428",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:33.544009+00:00",
+      "evidence": "driftsresultat.driftsresultat: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 30000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/929484428",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:33.544009+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 30000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 2025.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/929484428",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:33.544009+00:00",
+      "evidence": "eiendeler.sumEiendeler: 2025.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/929484428",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:33.544009+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/929484428",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:33.544009+00:00",
+      "evidence": "driftsresultat.driftsresultat: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 30000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/929484428",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:33.544009+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 30000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/929484428",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:33.544009+00:00",
+      "evidence": "eiendeler.sumEiendeler: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 30000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/929484428",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:33.544009+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 30000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 30000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/929484428",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:33.544009+00:00",
+      "evidence": "eiendeler.sumEiendeler: 30000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:49:33.566436+00:00",
+  "last_checked_at": "2026-10-14T08:49:33.566436+00:00",
+  "history_ref": "rev_1791967773_929484428",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 8193,
+    "cached": false
+  }
+}

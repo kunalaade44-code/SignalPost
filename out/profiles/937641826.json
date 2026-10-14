@@ -1,0 +1,183 @@
+{
+  "org_number": "937641826",
+  "legal_name": "365 ØSTFOLD AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2026-04-30",
+  "nace_codes": [
+    "60.100 - Radiokringkasting og distribuering av musikk og andre lydmedier"
+  ],
+  "address": "Habornveien 53, 1630 GAMLE FREDRIKSTAD",
+  "municipality": "FREDRIKSTAD",
+  "municipality_number": "3107",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Habornveien 53, 1630 GAMLE FREDRIKSTAD",
+    "visiting_address": "Habornveien 53, 1630 GAMLE FREDRIKSTAD"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Frode Jacobsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Lars Corleone Østli",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Frode Jacobsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "REFSAHL REGNSKAPSKONTOR AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "365 ØSTFOLD AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937641826",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:41.783967+00:00",
+      "evidence": "enhet.navn: 365 ØSTFOLD AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937641826",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:41.783967+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937641826",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:41.783967+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2026-04-30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937641826",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:41.783967+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2026-04-30",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "60.100 - Radiokringkasting og distribuering av musikk og andre lydmedier"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937641826",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:41.783967+00:00",
+      "evidence": "naeringskoder: ['60.100 - Radiokringkasting og distribuering av musikk og andre lydmedier']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Habornveien 53, 1630 GAMLE FREDRIKSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937641826",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:41.783967+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Habornveien 53'], 'kommune': 'FREDRIKSTAD', 'kommunenummer': '3107', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1630', 'poststed': 'GAMLE FREDRIKSTAD'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937641826",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:41.783967+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Frode Jacobsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937641826/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:41.783967+00:00",
+      "evidence": "rolle: Daglig leder -> Frode Jacobsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Lars Corleone Østli",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937641826/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:41.783967+00:00",
+      "evidence": "rolle: Styrets leder -> Lars Corleone Østli",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:42.837088+00:00",
+  "last_checked_at": "2026-10-14T08:51:42.837088+00:00",
+  "history_ref": "rev_1791967902_937641826",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5618,
+    "cached": false
+  }
+}

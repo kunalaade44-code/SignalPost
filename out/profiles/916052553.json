@@ -1,0 +1,361 @@
+{
+  "org_number": "916052553",
+  "legal_name": "2 UNDER PAR AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2015-11-03",
+  "nace_codes": [
+    "47.631 - Detaljhandel med sportsvarer"
+  ],
+  "address": "Holbergs vei 28, 1412 SOFIEMYR",
+  "municipality": "NORDRE FOLLO",
+  "municipality_number": "3207",
+  "employees": null,
+  "vat_registered": true,
+  "website": "https://www.2underpar.no",
+  "contact": {
+    "email": null,
+    "phone": "+47 20 26 10 14",
+    "postal_address": "Holbergs vei 28, 1412 SOFIEMYR",
+    "visiting_address": "Holbergs vei 28, 1412 SOFIEMYR"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Christian Eide Larsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Christian Eide Larsen",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 541408.0,
+      "profit": 19248.0,
+      "operating_profit": 19248.0,
+      "net_profit": 19571.0,
+      "assets": 40981.0,
+      "equity": 4170.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553"
+    },
+    {
+      "year": 2024,
+      "revenue": 823015.0,
+      "profit": -21748.0,
+      "operating_profit": -21748.0,
+      "net_profit": -23256.0,
+      "assets": 100345.0,
+      "equity": -15401.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -134.0,
+      "operating_profit": -134.0,
+      "net_profit": -134.0,
+      "assets": 7989.0,
+      "equity": 7855.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553"
+    }
+  ],
+  "description": "Konsulenttjenester elsykkel og golf",
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2 UNDER PAR AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916052553",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:39.989604+00:00",
+      "evidence": "enhet.navn: 2 UNDER PAR AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916052553",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:39.989604+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916052553",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:39.989604+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2015-11-03",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916052553",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:39.989604+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2015-11-03",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "47.631 - Detaljhandel med sportsvarer"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916052553",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:39.989604+00:00",
+      "evidence": "naeringskoder: ['47.631 - Detaljhandel med sportsvarer']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Holbergs vei 28, 1412 SOFIEMYR",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916052553",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:39.989604+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Holbergs vei 28'], 'kommune': 'NORDRE FOLLO', 'kommunenummer': '3207', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1412', 'poststed': 'SOFIEMYR'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916052553",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:39.989604+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://www.2underpar.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916052553",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:39.989604+00:00",
+      "evidence": "hjemmeside: www.2underpar.no",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Christian Eide Larsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916052553/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:39.989604+00:00",
+      "evidence": "rolle: Daglig leder -> Christian Eide Larsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Christian Eide Larsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916052553/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:39.989604+00:00",
+      "evidence": "rolle: Styrets leder -> Christian Eide Larsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 541408.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:40.395577+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 541408.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 19248.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:40.395577+00:00",
+      "evidence": "driftsresultat.driftsresultat: 19248.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 4170.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:40.395577+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 4170.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 40981.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:40.395577+00:00",
+      "evidence": "eiendeler.sumEiendeler: 40981.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 823015.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:40.395577+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 823015.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -21748.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:40.395577+00:00",
+      "evidence": "driftsresultat.driftsresultat: -21748.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -15401.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:40.395577+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -15401.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 100345.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:40.395577+00:00",
+      "evidence": "eiendeler.sumEiendeler: 100345.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -134.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:40.395577+00:00",
+      "evidence": "driftsresultat.driftsresultat: -134.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 7855.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:40.395577+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 7855.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 7989.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916052553",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:40.395577+00:00",
+      "evidence": "eiendeler.sumEiendeler: 7989.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:46:46.901411+00:00",
+  "last_checked_at": "2026-10-14T08:46:46.901411+00:00",
+  "history_ref": "rev_1791967606_916052553",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 4,
+    "cost_usd": 0.0,
+    "duration_ms": 10573,
+    "cached": false
+  }
+}

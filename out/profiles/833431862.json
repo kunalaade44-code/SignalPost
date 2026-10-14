@@ -1,0 +1,291 @@
+{
+  "org_number": "833431862",
+  "legal_name": "10M LIGHT SOLUTIONS AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-05-10",
+  "nace_codes": [
+    "74.110 - Industri-, produkt- og motedesignvirksomhet"
+  ],
+  "address": "Strimmelen 3, 5097 BERGEN",
+  "municipality": "BERGEN",
+  "municipality_number": "4601",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Strimmelen 3, 5097 BERGEN",
+    "visiting_address": "Strimmelen 3, 5097 BERGEN"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Erlend Refsdal Thiem",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Erlend Refsdal Thiem",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Thorbjørn Andre Thiem",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 305007.0,
+      "profit": 22973.0,
+      "operating_profit": 22973.0,
+      "net_profit": 18759.0,
+      "assets": 98402.0,
+      "equity": 45534.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/833431862"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -3740.0,
+      "operating_profit": -3740.0,
+      "net_profit": -3727.0,
+      "assets": 26774.0,
+      "equity": 26774.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/833431862"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "10M LIGHT SOLUTIONS AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/833431862",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:51.202386+00:00",
+      "evidence": "enhet.navn: 10M LIGHT SOLUTIONS AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/833431862",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:51.202386+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/833431862",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:51.202386+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-05-10",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/833431862",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:51.202386+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-05-10",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "74.110 - Industri-, produkt- og motedesignvirksomhet"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/833431862",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:51.202386+00:00",
+      "evidence": "naeringskoder: ['74.110 - Industri-, produkt- og motedesignvirksomhet']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Strimmelen 3, 5097 BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/833431862",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:51.202386+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Strimmelen 3'], 'kommune': 'BERGEN', 'kommunenummer': '4601', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '5097', 'poststed': 'BERGEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/833431862",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:51.202386+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Erlend Refsdal Thiem",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/833431862/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:51.202386+00:00",
+      "evidence": "rolle: Daglig leder -> Erlend Refsdal Thiem",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Erlend Refsdal Thiem",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/833431862/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:51.202386+00:00",
+      "evidence": "rolle: Styrets leder -> Erlend Refsdal Thiem",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 305007.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/833431862",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:51.624486+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 305007.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 22973.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/833431862",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:51.624486+00:00",
+      "evidence": "driftsresultat.driftsresultat: 22973.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 45534.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/833431862",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:51.624486+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 45534.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 98402.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/833431862",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:51.624486+00:00",
+      "evidence": "eiendeler.sumEiendeler: 98402.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -3740.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/833431862",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:51.624486+00:00",
+      "evidence": "driftsresultat.driftsresultat: -3740.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 26774.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/833431862",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:51.624486+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 26774.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 26774.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/833431862",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:51.624486+00:00",
+      "evidence": "eiendeler.sumEiendeler: 26774.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:45:51.632460+00:00",
+  "last_checked_at": "2026-10-14T08:45:51.632460+00:00",
+  "history_ref": "rev_1791967551_833431862",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4926,
+    "cached": false
+  }
+}

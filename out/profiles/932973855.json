@@ -1,0 +1,317 @@
+{
+  "org_number": "932973855",
+  "legal_name": "2HD ARCHITECTURE WORKSHOP AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-02-08",
+  "nace_codes": [
+    "71.110 - Arkitektvirksomhet"
+  ],
+  "address": "Friis' gate 4, 0187 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": true,
+  "website": "https://www.2hd.no",
+  "contact": {
+    "email": "chris@2hd.uk",
+    "phone": "+47 20 02 12 16",
+    "postal_address": "Friis' gate 4, 0187 OSLO",
+    "visiting_address": "Friis' gate 4, 0187 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Thibaut Jean-Jacques Devulder",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Thibaut Jean-Jacques Devulder",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 209738.0,
+      "profit": -14302.0,
+      "operating_profit": -14302.0,
+      "net_profit": -14275.0,
+      "assets": 112326.0,
+      "equity": -169049.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932973855"
+    },
+    {
+      "year": 2024,
+      "revenue": 190992.0,
+      "profit": -37314.0,
+      "operating_profit": -37314.0,
+      "net_profit": -36492.0,
+      "assets": 103378.0,
+      "equity": -154774.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932973855"
+    }
+  ],
+  "description": "We are a creative architectural design practice based in Nottingham, UK, and Oslo, Norway.",
+  "social_links": [
+    "https://no.linkedin.com/in/tdevulder",
+    "https://twitter.com/2hd",
+    "https://uk.linkedin.com/in/chris-heuvel-51821a6a",
+    "https://uk.linkedin.com/in/tomhughes2hd",
+    "https://www.facebook.com/2hdArchitecture"
+  ],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2HD ARCHITECTURE WORKSHOP AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932973855",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:22.544123+00:00",
+      "evidence": "enhet.navn: 2HD ARCHITECTURE WORKSHOP AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932973855",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:22.544123+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932973855",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:22.544123+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-02-08",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932973855",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:22.544123+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-02-08",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "71.110 - Arkitektvirksomhet"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932973855",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:22.544123+00:00",
+      "evidence": "naeringskoder: ['71.110 - Arkitektvirksomhet']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Friis' gate 4, 0187 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932973855",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:22.544123+00:00",
+      "evidence": "forretningsadresse: {'adresse': [\"Friis' gate 4\"], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0187', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932973855",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:22.544123+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://www.2hd.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932973855",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:22.544123+00:00",
+      "evidence": "hjemmeside: www.2hd.no",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Thibaut Jean-Jacques Devulder",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932973855/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:22.544123+00:00",
+      "evidence": "rolle: Daglig leder -> Thibaut Jean-Jacques Devulder",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Thibaut Jean-Jacques Devulder",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932973855/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:22.544123+00:00",
+      "evidence": "rolle: Styrets leder -> Thibaut Jean-Jacques Devulder",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 209738.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932973855",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:23.170420+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 209738.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -14302.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932973855",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:23.170420+00:00",
+      "evidence": "driftsresultat.driftsresultat: -14302.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -169049.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932973855",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:23.170420+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -169049.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 112326.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932973855",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:23.170420+00:00",
+      "evidence": "eiendeler.sumEiendeler: 112326.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 190992.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932973855",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:23.170420+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 190992.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -37314.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932973855",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:23.170420+00:00",
+      "evidence": "driftsresultat.driftsresultat: -37314.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -154774.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932973855",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:23.170420+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -154774.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 103378.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932973855",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:23.170420+00:00",
+      "evidence": "eiendeler.sumEiendeler: 103378.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:36.423029+00:00",
+  "last_checked_at": "2026-10-14T08:50:36.423029+00:00",
+  "history_ref": "rev_1791967836_932973855",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 6,
+    "cost_usd": 0.0,
+    "duration_ms": 18136,
+    "cached": false
+  }
+}

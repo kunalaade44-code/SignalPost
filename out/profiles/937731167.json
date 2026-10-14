@@ -1,0 +1,171 @@
+{
+  "org_number": "937731167",
+  "legal_name": "01 CAPITAL AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2026-05-19",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Angelltrøvegen 100, 7048 TRONDHEIM",
+  "municipality": "TRONDHEIM",
+  "municipality_number": "5001",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Angelltrøvegen 100, 7048 TRONDHEIM",
+    "visiting_address": "Angelltrøvegen 100, 7048 TRONDHEIM"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Julian Sebastian Selnes",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Julian Sebastian Selnes",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "01 CAPITAL AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937731167",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:44.057457+00:00",
+      "evidence": "enhet.navn: 01 CAPITAL AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937731167",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:44.057457+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937731167",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:44.057457+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2026-05-19",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937731167",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:44.057457+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2026-05-19",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937731167",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:44.057457+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Angelltrøvegen 100, 7048 TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937731167",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:44.057457+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Angelltrøvegen 100'], 'kommune': 'TRONDHEIM', 'kommunenummer': '5001', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '7048', 'poststed': 'TRONDHEIM'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937731167",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:44.057457+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Julian Sebastian Selnes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937731167/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:44.057457+00:00",
+      "evidence": "rolle: Daglig leder -> Julian Sebastian Selnes",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Julian Sebastian Selnes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937731167/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:44.057457+00:00",
+      "evidence": "rolle: Styrets leder -> Julian Sebastian Selnes",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:44.580018+00:00",
+  "last_checked_at": "2026-10-14T08:51:44.580018+00:00",
+  "history_ref": "rev_1791967904_937731167",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5555,
+    "cached": false
+  }
+}

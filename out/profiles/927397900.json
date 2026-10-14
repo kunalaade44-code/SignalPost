@@ -1,0 +1,361 @@
+{
+  "org_number": "927397900",
+  "legal_name": "3D FOTO AGDER AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2021-07-08",
+  "nace_codes": [
+    "74.200 - Fotografvirksomhet"
+  ],
+  "address": "c/o øyvind evensen, Vestre Moåsen 6, 4870 FEVIK",
+  "municipality": "GRIMSTAD",
+  "municipality_number": "4202",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "c/o øyvind evensen, Vestre Moåsen 6, 4870 FEVIK",
+    "visiting_address": "c/o øyvind evensen, Vestre Moåsen 6, 4870 FEVIK"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Marius Evensen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Øyvind Evensen",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 76185.0,
+      "profit": 4196.0,
+      "operating_profit": 4196.0,
+      "net_profit": 3342.0,
+      "assets": 47892.0,
+      "equity": -13798.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900"
+    },
+    {
+      "year": 2024,
+      "revenue": 63271.0,
+      "profit": -23844.0,
+      "operating_profit": -23844.0,
+      "net_profit": -24153.0,
+      "assets": 47988.0,
+      "equity": -17141.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900"
+    },
+    {
+      "year": 2023,
+      "revenue": 121224.0,
+      "profit": 2536.0,
+      "operating_profit": 2536.0,
+      "net_profit": 2079.0,
+      "assets": 73759.0,
+      "equity": 7012.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3D FOTO AGDER AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927397900",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:56.949573+00:00",
+      "evidence": "enhet.navn: 3D FOTO AGDER AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927397900",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:56.949573+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927397900",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:56.949573+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2021-07-08",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927397900",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:56.949573+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2021-07-08",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "74.200 - Fotografvirksomhet"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927397900",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:56.949573+00:00",
+      "evidence": "naeringskoder: ['74.200 - Fotografvirksomhet']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "c/o øyvind evensen, Vestre Moåsen 6, 4870 FEVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927397900",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:56.949573+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['c/o øyvind evensen', 'Vestre Moåsen 6'], 'kommune': 'GRIMSTAD', 'kommunenummer': '4202', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '4870', 'poststed': 'FEVIK'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927397900",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:56.949573+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Marius Evensen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927397900/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:56.949573+00:00",
+      "evidence": "rolle: Daglig leder -> Marius Evensen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Øyvind Evensen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927397900/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:56.949573+00:00",
+      "evidence": "rolle: Styrets leder -> Øyvind Evensen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 76185.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:57.448166+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 76185.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 4196.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:57.448166+00:00",
+      "evidence": "driftsresultat.driftsresultat: 4196.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -13798.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:57.448166+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -13798.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 47892.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:57.448166+00:00",
+      "evidence": "eiendeler.sumEiendeler: 47892.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 63271.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:57.448166+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 63271.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -23844.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:57.448166+00:00",
+      "evidence": "driftsresultat.driftsresultat: -23844.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -17141.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:57.448166+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -17141.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 47988.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:57.448166+00:00",
+      "evidence": "eiendeler.sumEiendeler: 47988.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 121224.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:57.448166+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 121224.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 2536.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:57.448166+00:00",
+      "evidence": "driftsresultat.driftsresultat: 2536.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 7012.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:57.448166+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 7012.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 73759.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927397900",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:57.448166+00:00",
+      "evidence": "eiendeler.sumEiendeler: 73759.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:48:57.481068+00:00",
+  "last_checked_at": "2026-10-14T08:48:57.481068+00:00",
+  "history_ref": "rev_1791967737_927397900",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4766,
+    "cached": false
+  }
+}

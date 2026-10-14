@@ -1,0 +1,20 @@
+services:
+  signalpost:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: signalpost-app
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      - PORT=8000
+      - PYTHONPATH=/app/backend
+    volumes:
+      - ./signalpost.db:/app/signalpost.db
+      - ./cache:/app/cache
+      - ./out:/app/out
+      - ./data:/app/data
+    restart: unless-stopped

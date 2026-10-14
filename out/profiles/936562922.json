@@ -1,0 +1,241 @@
+{
+  "org_number": "936562922",
+  "legal_name": "2RVE EIENDOM AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-11-12",
+  "nace_codes": [
+    "68.110 - Kjøp og salg av egen fast eiendom"
+  ],
+  "address": "Bakkhåggån 7, 7288 SOKNEDAL",
+  "municipality": "MIDTRE GAULDAL",
+  "municipality_number": "5027",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Bakkhåggån 7, 7288 SOKNEDAL",
+    "visiting_address": "Bakkhåggån 7, 7288 SOKNEDAL"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Kjell Arne Torve",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Kjell Arne Torve",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "ADMENTO AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 0.0,
+      "profit": -43381.0,
+      "operating_profit": -43381.0,
+      "net_profit": -39028.0,
+      "assets": 2103213.0,
+      "equity": 50801.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936562922"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2RVE EIENDOM AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936562922",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.576791+00:00",
+      "evidence": "enhet.navn: 2RVE EIENDOM AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936562922",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.576791+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936562922",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.576791+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-11-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936562922",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.576791+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-11-12",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "68.110 - Kjøp og salg av egen fast eiendom"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936562922",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.576791+00:00",
+      "evidence": "naeringskoder: ['68.110 - Kjøp og salg av egen fast eiendom']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Bakkhåggån 7, 7288 SOKNEDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936562922",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.576791+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Bakkhåggån 7'], 'kommune': 'MIDTRE GAULDAL', 'kommunenummer': '5027', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '7288', 'poststed': 'SOKNEDAL'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936562922",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.576791+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Kjell Arne Torve",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936562922/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.576791+00:00",
+      "evidence": "rolle: Daglig leder -> Kjell Arne Torve",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Kjell Arne Torve",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936562922/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.576791+00:00",
+      "evidence": "rolle: Styrets leder -> Kjell Arne Torve",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936562922",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:24.818242+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -43381.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936562922",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:24.818242+00:00",
+      "evidence": "driftsresultat.driftsresultat: -43381.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 50801.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936562922",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:24.818242+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 50801.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 2103213.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936562922",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:24.818242+00:00",
+      "evidence": "eiendeler.sumEiendeler: 2103213.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:24.837262+00:00",
+  "last_checked_at": "2026-10-14T08:51:24.837262+00:00",
+  "history_ref": "rev_1791967884_936562922",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4164,
+    "cached": false
+  }
+}

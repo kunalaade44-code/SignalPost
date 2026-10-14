@@ -1,0 +1,354 @@
+{
+  "org_number": "930858358",
+  "legal_name": "1978 INVEST AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2023-02-20",
+  "nace_codes": [
+    "52.250 - Logistikktjenester"
+  ],
+  "address": "Kronprins Olavs veg 7A, 2819 GJØVIK",
+  "municipality": "GJØVIK",
+  "municipality_number": "3407",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Kronprins Olavs veg 7A, 2819 GJØVIK",
+    "visiting_address": "Kronprins Olavs veg 7A, 2819 GJØVIK"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Marius Lervold",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Marius Lervold",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "LYKKETALL AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 0.0,
+      "profit": -35456.0,
+      "operating_profit": -35456.0,
+      "net_profit": -39393.0,
+      "assets": 696849.0,
+      "equity": 226849.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358"
+    },
+    {
+      "year": 2024,
+      "revenue": 0.0,
+      "profit": -56503.0,
+      "operating_profit": -56503.0,
+      "net_profit": 254357.0,
+      "assets": 636410.0,
+      "equity": 263734.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -20624.0,
+      "operating_profit": -20624.0,
+      "net_profit": -20624.0,
+      "assets": 69376.0,
+      "equity": 9376.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1978 INVEST AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930858358",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.083210+00:00",
+      "evidence": "enhet.navn: 1978 INVEST AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930858358",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.083210+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930858358",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.083210+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2023-02-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930858358",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.083210+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2023-02-20",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "52.250 - Logistikktjenester"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930858358",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.083210+00:00",
+      "evidence": "naeringskoder: ['52.250 - Logistikktjenester']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Kronprins Olavs veg 7A, 2819 GJØVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930858358",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.083210+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Kronprins Olavs veg 7A'], 'kommune': 'GJØVIK', 'kommunenummer': '3407', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '2819', 'poststed': 'GJØVIK'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930858358",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.083210+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Marius Lervold",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930858358/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.083210+00:00",
+      "evidence": "rolle: Daglig leder -> Marius Lervold",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Marius Lervold",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930858358/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.083210+00:00",
+      "evidence": "rolle: Styrets leder -> Marius Lervold",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.918076+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -35456.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.918076+00:00",
+      "evidence": "driftsresultat.driftsresultat: -35456.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 226849.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.918076+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 226849.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 696849.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.918076+00:00",
+      "evidence": "eiendeler.sumEiendeler: 696849.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.918076+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -56503.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.918076+00:00",
+      "evidence": "driftsresultat.driftsresultat: -56503.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 263734.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.918076+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 263734.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 636410.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.918076+00:00",
+      "evidence": "eiendeler.sumEiendeler: 636410.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -20624.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.918076+00:00",
+      "evidence": "driftsresultat.driftsresultat: -20624.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 9376.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.918076+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 9376.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 69376.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930858358",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.918076+00:00",
+      "evidence": "eiendeler.sumEiendeler: 69376.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:49:57.256413+00:00",
+  "last_checked_at": "2026-10-14T08:49:57.256413+00:00",
+  "history_ref": "rev_1791967797_930858358",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5111,
+    "cached": false
+  }
+}

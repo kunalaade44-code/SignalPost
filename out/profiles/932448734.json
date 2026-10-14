@@ -1,0 +1,310 @@
+{
+  "org_number": "932448734",
+  "legal_name": "125 INVEST AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2023-11-13",
+  "nace_codes": [
+    "95.310 - Reparasjon og vedlikehold av motorvogner"
+  ],
+  "address": "Olderkjerret 125, 5108 HORDVIK",
+  "municipality": "BERGEN",
+  "municipality_number": "4601",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Olderkjerret 125, 5108 HORDVIK",
+    "visiting_address": "Olderkjerret 125, 5108 HORDVIK"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Sjur Bruland",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Joakim Lunner Bruland",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Sjur Bruland",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "VITO ØKONOMI AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 0.0,
+      "profit": -21694.0,
+      "operating_profit": -21694.0,
+      "net_profit": -21698.0,
+      "assets": 39536.0,
+      "equity": 8056.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932448734"
+    },
+    {
+      "year": 2024,
+      "revenue": 0.0,
+      "profit": -12680.0,
+      "operating_profit": -12680.0,
+      "net_profit": -12675.0,
+      "assets": 38232.0,
+      "equity": 29755.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932448734"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "125 INVEST AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932448734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:11.051752+00:00",
+      "evidence": "enhet.navn: 125 INVEST AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932448734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:11.051752+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932448734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:11.051752+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2023-11-13",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932448734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:11.051752+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2023-11-13",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "95.310 - Reparasjon og vedlikehold av motorvogner"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932448734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:11.051752+00:00",
+      "evidence": "naeringskoder: ['95.310 - Reparasjon og vedlikehold av motorvogner']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Olderkjerret 125, 5108 HORDVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932448734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:11.051752+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Olderkjerret 125'], 'kommune': 'BERGEN', 'kommunenummer': '4601', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '5108', 'poststed': 'HORDVIK'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932448734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:11.051752+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Sjur Bruland",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932448734/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:11.051752+00:00",
+      "evidence": "rolle: Daglig leder -> Sjur Bruland",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Joakim Lunner Bruland",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932448734/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:11.051752+00:00",
+      "evidence": "rolle: Styrets leder -> Joakim Lunner Bruland",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932448734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:12.208520+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -21694.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932448734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:12.208520+00:00",
+      "evidence": "driftsresultat.driftsresultat: -21694.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 8056.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932448734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:12.208520+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 8056.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 39536.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932448734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:12.208520+00:00",
+      "evidence": "eiendeler.sumEiendeler: 39536.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932448734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:12.208520+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -12680.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932448734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:12.208520+00:00",
+      "evidence": "driftsresultat.driftsresultat: -12680.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 29755.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932448734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:12.208520+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 29755.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 38232.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932448734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:12.208520+00:00",
+      "evidence": "eiendeler.sumEiendeler: 38232.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:12.643924+00:00",
+  "last_checked_at": "2026-10-14T08:50:12.643924+00:00",
+  "history_ref": "rev_1791967812_932448734",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5110,
+    "cached": false
+  }
+}

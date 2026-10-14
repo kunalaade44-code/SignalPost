@@ -1,0 +1,322 @@
+{
+  "org_number": "993109940",
+  "legal_name": "247 ENERGY AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2008-10-01",
+  "nace_codes": [
+    "93.130 - Treningssentervirksomhet"
+  ],
+  "address": "Timoteiveien 22, 4017 STAVANGER",
+  "municipality": "STAVANGER",
+  "municipality_number": "1103",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Timoteiveien 22, 4017 STAVANGER",
+    "visiting_address": "Timoteiveien 22, 4017 STAVANGER"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Richard James Pope",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Trygve Lunde",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 276811.0,
+      "profit": -92620.0,
+      "operating_profit": -92620.0,
+      "net_profit": -92189.0,
+      "assets": 565356.0,
+      "equity": -6258091.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/993109940"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -138695.0,
+      "operating_profit": -138695.0,
+      "net_profit": -148410.0,
+      "assets": 1144516.0,
+      "equity": -6118694.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/993109940"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -39652.0,
+      "operating_profit": -39652.0,
+      "net_profit": -39652.0,
+      "assets": 86443.0,
+      "equity": -5970284.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/993109940"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "247 ENERGY AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993109940",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:44.746338+00:00",
+      "evidence": "enhet.navn: 247 ENERGY AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993109940",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:44.746338+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993109940",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:44.746338+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2008-10-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993109940",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:44.746338+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2008-10-01",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "93.130 - Treningssentervirksomhet"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993109940",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:44.746338+00:00",
+      "evidence": "naeringskoder: ['93.130 - Treningssentervirksomhet']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Timoteiveien 22, 4017 STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993109940",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:44.746338+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Timoteiveien 22'], 'kommune': 'STAVANGER', 'kommunenummer': '1103', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '4017', 'poststed': 'STAVANGER'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993109940",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:44.746338+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Richard James Pope",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993109940/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:44.746338+00:00",
+      "evidence": "rolle: Styrets leder -> Richard James Pope",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 276811.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/993109940",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:52:45.597758+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 276811.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -92620.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/993109940",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:52:45.597758+00:00",
+      "evidence": "driftsresultat.driftsresultat: -92620.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -6258091.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/993109940",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:52:45.597758+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -6258091.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 565356.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/993109940",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:52:45.597758+00:00",
+      "evidence": "eiendeler.sumEiendeler: 565356.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -138695.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/993109940",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:52:45.597758+00:00",
+      "evidence": "driftsresultat.driftsresultat: -138695.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -6118694.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/993109940",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:52:45.597758+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -6118694.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 1144516.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/993109940",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:52:45.597758+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1144516.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -39652.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/993109940",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:52:45.597758+00:00",
+      "evidence": "driftsresultat.driftsresultat: -39652.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": -5970284.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/993109940",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:52:45.597758+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -5970284.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 86443.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/993109940",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:52:45.597758+00:00",
+      "evidence": "eiendeler.sumEiendeler: 86443.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:52:46.344410+00:00",
+  "last_checked_at": "2026-10-14T08:52:46.344410+00:00",
+  "history_ref": "rev_1791967966_993109940",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5397,
+    "cached": false
+  }
+}

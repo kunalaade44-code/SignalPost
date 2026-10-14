@@ -1,0 +1,333 @@
+{
+  "org_number": "932605023",
+  "legal_name": "04 GSE SANDVIK AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2023-12-13",
+  "nace_codes": [
+    "68.200 - Utleie av egen eller leid fast eiendom"
+  ],
+  "address": "Havnavegen 63, 5419 FITJAR",
+  "municipality": "FITJAR",
+  "municipality_number": "4615",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Havnavegen 63, 5419 FITJAR",
+    "visiting_address": "Havnavegen 63, 5419 FITJAR"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Karl Andreas Sandvik",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Gunny Sandvik",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Svein Sandvik",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Egil Sandvik",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Trym Sandvik Steinshamn",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "BJØRGVIN REVISJON AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -1429314.0,
+      "operating_profit": -1429314.0,
+      "net_profit": 19553566.0,
+      "assets": 579472845.0,
+      "equity": 535175045.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932605023"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": 12758199.0,
+      "operating_profit": 12758199.0,
+      "net_profit": 18490943.0,
+      "assets": 581333674.0,
+      "equity": 579621479.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932605023"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -21821193.0,
+      "operating_profit": -21821193.0,
+      "net_profit": -26986865.0,
+      "assets": 619208541.0,
+      "equity": 581662235.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932605023"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "04 GSE SANDVIK AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932605023",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:13.599521+00:00",
+      "evidence": "enhet.navn: 04 GSE SANDVIK AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932605023",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:13.599521+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932605023",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:13.599521+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2023-12-13",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932605023",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:13.599521+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2023-12-13",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "68.200 - Utleie av egen eller leid fast eiendom"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932605023",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:13.599521+00:00",
+      "evidence": "naeringskoder: ['68.200 - Utleie av egen eller leid fast eiendom']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Havnavegen 63, 5419 FITJAR",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932605023",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:13.599521+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Havnavegen 63'], 'kommune': 'FITJAR', 'kommunenummer': '4615', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '5419', 'poststed': 'FITJAR'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932605023",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:13.599521+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Karl Andreas Sandvik",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932605023/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:13.599521+00:00",
+      "evidence": "rolle: Styrets leder -> Karl Andreas Sandvik",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -1429314.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932605023",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:14.116438+00:00",
+      "evidence": "driftsresultat.driftsresultat: -1429314.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 535175045.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932605023",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:14.116438+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 535175045.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 579472845.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932605023",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:14.116438+00:00",
+      "evidence": "eiendeler.sumEiendeler: 579472845.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 12758199.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932605023",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:14.116438+00:00",
+      "evidence": "driftsresultat.driftsresultat: 12758199.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 579621479.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932605023",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:14.116438+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 579621479.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 581333674.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932605023",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:14.116438+00:00",
+      "evidence": "eiendeler.sumEiendeler: 581333674.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -21821193.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932605023",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:14.116438+00:00",
+      "evidence": "driftsresultat.driftsresultat: -21821193.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 581662235.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932605023",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:14.116438+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 581662235.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 619208541.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932605023",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:14.116438+00:00",
+      "evidence": "eiendeler.sumEiendeler: 619208541.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:14.481346+00:00",
+  "last_checked_at": "2026-10-14T08:50:14.481346+00:00",
+  "history_ref": "rev_1791967814_932605023",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4604,
+    "cached": false
+  }
+}

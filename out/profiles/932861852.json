@@ -1,0 +1,240 @@
+{
+  "org_number": "932861852",
+  "legal_name": "1702 INVEST AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-01-22",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Kilgata 15D, 3217 SANDEFJORD",
+  "municipality": "SANDEFJORD",
+  "municipality_number": "3907",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Kilgata 15D, 3217 SANDEFJORD",
+    "visiting_address": "Kilgata 15D, 3217 SANDEFJORD"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Fredric Bredal Schau",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": null,
+      "operating_profit": null,
+      "net_profit": 0.0,
+      "assets": 52711.0,
+      "equity": 24211.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932861852"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -7.0,
+      "operating_profit": -7.0,
+      "net_profit": -5.0,
+      "assets": 52711.0,
+      "equity": 24211.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932861852"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1702 INVEST AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932861852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.520098+00:00",
+      "evidence": "enhet.navn: 1702 INVEST AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932861852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.520098+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932861852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.520098+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-01-22",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932861852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.520098+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-01-22",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932861852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.520098+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Kilgata 15D, 3217 SANDEFJORD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932861852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.520098+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Kilgata 15D'], 'kommune': 'SANDEFJORD', 'kommunenummer': '3907', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '3217', 'poststed': 'SANDEFJORD'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932861852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.520098+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Fredric Bredal Schau",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932861852/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.520098+00:00",
+      "evidence": "rolle: Styrets leder -> Fredric Bredal Schau",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "equity_2025",
+      "value": 24211.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932861852",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:20.663490+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 24211.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 52711.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932861852",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:20.663490+00:00",
+      "evidence": "eiendeler.sumEiendeler: 52711.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -7.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932861852",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:20.663490+00:00",
+      "evidence": "driftsresultat.driftsresultat: -7.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 24211.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932861852",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:20.663490+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 24211.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 52711.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932861852",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:20.663490+00:00",
+      "evidence": "eiendeler.sumEiendeler: 52711.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:20.681344+00:00",
+  "last_checked_at": "2026-10-14T08:50:20.681344+00:00",
+  "history_ref": "rev_1791967820_932861852",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4611,
+    "cached": false
+  }
+}

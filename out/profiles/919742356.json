@@ -1,0 +1,443 @@
+{
+  "org_number": "919742356",
+  "legal_name": "3B-FIBREGLASS NORWAY AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "1995-03-12",
+  "nace_codes": [
+    "23.140 - Produksjon av glassfibre"
+  ],
+  "address": "Tollenesveien 60, 4760 BIRKELAND",
+  "municipality": "BIRKENES",
+  "municipality_number": "4216",
+  "employees": 342,
+  "vat_registered": true,
+  "website": "https://www.3b-fibreglass.com",
+  "contact": {
+    "email": null,
+    "phone": "+47 20 21 25 96",
+    "postal_address": "Tollenesveien 60, 4760 BIRKELAND",
+    "visiting_address": "Tollenesveien 60, 4760 BIRKELAND"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Frantz Johan Agerbo",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Vishal Bhailal Shah",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Paul Christian Jensen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Tom Anders Hartvigsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Hans Olaf Birkenes",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Deepa Viswanathan",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Alexander Rosseland Finnøy",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Tone Mollestad",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Magnus Breimyr Brovig",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Mathew David Blanco",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "BDO AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 551384000.0,
+      "profit": -71953000.0,
+      "operating_profit": -71953000.0,
+      "net_profit": -95569000.0,
+      "assets": 739673000.0,
+      "equity": 130966000.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356"
+    },
+    {
+      "year": 2024,
+      "revenue": 515081000.0,
+      "profit": -87383000.0,
+      "operating_profit": -87383000.0,
+      "net_profit": -77516000.0,
+      "assets": 741374000.0,
+      "equity": 232303000.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356"
+    },
+    {
+      "year": 2023,
+      "revenue": 789806000.0,
+      "profit": 88058000.0,
+      "operating_profit": 88058000.0,
+      "net_profit": 66124000.0,
+      "assets": 551792000.0,
+      "equity": 299463000.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356"
+    }
+  ],
+  "description": "3B’s products are designed to reinforce thermoplastic and thermoset polymers. We offer short and long fibre solutions as well as speciality products. Discover our extensive product range.",
+  "social_links": [
+    "https://www.linkedin.com/company/3b-the-fibreglass-company/mycompany"
+  ],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3B-FIBREGLASS NORWAY AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919742356",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.491102+00:00",
+      "evidence": "enhet.navn: 3B-FIBREGLASS NORWAY AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919742356",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.491102+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919742356",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.491102+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "1995-03-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919742356",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.491102+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 1995-03-12",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "23.140 - Produksjon av glassfibre"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919742356",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.491102+00:00",
+      "evidence": "naeringskoder: ['23.140 - Produksjon av glassfibre']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Tollenesveien 60, 4760 BIRKELAND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919742356",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.491102+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Tollenesveien 60'], 'kommune': 'BIRKENES', 'kommunenummer': '4216', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '4760', 'poststed': 'BIRKELAND'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "employees",
+      "value": 342,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919742356",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.491102+00:00",
+      "evidence": "antallAnsatte: 342",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered employee headcount reported to the Aa-register (NAV/SSB)."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919742356",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.491102+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://www.3b-fibreglass.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919742356",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.491102+00:00",
+      "evidence": "hjemmeside: www.3b-fibreglass.com",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Frantz Johan Agerbo",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919742356/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.491102+00:00",
+      "evidence": "rolle: Daglig leder -> Frantz Johan Agerbo",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Vishal Bhailal Shah",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919742356/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.491102+00:00",
+      "evidence": "rolle: Styrets leder -> Vishal Bhailal Shah",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 551384000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:18.907107+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 551384000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -71953000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:18.907107+00:00",
+      "evidence": "driftsresultat.driftsresultat: -71953000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 130966000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:18.907107+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 130966000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 739673000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:18.907107+00:00",
+      "evidence": "eiendeler.sumEiendeler: 739673000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 515081000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:18.907107+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 515081000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -87383000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:18.907107+00:00",
+      "evidence": "driftsresultat.driftsresultat: -87383000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 232303000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:18.907107+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 232303000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 741374000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:18.907107+00:00",
+      "evidence": "eiendeler.sumEiendeler: 741374000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 789806000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:18.907107+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 789806000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 88058000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:18.907107+00:00",
+      "evidence": "driftsresultat.driftsresultat: 88058000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 299463000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:18.907107+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 299463000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 551792000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919742356",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:18.907107+00:00",
+      "evidence": "eiendeler.sumEiendeler: 551792000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:47:28.847827+00:00",
+  "last_checked_at": "2026-10-14T08:47:28.847827+00:00",
+  "history_ref": "rev_1791967648_919742356",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 6,
+    "cost_usd": 0.0,
+    "duration_ms": 14801,
+    "cached": false
+  }
+}

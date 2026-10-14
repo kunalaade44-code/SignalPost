@@ -1,0 +1,241 @@
+{
+  "org_number": "934983157",
+  "legal_name": "2B PROPERTIES AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-02-05",
+  "nace_codes": [
+    "68.200 - Utleie av egen eller leid fast eiendom"
+  ],
+  "address": "Revesporet 1A, 1362 HOSLE",
+  "municipality": "BÆRUM",
+  "municipality_number": "3201",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Revesporet 1A, 1362 HOSLE",
+    "visiting_address": "Revesporet 1A, 1362 HOSLE"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Andreas Eilertsen Lybo",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Celine Brekke Orlin",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Andreas Eilertsen Lybo",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 663.0,
+      "profit": -27836.0,
+      "operating_profit": -27836.0,
+      "net_profit": -27856.0,
+      "assets": 5196.0,
+      "equity": -4356.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934983157"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2B PROPERTIES AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934983157",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:54.552931+00:00",
+      "evidence": "enhet.navn: 2B PROPERTIES AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934983157",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:54.552931+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934983157",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:54.552931+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-02-05",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934983157",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:54.552931+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-02-05",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "68.200 - Utleie av egen eller leid fast eiendom"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934983157",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:54.552931+00:00",
+      "evidence": "naeringskoder: ['68.200 - Utleie av egen eller leid fast eiendom']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Revesporet 1A, 1362 HOSLE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934983157",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:54.552931+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Revesporet 1A'], 'kommune': 'BÆRUM', 'kommunenummer': '3201', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1362', 'poststed': 'HOSLE'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934983157",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:54.552931+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Andreas Eilertsen Lybo",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934983157/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:54.552931+00:00",
+      "evidence": "rolle: Daglig leder -> Andreas Eilertsen Lybo",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Celine Brekke Orlin",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934983157/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:54.552931+00:00",
+      "evidence": "rolle: Styrets leder -> Celine Brekke Orlin",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 663.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934983157",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:54.898594+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 663.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -27836.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934983157",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:54.898594+00:00",
+      "evidence": "driftsresultat.driftsresultat: -27836.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -4356.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934983157",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:54.898594+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -4356.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 5196.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934983157",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:54.898594+00:00",
+      "evidence": "eiendeler.sumEiendeler: 5196.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:54.947583+00:00",
+  "last_checked_at": "2026-10-14T08:50:54.947583+00:00",
+  "history_ref": "rev_1791967854_934983157",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4824,
+    "cached": false
+  }
+}

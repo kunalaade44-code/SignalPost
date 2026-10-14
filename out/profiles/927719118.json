@@ -1,0 +1,360 @@
+{
+  "org_number": "927719118",
+  "legal_name": "1UP LIVE AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2021-09-14",
+  "nace_codes": [
+    "59.110 - Produksjon av film, video og fjernsynsprogrammer"
+  ],
+  "address": "John Strandruds vei 16, 1360 FORNEBU",
+  "municipality": "BÆRUM",
+  "municipality_number": "3201",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "John Strandruds vei 16, 1360 FORNEBU",
+    "visiting_address": "John Strandruds vei 16, 1360 FORNEBU"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Sigurd Knudsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Lars Marius Walbye",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Sigurd Knudsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "REGNSKAPSHJELP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -108624.0,
+      "operating_profit": -108624.0,
+      "net_profit": -107044.0,
+      "assets": 215363.0,
+      "equity": 4147.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118"
+    },
+    {
+      "year": 2023,
+      "revenue": 25500.0,
+      "profit": -194006.0,
+      "operating_profit": -194006.0,
+      "net_profit": -191955.0,
+      "assets": 148045.0,
+      "equity": 111192.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118"
+    },
+    {
+      "year": 2022,
+      "revenue": 663810.0,
+      "profit": 360256.0,
+      "operating_profit": 360256.0,
+      "net_profit": 282631.0,
+      "assets": 523432.0,
+      "equity": 303147.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1UP LIVE AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927719118",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:03.739465+00:00",
+      "evidence": "enhet.navn: 1UP LIVE AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927719118",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:03.739465+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927719118",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:03.739465+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2021-09-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927719118",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:03.739465+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2021-09-14",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "59.110 - Produksjon av film, video og fjernsynsprogrammer"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927719118",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:03.739465+00:00",
+      "evidence": "naeringskoder: ['59.110 - Produksjon av film, video og fjernsynsprogrammer']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "John Strandruds vei 16, 1360 FORNEBU",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927719118",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:03.739465+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['John Strandruds vei 16'], 'kommune': 'BÆRUM', 'kommunenummer': '3201', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1360', 'poststed': 'FORNEBU'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927719118",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:03.739465+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Sigurd Knudsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927719118/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:03.739465+00:00",
+      "evidence": "rolle: Daglig leder -> Sigurd Knudsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Lars Marius Walbye",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927719118/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:03.739465+00:00",
+      "evidence": "rolle: Styrets leder -> Lars Marius Walbye",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -108624.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:04.483293+00:00",
+      "evidence": "driftsresultat.driftsresultat: -108624.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 4147.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:04.483293+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 4147.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 215363.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:04.483293+00:00",
+      "evidence": "eiendeler.sumEiendeler: 215363.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 25500.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:04.483293+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 25500.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -194006.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:04.483293+00:00",
+      "evidence": "driftsresultat.driftsresultat: -194006.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 111192.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:04.483293+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 111192.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 148045.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:04.483293+00:00",
+      "evidence": "eiendeler.sumEiendeler: 148045.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2022",
+      "value": 663810.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:04.483293+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 663810.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2022 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2022",
+      "value": 360256.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:04.483293+00:00",
+      "evidence": "driftsresultat.driftsresultat: 360256.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2022 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2022",
+      "value": 303147.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:04.483293+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 303147.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2022 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2022",
+      "value": 523432.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927719118",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:04.483293+00:00",
+      "evidence": "eiendeler.sumEiendeler: 523432.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2022 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:49:04.507184+00:00",
+  "last_checked_at": "2026-10-14T08:49:04.507184+00:00",
+  "history_ref": "rev_1791967744_927719118",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4961,
+    "cached": false
+  }
+}

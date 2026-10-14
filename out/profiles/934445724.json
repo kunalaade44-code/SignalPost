@@ -1,0 +1,285 @@
+{
+  "org_number": "934445724",
+  "legal_name": "2001 VENTURES AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-11-12",
+  "nace_codes": [
+    "62.100 - Dataprogrammeringstjenester"
+  ],
+  "address": "Platous gate 9B, 0190 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Platous gate 9B, 0190 OSLO",
+    "visiting_address": "Platous gate 9B, 0190 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Håvard Hauger Sjong",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Håvard Hauger Sjong",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 4314257.0,
+      "profit": 3505293.0,
+      "operating_profit": 3505293.0,
+      "net_profit": 2829839.0,
+      "assets": 4157979.0,
+      "equity": 2844787.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934445724"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -9225.0,
+      "operating_profit": -9225.0,
+      "net_profit": -9268.0,
+      "assets": 14948.0,
+      "equity": 14948.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934445724"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2001 VENTURES AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934445724",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:47.405349+00:00",
+      "evidence": "enhet.navn: 2001 VENTURES AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934445724",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:47.405349+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934445724",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:47.405349+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-11-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934445724",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:47.405349+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-11-12",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "62.100 - Dataprogrammeringstjenester"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934445724",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:47.405349+00:00",
+      "evidence": "naeringskoder: ['62.100 - Dataprogrammeringstjenester']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Platous gate 9B, 0190 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934445724",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:47.405349+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Platous gate 9B'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0190', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934445724",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:47.405349+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Håvard Hauger Sjong",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934445724/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:47.405349+00:00",
+      "evidence": "rolle: Daglig leder -> Håvard Hauger Sjong",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Håvard Hauger Sjong",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934445724/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:47.405349+00:00",
+      "evidence": "rolle: Styrets leder -> Håvard Hauger Sjong",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 4314257.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934445724",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:48.151573+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 4314257.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 3505293.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934445724",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:48.151573+00:00",
+      "evidence": "driftsresultat.driftsresultat: 3505293.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 2844787.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934445724",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:48.151573+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 2844787.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 4157979.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934445724",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:48.151573+00:00",
+      "evidence": "eiendeler.sumEiendeler: 4157979.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -9225.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934445724",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:48.151573+00:00",
+      "evidence": "driftsresultat.driftsresultat: -9225.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 14948.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934445724",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:48.151573+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 14948.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 14948.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934445724",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:48.151573+00:00",
+      "evidence": "eiendeler.sumEiendeler: 14948.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:48.175884+00:00",
+  "last_checked_at": "2026-10-14T08:50:48.175884+00:00",
+  "history_ref": "rev_1791967848_934445724",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4716,
+    "cached": false
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "org_number": "932865475",
+  "legal_name": "2 FRIENDS AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-01-22",
+  "nace_codes": [
+    "56.110 - Drift av restauranter"
+  ],
+  "address": "Conradis gate 7, 3126 TØNSBERG",
+  "municipality": "TØNSBERG",
+  "municipality_number": "3905",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Conradis gate 7, 3126 TØNSBERG",
+    "visiting_address": "Conradis gate 7, 3126 TØNSBERG"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Ibrahim Mohammed Najem Al Jabouri",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Idris Amirudin",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "TOTAL REGNSKAP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 1915991.0,
+      "profit": 205301.0,
+      "operating_profit": 205301.0,
+      "net_profit": 160229.0,
+      "assets": 747958.0,
+      "equity": -51852.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932865475"
+    },
+    {
+      "year": 2024,
+      "revenue": 913204.0,
+      "profit": -310474.0,
+      "operating_profit": -310474.0,
+      "net_profit": -242081.0,
+      "assets": 494974.0,
+      "equity": -212081.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932865475"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2 FRIENDS AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932865475",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.525990+00:00",
+      "evidence": "enhet.navn: 2 FRIENDS AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932865475",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.525990+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932865475",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.525990+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-01-22",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932865475",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.525990+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-01-22",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "56.110 - Drift av restauranter"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932865475",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.525990+00:00",
+      "evidence": "naeringskoder: ['56.110 - Drift av restauranter']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Conradis gate 7, 3126 TØNSBERG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932865475",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.525990+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Conradis gate 7'], 'kommune': 'TØNSBERG', 'kommunenummer': '3905', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '3126', 'poststed': 'TØNSBERG'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932865475",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.525990+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Ibrahim Mohammed Najem Al Jabouri",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932865475/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.525990+00:00",
+      "evidence": "rolle: Daglig leder -> Ibrahim Mohammed Najem Al Jabouri",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Idris Amirudin",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932865475/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:19.525990+00:00",
+      "evidence": "rolle: Styrets leder -> Idris Amirudin",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 1915991.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932865475",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:20.664943+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 1915991.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 205301.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932865475",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:20.664943+00:00",
+      "evidence": "driftsresultat.driftsresultat: 205301.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -51852.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932865475",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:20.664943+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -51852.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 747958.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932865475",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:20.664943+00:00",
+      "evidence": "eiendeler.sumEiendeler: 747958.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 913204.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932865475",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:20.664943+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 913204.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -310474.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932865475",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:20.664943+00:00",
+      "evidence": "driftsresultat.driftsresultat: -310474.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -212081.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932865475",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:20.664943+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -212081.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 494974.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932865475",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:20.664943+00:00",
+      "evidence": "eiendeler.sumEiendeler: 494974.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:20.682233+00:00",
+  "last_checked_at": "2026-10-14T08:50:20.682233+00:00",
+  "history_ref": "rev_1791967820_932865475",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4584,
+    "cached": false
+  }
+}

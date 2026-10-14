@@ -1,0 +1,380 @@
+{
+  "org_number": "932165376",
+  "legal_name": "1 EASY SERVICE AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2023-10-02",
+  "nace_codes": [
+    "81.100 - Kombinerte tjenester tilknyttet eiendomsdrift"
+  ],
+  "address": "Trålveien 16, 8013 BODØ",
+  "municipality": "BODØ",
+  "municipality_number": "1804",
+  "employees": 6,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Trålveien 16, 8013 BODØ",
+    "visiting_address": "Trålveien 16, 8013 BODØ"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Christian Engenes",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Odd-Tore Hansen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Christian Engenes",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 4072688.0,
+      "profit": -74625.0,
+      "operating_profit": -74625.0,
+      "net_profit": -74828.0,
+      "assets": 472175.0,
+      "equity": 22264.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376"
+    },
+    {
+      "year": 2024,
+      "revenue": 3318406.0,
+      "profit": 138304.0,
+      "operating_profit": 138304.0,
+      "net_profit": 119058.0,
+      "assets": 429321.0,
+      "equity": 97094.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376"
+    },
+    {
+      "year": 2023,
+      "revenue": 370454.0,
+      "profit": -46394.0,
+      "operating_profit": -46394.0,
+      "net_profit": -46394.0,
+      "assets": 94059.0,
+      "equity": -21964.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1 EASY SERVICE AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932165376",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.426822+00:00",
+      "evidence": "enhet.navn: 1 EASY SERVICE AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932165376",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.426822+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932165376",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.426822+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2023-10-02",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932165376",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.426822+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2023-10-02",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "81.100 - Kombinerte tjenester tilknyttet eiendomsdrift"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932165376",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.426822+00:00",
+      "evidence": "naeringskoder: ['81.100 - Kombinerte tjenester tilknyttet eiendomsdrift']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Trålveien 16, 8013 BODØ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932165376",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.426822+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Trålveien 16'], 'kommune': 'BODØ', 'kommunenummer': '1804', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '8013', 'poststed': 'BODØ'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "employees",
+      "value": 6,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932165376",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.426822+00:00",
+      "evidence": "antallAnsatte: 6",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered employee headcount reported to the Aa-register (NAV/SSB)."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932165376",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.426822+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Christian Engenes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932165376/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.426822+00:00",
+      "evidence": "rolle: Daglig leder -> Christian Engenes",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Odd-Tore Hansen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932165376/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.426822+00:00",
+      "evidence": "rolle: Styrets leder -> Odd-Tore Hansen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 4072688.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:09.838108+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 4072688.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -74625.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:09.838108+00:00",
+      "evidence": "driftsresultat.driftsresultat: -74625.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 22264.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:09.838108+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 22264.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 472175.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:09.838108+00:00",
+      "evidence": "eiendeler.sumEiendeler: 472175.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 3318406.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:09.838108+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 3318406.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 138304.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:09.838108+00:00",
+      "evidence": "driftsresultat.driftsresultat: 138304.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 97094.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:09.838108+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 97094.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 429321.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:09.838108+00:00",
+      "evidence": "eiendeler.sumEiendeler: 429321.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 370454.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:09.838108+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 370454.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -46394.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:09.838108+00:00",
+      "evidence": "driftsresultat.driftsresultat: -46394.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": -21964.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:09.838108+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -21964.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 94059.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932165376",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:09.838108+00:00",
+      "evidence": "eiendeler.sumEiendeler: 94059.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:09.849132+00:00",
+  "last_checked_at": "2026-10-14T08:50:09.849132+00:00",
+  "history_ref": "rev_1791967809_932165376",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5196,
+    "cached": false
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "org_number": "928285251",
+  "legal_name": "1423 NORGE AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2022-01-17",
+  "nace_codes": [
+    "46.340 - Engroshandel med drikkevarer"
+  ],
+  "address": "c/o Scanvat, Johannes Bruns gate 13A, 0452 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": true,
+  "website": "https://www.1423.dk",
+  "contact": {
+    "email": "orders@1423.dk",
+    "phone": "+47 20 16 10 19",
+    "postal_address": "c/o Scanvat, Johannes Bruns gate 13A, 0452 OSLO",
+    "visiting_address": "c/o Scanvat, Johannes Bruns gate 13A, 0452 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Thomas Vogensen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Thomas Vogensen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Parminder Singh Bhatia",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Joshua Manjeet David Singh",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "SCANVAT",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 1598188.0,
+      "profit": 38510.0,
+      "operating_profit": 38510.0,
+      "net_profit": -34576.0,
+      "assets": 528837.0,
+      "equity": -292742.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251"
+    },
+    {
+      "year": 2024,
+      "revenue": 913076.0,
+      "profit": 12099.0,
+      "operating_profit": 12099.0,
+      "net_profit": -15129.0,
+      "assets": 1181639.0,
+      "equity": -258167.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251"
+    },
+    {
+      "year": 2023,
+      "revenue": 44357.0,
+      "profit": -122086.0,
+      "operating_profit": -122086.0,
+      "net_profit": -140701.0,
+      "assets": 184876.0,
+      "equity": -243038.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251"
+    }
+  ],
+  "description": "1423 – World Class Spirits is a premium spirit importer and distributor established in 2008. What started as a hobby turned into one of the most successful B2B spirits companies in Denmark. Apart from bringing awesome spirit brands to Europe, we are also spreading our love and passion for rum throug",
+  "social_links": [
+    "https://www.facebook.com/1423.dk",
+    "https://www.instagram.com/1423.dk",
+    "https://www.linkedin.com/company/9185679"
+  ],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1423 NORGE AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928285251",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:07.784011+00:00",
+      "evidence": "enhet.navn: 1423 NORGE AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928285251",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:07.784011+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928285251",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:07.784011+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2022-01-17",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928285251",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:07.784011+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2022-01-17",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "46.340 - Engroshandel med drikkevarer"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928285251",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:07.784011+00:00",
+      "evidence": "naeringskoder: ['46.340 - Engroshandel med drikkevarer']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "c/o Scanvat, Johannes Bruns gate 13A, 0452 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928285251",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:07.784011+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['c/o Scanvat', 'Johannes Bruns gate 13A'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0452', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928285251",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:07.784011+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://www.1423.dk",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928285251",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:07.784011+00:00",
+      "evidence": "hjemmeside: www.1423.dk",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Thomas Vogensen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928285251/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:07.784011+00:00",
+      "evidence": "rolle: Daglig leder -> Thomas Vogensen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Thomas Vogensen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/928285251/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:07.784011+00:00",
+      "evidence": "rolle: Styrets leder -> Thomas Vogensen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 1598188.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:08.619456+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 1598188.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 38510.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:08.619456+00:00",
+      "evidence": "driftsresultat.driftsresultat: 38510.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -292742.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:08.619456+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -292742.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 528837.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:08.619456+00:00",
+      "evidence": "eiendeler.sumEiendeler: 528837.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 913076.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:08.619456+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 913076.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 12099.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:08.619456+00:00",
+      "evidence": "driftsresultat.driftsresultat: 12099.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -258167.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:08.619456+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -258167.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 1181639.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:08.619456+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1181639.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 44357.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:08.619456+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 44357.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -122086.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:08.619456+00:00",
+      "evidence": "driftsresultat.driftsresultat: -122086.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": -243038.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:08.619456+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -243038.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 184876.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/928285251",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:08.619456+00:00",
+      "evidence": "eiendeler.sumEiendeler: 184876.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:49:19.889317+00:00",
+  "last_checked_at": "2026-10-14T08:49:19.889317+00:00",
+  "history_ref": "rev_1791967759_928285251",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 6,
+    "cost_usd": 0.0,
+    "duration_ms": 15293,
+    "cached": false
+  }
+}

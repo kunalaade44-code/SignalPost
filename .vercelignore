@@ -1,0 +1,26 @@
+# Virtual environments & Python cache
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing & quality caches
+.pytest_cache/
+.ruff_cache/
+tests/
+
+# Large local caches & databases
+cache/
+*.db
+*.sqlite
+*.sqlite3
+
+# Git & IDE configs
+.git/
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db

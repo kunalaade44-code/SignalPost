@@ -1,0 +1,334 @@
+{
+  "org_number": "995985713",
+  "legal_name": "24SEVENOFFICE SCANDINAVIA SYSTEMS AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2010-09-27",
+  "nace_codes": [
+    "62.200 - Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer"
+  ],
+  "address": "Inkognitogata 33A, 0256 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": true,
+  "website": "https://www.24sevenoffice.com",
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Inkognitogata 33A, 0256 OSLO",
+    "visiting_address": "Inkognitogata 33A, 0256 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Eirik Aalvik Stranden",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Jose Ignacio Herrero Aragon",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "DELOITTE AS",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "AIDER AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -105729.0,
+      "operating_profit": -105729.0,
+      "net_profit": 502991.0,
+      "assets": 26419228.0,
+      "equity": 13995552.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995985713"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -1581913.0,
+      "operating_profit": -1581913.0,
+      "net_profit": -1110832.0,
+      "assets": 25272359.0,
+      "equity": 13492562.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995985713"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -1589694.0,
+      "operating_profit": -1589694.0,
+      "net_profit": -2081992.0,
+      "assets": 26782573.0,
+      "equity": 14603394.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995985713"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "24SEVENOFFICE SCANDINAVIA SYSTEMS AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995985713",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:03.038876+00:00",
+      "evidence": "enhet.navn: 24SEVENOFFICE SCANDINAVIA SYSTEMS AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995985713",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:03.038876+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995985713",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:03.038876+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2010-09-27",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995985713",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:03.038876+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2010-09-27",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "62.200 - Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995985713",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:03.038876+00:00",
+      "evidence": "naeringskoder: ['62.200 - Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Inkognitogata 33A, 0256 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995985713",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:03.038876+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Inkognitogata 33A'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0256', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995985713",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:03.038876+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://www.24sevenoffice.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995985713",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:03.038876+00:00",
+      "evidence": "hjemmeside: www.24sevenoffice.com",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Eirik Aalvik Stranden",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995985713/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:03.038876+00:00",
+      "evidence": "rolle: Styrets leder -> Eirik Aalvik Stranden",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -105729.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995985713",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:03.531215+00:00",
+      "evidence": "driftsresultat.driftsresultat: -105729.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 13995552.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995985713",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:03.531215+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 13995552.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 26419228.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995985713",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:03.531215+00:00",
+      "evidence": "eiendeler.sumEiendeler: 26419228.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -1581913.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995985713",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:03.531215+00:00",
+      "evidence": "driftsresultat.driftsresultat: -1581913.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 13492562.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995985713",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:03.531215+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 13492562.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 25272359.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995985713",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:03.531215+00:00",
+      "evidence": "eiendeler.sumEiendeler: 25272359.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -1589694.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995985713",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:03.531215+00:00",
+      "evidence": "driftsresultat.driftsresultat: -1589694.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 14603394.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995985713",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:03.531215+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 14603394.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 26782573.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995985713",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:03.531215+00:00",
+      "evidence": "eiendeler.sumEiendeler: 26782573.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:53:07.892471+00:00",
+  "last_checked_at": "2026-10-14T08:53:07.892471+00:00",
+  "history_ref": "rev_1791967987_995985713",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 4,
+    "cost_usd": 0.0,
+    "duration_ms": 7723,
+    "cached": false
+  }
+}

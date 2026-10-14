@@ -1,0 +1,348 @@
+{
+  "org_number": "820450892",
+  "legal_name": "123 MASKIN AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2018-02-16",
+  "nace_codes": [
+    "43.120 - Grunnarbeid"
+  ],
+  "address": "Haldenveien 1307, 1892 DEGERNES",
+  "municipality": "RAKKESTAD",
+  "municipality_number": "3120",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Haldenveien 1307, 1892 DEGERNES",
+    "visiting_address": "Haldenveien 1307, 1892 DEGERNES"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Thor Christer Blakkestad",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Thor Christer Blakkestad",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 221917.0,
+      "profit": 66203.0,
+      "operating_profit": 66203.0,
+      "net_profit": 66203.0,
+      "assets": 51758.0,
+      "equity": 34506.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892"
+    },
+    {
+      "year": 2024,
+      "revenue": 275400.0,
+      "profit": 64978.0,
+      "operating_profit": 64978.0,
+      "net_profit": 64978.0,
+      "assets": 68460.0,
+      "equity": -31697.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -1.0,
+      "operating_profit": -1.0,
+      "net_profit": -1.0,
+      "assets": 250.0,
+      "equity": -96675.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "123 MASKIN AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820450892",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:26.729553+00:00",
+      "evidence": "enhet.navn: 123 MASKIN AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820450892",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:26.729553+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820450892",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:26.729553+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2018-02-16",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820450892",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:26.729553+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2018-02-16",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "43.120 - Grunnarbeid"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820450892",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:26.729553+00:00",
+      "evidence": "naeringskoder: ['43.120 - Grunnarbeid']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Haldenveien 1307, 1892 DEGERNES",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820450892",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:26.729553+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Haldenveien 1307'], 'kommune': 'RAKKESTAD', 'kommunenummer': '3120', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1892', 'poststed': 'DEGERNES'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820450892",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:26.729553+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Thor Christer Blakkestad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820450892/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:26.729553+00:00",
+      "evidence": "rolle: Daglig leder -> Thor Christer Blakkestad",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Thor Christer Blakkestad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/820450892/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:26.729553+00:00",
+      "evidence": "rolle: Styrets leder -> Thor Christer Blakkestad",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 221917.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:27.138393+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 221917.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 66203.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:27.138393+00:00",
+      "evidence": "driftsresultat.driftsresultat: 66203.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 34506.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:27.138393+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 34506.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 51758.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:27.138393+00:00",
+      "evidence": "eiendeler.sumEiendeler: 51758.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 275400.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:27.138393+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 275400.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 64978.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:27.138393+00:00",
+      "evidence": "driftsresultat.driftsresultat: 64978.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -31697.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:27.138393+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -31697.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 68460.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:27.138393+00:00",
+      "evidence": "eiendeler.sumEiendeler: 68460.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -1.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:27.138393+00:00",
+      "evidence": "driftsresultat.driftsresultat: -1.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": -96675.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:27.138393+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -96675.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 250.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/820450892",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:27.138393+00:00",
+      "evidence": "eiendeler.sumEiendeler: 250.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:45:27.928421+00:00",
+  "last_checked_at": "2026-10-14T08:45:27.928421+00:00",
+  "history_ref": "rev_1791967527_820450892",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 7943,
+    "cached": false
+  }
+}

@@ -1,0 +1,31 @@
+# Core Framework & Validation
+fastapi==0.143.0
+pydantic==2.14.1
+pydantic-settings==2.15.0
+uvicorn[standard]==0.54.0
+
+# HTTP & Async
+httpx==0.28.1
+tenacity==9.2.1
+
+# Database & ORM
+sqlmodel==0.0.48
+sqlalchemy==2.1.4
+
+# Parsing & String Matching
+beautifulsoup4==4.15.0
+rapidfuzz==3.14.6
+tldextract==5.4.0
+trafilatura==2.3.1
+selectolax==1.0.0
+
+# Agent & Orchestration
+langgraph==1.2.15
+langchain==1.4.5
+langchain-core==1.6.10
+
+# Testing & Quality
+pytest==9.1.1
+pytest-asyncio==1.4.0
+respx==0.23.1
+ruff==0.17.0

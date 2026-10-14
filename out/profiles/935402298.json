@@ -1,0 +1,254 @@
+{
+  "org_number": "935402298",
+  "legal_name": "3ELEMENTUM AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-04-24",
+  "nace_codes": [
+    "16.230 - Produksjon av andre bygningsartikler"
+  ],
+  "address": "Velliveien 15, 1358 JAR",
+  "municipality": "BÆRUM",
+  "municipality_number": "3201",
+  "employees": null,
+  "vat_registered": true,
+  "website": "https://www.3elementum.no",
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Velliveien 15, 1358 JAR",
+    "visiting_address": "Velliveien 15, 1358 JAR"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Lucas Dahl",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Bernt Ivar Larsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "HJELP REGNSKAP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 226741.0,
+      "profit": -21981.0,
+      "operating_profit": -21981.0,
+      "net_profit": -21978.0,
+      "assets": 76031.0,
+      "equity": 8022.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935402298"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3ELEMENTUM AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935402298",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.259833+00:00",
+      "evidence": "enhet.navn: 3ELEMENTUM AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935402298",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.259833+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935402298",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.259833+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-04-24",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935402298",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.259833+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-04-24",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "16.230 - Produksjon av andre bygningsartikler"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935402298",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.259833+00:00",
+      "evidence": "naeringskoder: ['16.230 - Produksjon av andre bygningsartikler']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Velliveien 15, 1358 JAR",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935402298",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.259833+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Velliveien 15'], 'kommune': 'BÆRUM', 'kommunenummer': '3201', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1358', 'poststed': 'JAR'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935402298",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.259833+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://www.3elementum.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935402298",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.259833+00:00",
+      "evidence": "hjemmeside: www.3elementum.no",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Lucas Dahl",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935402298/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.259833+00:00",
+      "evidence": "rolle: Daglig leder -> Lucas Dahl",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Bernt Ivar Larsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935402298/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.259833+00:00",
+      "evidence": "rolle: Styrets leder -> Bernt Ivar Larsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 226741.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935402298",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:03.723849+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 226741.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -21981.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935402298",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:03.723849+00:00",
+      "evidence": "driftsresultat.driftsresultat: -21981.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 8022.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935402298",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:03.723849+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 8022.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 76031.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935402298",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:03.723849+00:00",
+      "evidence": "eiendeler.sumEiendeler: 76031.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:08.506037+00:00",
+  "last_checked_at": "2026-10-14T08:51:08.506037+00:00",
+  "history_ref": "rev_1791967868_935402298",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 4,
+    "cost_usd": 0.0,
+    "duration_ms": 8900,
+    "cached": false
+  }
+}

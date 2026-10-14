@@ -1,0 +1,328 @@
+{
+  "org_number": "931537741",
+  "legal_name": "'LIFT' M...UP AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2023-06-08",
+  "nace_codes": [
+    "88.996 - Andre sosialtjenester uten botilbud ellers"
+  ],
+  "address": "Lysthaugen 4, 6800 FØRDE",
+  "municipality": "SUNNFJORD",
+  "municipality_number": "4647",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Lysthaugen 4, 6800 FØRDE",
+    "visiting_address": "Lysthaugen 4, 6800 FØRDE"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Inger Fonn",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Inger Fonn",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "LØBØ REKNESKAP OG ØKONOMI AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -20516.0,
+      "operating_profit": -20516.0,
+      "net_profit": -20513.0,
+      "assets": 435.0,
+      "equity": -28631.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931537741"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -31779.0,
+      "operating_profit": -31779.0,
+      "net_profit": -31768.0,
+      "assets": 14432.0,
+      "equity": -8148.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931537741"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -6393.0,
+      "operating_profit": -6393.0,
+      "net_profit": -6380.0,
+      "assets": 23620.0,
+      "equity": 23620.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931537741"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "'LIFT' M...UP AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931537741",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:57.662345+00:00",
+      "evidence": "enhet.navn: 'LIFT' M...UP AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931537741",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:57.662345+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931537741",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:57.662345+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2023-06-08",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931537741",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:57.662345+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2023-06-08",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "88.996 - Andre sosialtjenester uten botilbud ellers"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931537741",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:57.662345+00:00",
+      "evidence": "naeringskoder: ['88.996 - Andre sosialtjenester uten botilbud ellers']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Lysthaugen 4, 6800 FØRDE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931537741",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:57.662345+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Lysthaugen 4'], 'kommune': 'SUNNFJORD', 'kommunenummer': '4647', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '6800', 'poststed': 'FØRDE'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931537741",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:57.662345+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Inger Fonn",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931537741/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:57.662345+00:00",
+      "evidence": "rolle: Daglig leder -> Inger Fonn",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Inger Fonn",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931537741/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:57.662345+00:00",
+      "evidence": "rolle: Styrets leder -> Inger Fonn",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -20516.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931537741",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:58.031509+00:00",
+      "evidence": "driftsresultat.driftsresultat: -20516.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -28631.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931537741",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:58.031509+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -28631.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 435.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931537741",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:58.031509+00:00",
+      "evidence": "eiendeler.sumEiendeler: 435.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -31779.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931537741",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:58.031509+00:00",
+      "evidence": "driftsresultat.driftsresultat: -31779.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -8148.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931537741",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:58.031509+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -8148.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 14432.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931537741",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:58.031509+00:00",
+      "evidence": "eiendeler.sumEiendeler: 14432.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -6393.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931537741",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:58.031509+00:00",
+      "evidence": "driftsresultat.driftsresultat: -6393.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 23620.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931537741",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:58.031509+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 23620.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 23620.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931537741",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:58.031509+00:00",
+      "evidence": "eiendeler.sumEiendeler: 23620.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:49:58.055797+00:00",
+  "last_checked_at": "2026-10-14T08:49:58.055797+00:00",
+  "history_ref": "rev_1791967798_931537741",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4281,
+    "cached": false
+  }
+}

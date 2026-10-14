@@ -1,0 +1,322 @@
+{
+  "org_number": "925830038",
+  "legal_name": "24 SØPPEL OG FLYTTING AS",
+  "status": "IN_LIQUIDATION",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2020-10-23",
+  "nace_codes": [
+    "38.210 - Materialgjenvinning"
+  ],
+  "address": "Lofsrudhøgda 217, 1281 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Lofsrudhøgda 217, 1281 OSLO",
+    "visiting_address": "Lofsrudhøgda 217, 1281 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Tesfay Araya",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "ØKONOMI REGNSKAPSBYRÅ AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -23354.0,
+      "operating_profit": -23354.0,
+      "net_profit": -89970.0,
+      "assets": 0.0,
+      "equity": null,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925830038"
+    },
+    {
+      "year": 2024,
+      "revenue": 122001.0,
+      "profit": -302798.0,
+      "operating_profit": -302798.0,
+      "net_profit": -233020.0,
+      "assets": 89970.0,
+      "equity": 89970.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925830038"
+    },
+    {
+      "year": 2023,
+      "revenue": 1162293.0,
+      "profit": 28248.0,
+      "operating_profit": 28248.0,
+      "net_profit": 19526.0,
+      "assets": 601519.0,
+      "equity": 322990.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925830038"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "24 SØPPEL OG FLYTTING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925830038",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:34.085823+00:00",
+      "evidence": "enhet.navn: 24 SØPPEL OG FLYTTING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "IN_LIQUIDATION",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925830038",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:34.085823+00:00",
+      "evidence": "konkurs=False, underAvvikling=True, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925830038",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:34.085823+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2020-10-23",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925830038",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:34.085823+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2020-10-23",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "38.210 - Materialgjenvinning"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925830038",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:34.085823+00:00",
+      "evidence": "naeringskoder: ['38.210 - Materialgjenvinning']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Lofsrudhøgda 217, 1281 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925830038",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:34.085823+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Lofsrudhøgda 217'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1281', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925830038",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:34.085823+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Tesfay Araya",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925830038/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:34.085823+00:00",
+      "evidence": "rolle: Styrets leder -> Tesfay Araya",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -23354.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925830038",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:34.483953+00:00",
+      "evidence": "driftsresultat.driftsresultat: -23354.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925830038",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:34.483953+00:00",
+      "evidence": "eiendeler.sumEiendeler: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 122001.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925830038",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:34.483953+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 122001.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -302798.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925830038",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:34.483953+00:00",
+      "evidence": "driftsresultat.driftsresultat: -302798.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 89970.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925830038",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:34.483953+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 89970.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 89970.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925830038",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:34.483953+00:00",
+      "evidence": "eiendeler.sumEiendeler: 89970.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 1162293.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925830038",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:34.483953+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 1162293.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 28248.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925830038",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:34.483953+00:00",
+      "evidence": "driftsresultat.driftsresultat: 28248.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 322990.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925830038",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:34.483953+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 322990.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 601519.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925830038",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:34.483953+00:00",
+      "evidence": "eiendeler.sumEiendeler: 601519.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:48:34.501415+00:00",
+  "last_checked_at": "2026-10-14T08:48:34.501415+00:00",
+  "history_ref": "rev_1791967714_925830038",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5159,
+    "cached": false
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "org_number": "938343373",
+  "legal_name": "1340 APEX AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2026-08-25",
+  "nace_codes": [
+    "70.200 - Bedriftsrådgivning og annen administrativ rådgivning"
+  ],
+  "address": "Stormyrvegen 6, 2005 RÆLINGEN",
+  "municipality": "RÆLINGEN",
+  "municipality_number": "3224",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Stormyrvegen 6, 2005 RÆLINGEN",
+    "visiting_address": "Stormyrvegen 6, 2005 RÆLINGEN"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Joachim Bakken Lien",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Joachim Bakken Lien",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1340 APEX AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938343373",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:49.524401+00:00",
+      "evidence": "enhet.navn: 1340 APEX AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938343373",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:49.524401+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938343373",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:49.524401+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2026-08-25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938343373",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:49.524401+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2026-08-25",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "70.200 - Bedriftsrådgivning og annen administrativ rådgivning"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938343373",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:49.524401+00:00",
+      "evidence": "naeringskoder: ['70.200 - Bedriftsrådgivning og annen administrativ rådgivning']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Stormyrvegen 6, 2005 RÆLINGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938343373",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:49.524401+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Stormyrvegen 6'], 'kommune': 'RÆLINGEN', 'kommunenummer': '3224', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '2005', 'poststed': 'RÆLINGEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938343373",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:49.524401+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Joachim Bakken Lien",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938343373/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:49.524401+00:00",
+      "evidence": "rolle: Daglig leder -> Joachim Bakken Lien",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Joachim Bakken Lien",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/938343373/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:49.524401+00:00",
+      "evidence": "rolle: Styrets leder -> Joachim Bakken Lien",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:52.501894+00:00",
+  "last_checked_at": "2026-10-14T08:51:52.501894+00:00",
+  "history_ref": "rev_1791967912_938343373",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 7366,
+    "cached": false
+  }
+}

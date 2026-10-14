@@ -1,0 +1,374 @@
+{
+  "org_number": "916508522",
+  "legal_name": "24/7 RETAIL GROUP AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2016-01-05",
+  "nace_codes": [
+    "62.100 - Dataprogrammeringstjenester"
+  ],
+  "address": "Hølandsgata 22B, 0655 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": true,
+  "website": "https://247retailgroup.com",
+  "contact": {
+    "email": null,
+    "phone": "+47 63 16 16 16",
+    "postal_address": "Hølandsgata 22B, 0655 OSLO",
+    "visiting_address": "Hølandsgata 22B, 0655 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Robin Pedersen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Robin Pedersen",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 0.0,
+      "profit": -4366.0,
+      "operating_profit": -4366.0,
+      "net_profit": -4366.0,
+      "assets": 140338.0,
+      "equity": -50694.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522"
+    },
+    {
+      "year": 2024,
+      "revenue": 22500.0,
+      "profit": -1832.0,
+      "operating_profit": -1832.0,
+      "net_profit": -1832.0,
+      "assets": 139424.0,
+      "equity": -46329.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522"
+    },
+    {
+      "year": 2023,
+      "revenue": 144198.0,
+      "profit": 12690.0,
+      "operating_profit": 12690.0,
+      "net_profit": 12690.0,
+      "assets": 136440.0,
+      "equity": -44497.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522"
+    }
+  ],
+  "description": "Build your dream website fast and easy, without any coding.",
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "24/7 RETAIL GROUP AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916508522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:46.009294+00:00",
+      "evidence": "enhet.navn: 24/7 RETAIL GROUP AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916508522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:46.009294+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916508522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:46.009294+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2016-01-05",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916508522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:46.009294+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2016-01-05",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "62.100 - Dataprogrammeringstjenester"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916508522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:46.009294+00:00",
+      "evidence": "naeringskoder: ['62.100 - Dataprogrammeringstjenester']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Hølandsgata 22B, 0655 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916508522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:46.009294+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Hølandsgata 22B'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0655', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916508522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:46.009294+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://247retailgroup.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916508522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:46.009294+00:00",
+      "evidence": "hjemmeside: 247retailgroup.com",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Robin Pedersen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916508522/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:46.009294+00:00",
+      "evidence": "rolle: Daglig leder -> Robin Pedersen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Robin Pedersen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916508522/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:46.009294+00:00",
+      "evidence": "rolle: Styrets leder -> Robin Pedersen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:46.876603+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -4366.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:46.876603+00:00",
+      "evidence": "driftsresultat.driftsresultat: -4366.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -50694.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:46.876603+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -50694.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 140338.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:46.876603+00:00",
+      "evidence": "eiendeler.sumEiendeler: 140338.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 22500.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:46.876603+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 22500.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -1832.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:46.876603+00:00",
+      "evidence": "driftsresultat.driftsresultat: -1832.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -46329.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:46.876603+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -46329.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 139424.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:46.876603+00:00",
+      "evidence": "eiendeler.sumEiendeler: 139424.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 144198.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:46.876603+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 144198.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 12690.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:46.876603+00:00",
+      "evidence": "driftsresultat.driftsresultat: 12690.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": -44497.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:46.876603+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -44497.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 136440.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/916508522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:46.876603+00:00",
+      "evidence": "eiendeler.sumEiendeler: 136440.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:46:53.654443+00:00",
+  "last_checked_at": "2026-10-14T08:46:53.654443+00:00",
+  "history_ref": "rev_1791967613_916508522",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 4,
+    "cost_usd": 0.0,
+    "duration_ms": 11928,
+    "cached": false
+  }
+}

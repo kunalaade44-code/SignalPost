@@ -1,0 +1,235 @@
+{
+  "org_number": "936507433",
+  "legal_name": "10M FORMIDLING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-11-03",
+  "nace_codes": [
+    "85.597 - Annen undervisning ellers"
+  ],
+  "address": "Solheimsgaten 60, 5054 BERGEN",
+  "municipality": "BERGEN",
+  "municipality_number": "4601",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Solheimsgaten 60, 5054 BERGEN",
+    "visiting_address": "Solheimsgaten 60, 5054 BERGEN"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Tone Waagbø Hille",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Tone Waagbø Hille",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 3750.0,
+      "profit": -4800.0,
+      "operating_profit": -4800.0,
+      "net_profit": -4800.0,
+      "assets": 25200.0,
+      "equity": 25200.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936507433"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "10M FORMIDLING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936507433",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.220632+00:00",
+      "evidence": "enhet.navn: 10M FORMIDLING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936507433",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.220632+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936507433",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.220632+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-11-03",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936507433",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.220632+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-11-03",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "85.597 - Annen undervisning ellers"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936507433",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.220632+00:00",
+      "evidence": "naeringskoder: ['85.597 - Annen undervisning ellers']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Solheimsgaten 60, 5054 BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936507433",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.220632+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Solheimsgaten 60'], 'kommune': 'BERGEN', 'kommunenummer': '4601', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '5054', 'poststed': 'BERGEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936507433",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.220632+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Tone Waagbø Hille",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936507433/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.220632+00:00",
+      "evidence": "rolle: Daglig leder -> Tone Waagbø Hille",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Tone Waagbø Hille",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936507433/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.220632+00:00",
+      "evidence": "rolle: Styrets leder -> Tone Waagbø Hille",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 3750.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936507433",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:23.579043+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 3750.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -4800.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936507433",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:23.579043+00:00",
+      "evidence": "driftsresultat.driftsresultat: -4800.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 25200.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936507433",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:23.579043+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 25200.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 25200.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936507433",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:23.579043+00:00",
+      "evidence": "eiendeler.sumEiendeler: 25200.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:23.597032+00:00",
+  "last_checked_at": "2026-10-14T08:51:23.597032+00:00",
+  "history_ref": "rev_1791967883_936507433",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4055,
+    "cached": false
+  }
+}

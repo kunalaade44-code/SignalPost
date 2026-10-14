@@ -1,0 +1,222 @@
+{
+  "org_number": "935028965",
+  "legal_name": "24T OSLO RØRSERVICE AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-02-12",
+  "nace_codes": [
+    "43.221 - Rørleggerarbeid"
+  ],
+  "address": "Nedre Skøyen vei 11, 0276 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Nedre Skøyen vei 11, 0276 OSLO",
+    "visiting_address": "Nedre Skøyen vei 11, 0276 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Andre Jacobsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "TRIPPEL-R - BØGHS REGNSKAP RAPPORTERING RÅDGIVNING",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 4602900.0,
+      "profit": -268287.0,
+      "operating_profit": -268287.0,
+      "net_profit": -268071.0,
+      "assets": 631550.0,
+      "equity": -238071.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935028965"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "24T OSLO RØRSERVICE AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935028965",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:55.696142+00:00",
+      "evidence": "enhet.navn: 24T OSLO RØRSERVICE AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935028965",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:55.696142+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935028965",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:55.696142+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-02-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935028965",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:55.696142+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-02-12",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "43.221 - Rørleggerarbeid"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935028965",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:55.696142+00:00",
+      "evidence": "naeringskoder: ['43.221 - Rørleggerarbeid']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Nedre Skøyen vei 11, 0276 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935028965",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:55.696142+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Nedre Skøyen vei 11'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0276', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935028965",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:55.696142+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Andre Jacobsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935028965/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:55.696142+00:00",
+      "evidence": "rolle: Styrets leder -> Andre Jacobsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 4602900.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935028965",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:56.147587+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 4602900.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -268287.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935028965",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:56.147587+00:00",
+      "evidence": "driftsresultat.driftsresultat: -268287.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -238071.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935028965",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:56.147587+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -238071.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 631550.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935028965",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:56.147587+00:00",
+      "evidence": "eiendeler.sumEiendeler: 631550.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:56.512477+00:00",
+  "last_checked_at": "2026-10-14T08:50:56.512477+00:00",
+  "history_ref": "rev_1791967856_935028965",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4884,
+    "cached": false
+  }
+}

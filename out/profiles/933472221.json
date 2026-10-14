@@ -1,0 +1,222 @@
+{
+  "org_number": "933472221",
+  "legal_name": "24/7 BILVASK AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-05-21",
+  "nace_codes": [
+    "95.310 - Reparasjon og vedlikehold av motorvogner"
+  ],
+  "address": "Nesgata 6B, 2004 LILLESTRØM",
+  "municipality": "LILLESTRØM",
+  "municipality_number": "3205",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Nesgata 6B, 2004 LILLESTRØM",
+    "visiting_address": "Nesgata 6B, 2004 LILLESTRØM"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Abtin Rahmanian",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "SILFER AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2024,
+      "revenue": 673526.0,
+      "profit": 60220.0,
+      "operating_profit": 60220.0,
+      "net_profit": 45467.0,
+      "assets": 115321.0,
+      "equity": 75467.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933472221"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "24/7 BILVASK AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933472221",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:30.346839+00:00",
+      "evidence": "enhet.navn: 24/7 BILVASK AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933472221",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:30.346839+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933472221",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:30.346839+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-05-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933472221",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:30.346839+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-05-21",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "95.310 - Reparasjon og vedlikehold av motorvogner"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933472221",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:30.346839+00:00",
+      "evidence": "naeringskoder: ['95.310 - Reparasjon og vedlikehold av motorvogner']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Nesgata 6B, 2004 LILLESTRØM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933472221",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:30.346839+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Nesgata 6B'], 'kommune': 'LILLESTRØM', 'kommunenummer': '3205', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '2004', 'poststed': 'LILLESTRØM'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933472221",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:30.346839+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Abtin Rahmanian",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933472221/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:30.346839+00:00",
+      "evidence": "rolle: Styrets leder -> Abtin Rahmanian",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 673526.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933472221",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:31.586127+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 673526.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 60220.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933472221",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:31.586127+00:00",
+      "evidence": "driftsresultat.driftsresultat: 60220.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 75467.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933472221",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:31.586127+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 75467.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 115321.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933472221",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:31.586127+00:00",
+      "evidence": "eiendeler.sumEiendeler: 115321.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:31.865278+00:00",
+  "last_checked_at": "2026-10-14T08:50:31.865278+00:00",
+  "history_ref": "rev_1791967831_933472221",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5046,
+    "cached": false
+  }
+}

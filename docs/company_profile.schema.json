@@ -1,0 +1,573 @@
+{
+  "$defs": {
+    "ContactInfo": {
+      "properties": {
+        "email": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Verified company email",
+          "title": "Email"
+        },
+        "phone": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Verified telephone number",
+          "title": "Phone"
+        },
+        "postal_address": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Registered postal address",
+          "title": "Postal Address"
+        },
+        "visiting_address": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Registered business / visiting address",
+          "title": "Visiting Address"
+        }
+      },
+      "title": "ContactInfo",
+      "type": "object"
+    },
+    "Fact": {
+      "properties": {
+        "field": {
+          "description": "Field name (e.g. legal_name, employees, revenue_2023)",
+          "title": "Field",
+          "type": "string"
+        },
+        "value": {
+          "description": "Verbatim or validated value, or null if omitted",
+          "title": "Value"
+        },
+        "source_url": {
+          "description": "Verifiable public URL where this fact originates",
+          "title": "Source Url",
+          "type": "string"
+        },
+        "source_type": {
+          "description": "Type of source: 'registry_enheter', 'registry_regnskap', 'company_website', 'gazette', 'other'",
+          "title": "Source Type",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "description": "ISO-8601 UTC timestamp of retrieval",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "evidence": {
+          "description": "Verbatim evidence quote, snippet or structured field path",
+          "title": "Evidence",
+          "type": "string"
+        },
+        "match_signals": {
+          "description": "Signals used to verify fact attribution (e.g. 'exact_orgnr', 'name_match>=0.9')",
+          "items": {
+            "type": "string"
+          },
+          "title": "Match Signals",
+          "type": "array"
+        },
+        "confidence": {
+          "description": "Confidence score between 0.0 and 1.0",
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "explanation": {
+          "description": "Human-readable provenance and reasoning for the fact",
+          "title": "Explanation",
+          "type": "string"
+        }
+      },
+      "required": [
+        "field",
+        "value",
+        "source_url",
+        "source_type",
+        "retrieved_at",
+        "evidence",
+        "confidence",
+        "explanation"
+      ],
+      "title": "Fact",
+      "type": "object"
+    },
+    "FinancialYear": {
+      "properties": {
+        "year": {
+          "description": "Fiscal year (e.g. 2023)",
+          "title": "Year",
+          "type": "integer"
+        },
+        "revenue": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Operating revenue / driftsinntekter in NOK",
+          "title": "Revenue"
+        },
+        "profit": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Operating profit / driftsresultat in NOK",
+          "title": "Profit"
+        },
+        "operating_profit": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Operating profit / driftsresultat",
+          "title": "Operating Profit"
+        },
+        "net_profit": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Annual net profit / aarsresultat",
+          "title": "Net Profit"
+        },
+        "assets": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Total assets / sum eiendeler",
+          "title": "Assets"
+        },
+        "equity": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Total equity / sum egenkapital",
+          "title": "Equity"
+        },
+        "currency": {
+          "default": "NOK",
+          "description": "Currency (verbatim from registry, standard NOK)",
+          "title": "Currency",
+          "type": "string"
+        },
+        "source_url": {
+          "description": "Direct Brreg regnskap API endpoint URL",
+          "title": "Source Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "year",
+        "source_url"
+      ],
+      "title": "FinancialYear",
+      "type": "object"
+    },
+    "RejectedFact": {
+      "properties": {
+        "field": {
+          "description": "Field attempted",
+          "title": "Field",
+          "type": "string"
+        },
+        "candidate_value": {
+          "description": "The value that was considered",
+          "title": "Candidate Value"
+        },
+        "source_url": {
+          "description": "URL where value was found",
+          "title": "Source Url",
+          "type": "string"
+        },
+        "reason": {
+          "description": "Explanation of why the fact was rejected",
+          "title": "Reason",
+          "type": "string"
+        },
+        "confidence": {
+          "default": 0.0,
+          "description": "Evaluated confidence score",
+          "title": "Confidence",
+          "type": "number"
+        }
+      },
+      "required": [
+        "field",
+        "candidate_value",
+        "source_url",
+        "reason"
+      ],
+      "title": "RejectedFact",
+      "type": "object"
+    },
+    "Role": {
+      "properties": {
+        "role": {
+          "description": "Official role title, e.g., 'Daglig leder', 'Styrets leder'",
+          "title": "Role",
+          "type": "string"
+        },
+        "name": {
+          "description": "Full legal name of the person or entity",
+          "title": "Name",
+          "type": "string"
+        },
+        "from_date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Date registered or effective (YYYY-MM-DD)",
+          "title": "From Date"
+        },
+        "resigned": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": false,
+          "description": "Whether the person has resigned from the role",
+          "title": "Resigned"
+        }
+      },
+      "required": [
+        "role",
+        "name"
+      ],
+      "title": "Role",
+      "type": "object"
+    },
+    "RunMetadata": {
+      "properties": {
+        "requests": {
+          "default": 0,
+          "description": "Number of outbound HTTP requests used",
+          "title": "Requests",
+          "type": "integer"
+        },
+        "cost_usd": {
+          "default": 0.0,
+          "description": "Declared external API cost in USD",
+          "title": "Cost Usd",
+          "type": "number"
+        },
+        "duration_ms": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Wall-clock execution time in milliseconds",
+          "title": "Duration Ms"
+        },
+        "cached": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": false,
+          "description": "Whether data was served from fresh cache",
+          "title": "Cached"
+        }
+      },
+      "title": "RunMetadata",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "org_number": {
+      "description": "9-digit Norwegian organization number",
+      "title": "Org Number",
+      "type": "string"
+    },
+    "legal_name": {
+      "description": "Official registered legal company name",
+      "title": "Legal Name",
+      "type": "string"
+    },
+    "status": {
+      "description": "ACTIVE, BANKRUPT, IN_LIQUIDATION, DISSOLVED, DELETED",
+      "title": "Status",
+      "type": "string"
+    },
+    "org_form": {
+      "description": "Norwegian organizational form description (e.g. AS, ASA, ENK)",
+      "title": "Org Form",
+      "type": "string"
+    },
+    "registered_date": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Registration date in registry (YYYY-MM-DD)",
+      "title": "Registered Date"
+    },
+    "nace_codes": {
+      "description": "NACE industry activity codes and titles",
+      "items": {
+        "type": "string"
+      },
+      "title": "Nace Codes",
+      "type": "array"
+    },
+    "address": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Primary business address line",
+      "title": "Address"
+    },
+    "municipality": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Municipality name (e.g. OSLO, BERGEN)",
+      "title": "Municipality"
+    },
+    "municipality_number": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Official 4-digit municipality code",
+      "title": "Municipality Number"
+    },
+    "employees": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Number of registered employees",
+      "title": "Employees"
+    },
+    "vat_registered": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Registered in Merverdiavgiftsregisteret (MVA)",
+      "title": "Vat Registered"
+    },
+    "website": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Verified official website URL",
+      "title": "Website"
+    },
+    "contact": {
+      "$ref": "#/$defs/ContactInfo",
+      "description": "Verified contact details"
+    },
+    "roles": {
+      "description": "Registered corporate roles (management, board)",
+      "items": {
+        "$ref": "#/$defs/Role"
+      },
+      "title": "Roles",
+      "type": "array"
+    },
+    "financials": {
+      "description": "Verbatim official annual accounts",
+      "items": {
+        "$ref": "#/$defs/FinancialYear"
+      },
+      "title": "Financials",
+      "type": "array"
+    },
+    "description": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Verified company business description",
+      "title": "Description"
+    },
+    "social_links": {
+      "description": "Verified official social media profile links",
+      "items": {
+        "type": "string"
+      },
+      "title": "Social Links",
+      "type": "array"
+    },
+    "facts": {
+      "description": "Granular verified facts with full provenance",
+      "items": {
+        "$ref": "#/$defs/Fact"
+      },
+      "title": "Facts",
+      "type": "array"
+    },
+    "rejected_facts": {
+      "description": "Candidate facts rejected by entity matching or validation guardrails",
+      "items": {
+        "$ref": "#/$defs/RejectedFact"
+      },
+      "title": "Rejected Facts",
+      "type": "array"
+    },
+    "profile_updated_at": {
+      "description": "ISO-8601 UTC timestamp of last profile update",
+      "title": "Profile Updated At",
+      "type": "string"
+    },
+    "last_checked_at": {
+      "description": "ISO-8601 UTC timestamp of last inspection",
+      "title": "Last Checked At",
+      "type": "string"
+    },
+    "history_ref": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Hash or UUID of latest version revision",
+      "title": "History Ref"
+    },
+    "run_metadata": {
+      "$ref": "#/$defs/RunMetadata",
+      "description": "Execution resource accounting"
+    }
+  },
+  "required": [
+    "org_number",
+    "legal_name",
+    "status",
+    "org_form",
+    "profile_updated_at",
+    "last_checked_at"
+  ],
+  "title": "CompanyProfile",
+  "type": "object"
+}

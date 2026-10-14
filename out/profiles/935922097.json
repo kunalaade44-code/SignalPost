@@ -1,0 +1,222 @@
+{
+  "org_number": "935922097",
+  "legal_name": "3M GROUP HOLDING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-08-05",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Bruksenhetsnummer H0201, Thorvald Olsens gate 2, 1396 BILLINGSTAD",
+  "municipality": "ASKER",
+  "municipality_number": "3203",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Bruksenhetsnummer H0201, Thorvald Olsens gate 2, 1396 BILLINGSTAD",
+    "visiting_address": "Bruksenhetsnummer H0201, Thorvald Olsens gate 2, 1396 BILLINGSTAD"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Muhammad Zahir Mughis",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Muhammad Zahir Mughis",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -6509.0,
+      "operating_profit": -6509.0,
+      "net_profit": -6502.0,
+      "assets": 276498.0,
+      "equity": 53498.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935922097"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3M GROUP HOLDING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935922097",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:14.102381+00:00",
+      "evidence": "enhet.navn: 3M GROUP HOLDING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935922097",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:14.102381+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935922097",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:14.102381+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-08-05",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935922097",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:14.102381+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-08-05",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935922097",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:14.102381+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Bruksenhetsnummer H0201, Thorvald Olsens gate 2, 1396 BILLINGSTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935922097",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:14.102381+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Bruksenhetsnummer H0201', 'Thorvald Olsens gate 2'], 'kommune': 'ASKER', 'kommunenummer': '3203', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1396', 'poststed': 'BILLINGSTAD'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935922097",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:14.102381+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Muhammad Zahir Mughis",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935922097/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:14.102381+00:00",
+      "evidence": "rolle: Daglig leder -> Muhammad Zahir Mughis",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Muhammad Zahir Mughis",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935922097/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:14.102381+00:00",
+      "evidence": "rolle: Styrets leder -> Muhammad Zahir Mughis",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -6509.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935922097",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:14.880721+00:00",
+      "evidence": "driftsresultat.driftsresultat: -6509.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 53498.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935922097",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:14.880721+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 53498.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 276498.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935922097",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:14.880721+00:00",
+      "evidence": "eiendeler.sumEiendeler: 276498.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:15.946886+00:00",
+  "last_checked_at": "2026-10-14T08:51:15.946886+00:00",
+  "history_ref": "rev_1791967875_935922097",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4727,
+    "cached": false
+  }
+}

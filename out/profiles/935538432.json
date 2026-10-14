@@ -1,0 +1,209 @@
+{
+  "org_number": "935538432",
+  "legal_name": "1JON AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-05-20",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Nordre Strandvei 63, 3145 TJØME",
+  "municipality": "FÆRDER",
+  "municipality_number": "3911",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Nordre Strandvei 63, 3145 TJØME",
+    "visiting_address": "Nordre Strandvei 63, 3145 TJØME"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Jonas Gran Jacobsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "HENKA REVISJON AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -38388.0,
+      "operating_profit": -38388.0,
+      "net_profit": -38388.0,
+      "assets": 390369.0,
+      "equity": 107762.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935538432"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1JON AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935538432",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:07.114242+00:00",
+      "evidence": "enhet.navn: 1JON AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935538432",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:07.114242+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935538432",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:07.114242+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-05-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935538432",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:07.114242+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-05-20",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935538432",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:07.114242+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Nordre Strandvei 63, 3145 TJØME",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935538432",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:07.114242+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Nordre Strandvei 63'], 'kommune': 'FÆRDER', 'kommunenummer': '3911', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '3145', 'poststed': 'TJØME'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935538432",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:07.114242+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Jonas Gran Jacobsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935538432/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:07.114242+00:00",
+      "evidence": "rolle: Styrets leder -> Jonas Gran Jacobsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -38388.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935538432",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:07.614781+00:00",
+      "evidence": "driftsresultat.driftsresultat: -38388.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 107762.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935538432",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:07.614781+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 107762.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 390369.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935538432",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:07.614781+00:00",
+      "evidence": "eiendeler.sumEiendeler: 390369.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:07.627672+00:00",
+  "last_checked_at": "2026-10-14T08:51:07.627672+00:00",
+  "history_ref": "rev_1791967867_935538432",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4309,
+    "cached": false
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "org_number": "935189063",
+  "legal_name": "2M PADEL AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-03-11",
+  "nace_codes": [
+    "70.200 - Bedriftsrådgivning og annen administrativ rådgivning"
+  ],
+  "address": "Nordre Gommershaugen 56, 5254 SANDSLI",
+  "municipality": "BERGEN",
+  "municipality_number": "4601",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Nordre Gommershaugen 56, 5254 SANDSLI",
+    "visiting_address": "Nordre Gommershaugen 56, 5254 SANDSLI"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Tom Gullachsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Tom Gullachsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Kathrine Binder Gullachsen",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 457390.0,
+      "profit": 6898.0,
+      "operating_profit": 6898.0,
+      "net_profit": 6826.0,
+      "assets": 36681.0,
+      "equity": 30326.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935189063"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2M PADEL AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935189063",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:56.565104+00:00",
+      "evidence": "enhet.navn: 2M PADEL AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935189063",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:56.565104+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935189063",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:56.565104+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-03-11",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935189063",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:56.565104+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-03-11",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "70.200 - Bedriftsrådgivning og annen administrativ rådgivning"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935189063",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:56.565104+00:00",
+      "evidence": "naeringskoder: ['70.200 - Bedriftsrådgivning og annen administrativ rådgivning']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Nordre Gommershaugen 56, 5254 SANDSLI",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935189063",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:56.565104+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Nordre Gommershaugen 56'], 'kommune': 'BERGEN', 'kommunenummer': '4601', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '5254', 'poststed': 'SANDSLI'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935189063",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:56.565104+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Tom Gullachsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935189063/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:56.565104+00:00",
+      "evidence": "rolle: Daglig leder -> Tom Gullachsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Tom Gullachsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935189063/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:56.565104+00:00",
+      "evidence": "rolle: Styrets leder -> Tom Gullachsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 457390.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935189063",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:56.957657+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 457390.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 6898.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935189063",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:56.957657+00:00",
+      "evidence": "driftsresultat.driftsresultat: 6898.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 30326.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935189063",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:56.957657+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 30326.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 36681.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935189063",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:56.957657+00:00",
+      "evidence": "eiendeler.sumEiendeler: 36681.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:57.434790+00:00",
+  "last_checked_at": "2026-10-14T08:50:57.434790+00:00",
+  "history_ref": "rev_1791967857_935189063",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5567,
+    "cached": false
+  }
+}

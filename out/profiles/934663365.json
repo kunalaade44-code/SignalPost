@@ -1,0 +1,222 @@
+{
+  "org_number": "934663365",
+  "legal_name": "1009 INVEST AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-12-17",
+  "nace_codes": [
+    "68.110 - Kjøp og salg av egen fast eiendom"
+  ],
+  "address": "Gamle Drammensvei 108A, 1363 HØVIK",
+  "municipality": "BÆRUM",
+  "municipality_number": "3201",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Gamle Drammensvei 108A, 1363 HØVIK",
+    "visiting_address": "Gamle Drammensvei 108A, 1363 HØVIK"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Subhash Chandra Soni",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Subhash Chandra Soni",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -39680.0,
+      "operating_profit": -39680.0,
+      "net_profit": 158708.0,
+      "assets": 502924.0,
+      "equity": 182924.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934663365"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1009 INVEST AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934663365",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.048881+00:00",
+      "evidence": "enhet.navn: 1009 INVEST AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934663365",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.048881+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934663365",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.048881+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-12-17",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934663365",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.048881+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-12-17",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "68.110 - Kjøp og salg av egen fast eiendom"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934663365",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.048881+00:00",
+      "evidence": "naeringskoder: ['68.110 - Kjøp og salg av egen fast eiendom']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Gamle Drammensvei 108A, 1363 HØVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934663365",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.048881+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Gamle Drammensvei 108A'], 'kommune': 'BÆRUM', 'kommunenummer': '3201', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1363', 'poststed': 'HØVIK'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934663365",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.048881+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Subhash Chandra Soni",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934663365/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.048881+00:00",
+      "evidence": "rolle: Daglig leder -> Subhash Chandra Soni",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Subhash Chandra Soni",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934663365/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:50.048881+00:00",
+      "evidence": "rolle: Styrets leder -> Subhash Chandra Soni",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -39680.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934663365",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.808227+00:00",
+      "evidence": "driftsresultat.driftsresultat: -39680.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 182924.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934663365",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.808227+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 182924.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 502924.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934663365",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.808227+00:00",
+      "evidence": "eiendeler.sumEiendeler: 502924.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:50.819683+00:00",
+  "last_checked_at": "2026-10-14T08:50:50.819683+00:00",
+  "history_ref": "rev_1791967850_934663365",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4558,
+    "cached": false
+  }
+}

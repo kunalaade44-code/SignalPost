@@ -1,0 +1,240 @@
+{
+  "org_number": "935460522",
+  "legal_name": "2OM HOLDING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-05-26",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Tuvjordet 6, 2436 VÅLER I SOLØR",
+  "municipality": "VÅLER",
+  "municipality_number": "3419",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Tuvjordet 6, 2436 VÅLER I SOLØR",
+    "visiting_address": "Tuvjordet 6, 2436 VÅLER I SOLØR"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Håkon Olastuen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Jørn Mejdell Jakobsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Håkon Olastuen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Edward Olastuen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "GJEMS REGNSKAP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -339078.0,
+      "operating_profit": -339078.0,
+      "net_profit": -339066.0,
+      "assets": 154435.0,
+      "equity": -245566.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935460522"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2OM HOLDING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935460522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.733361+00:00",
+      "evidence": "enhet.navn: 2OM HOLDING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935460522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.733361+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935460522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.733361+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-05-26",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935460522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.733361+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-05-26",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935460522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.733361+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Tuvjordet 6, 2436 VÅLER I SOLØR",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935460522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.733361+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Tuvjordet 6'], 'kommune': 'VÅLER', 'kommunenummer': '3419', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '2436', 'poststed': 'VÅLER I SOLØR'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935460522",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.733361+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Håkon Olastuen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935460522/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.733361+00:00",
+      "evidence": "rolle: Daglig leder -> Håkon Olastuen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Jørn Mejdell Jakobsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935460522/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:03.733361+00:00",
+      "evidence": "rolle: Styrets leder -> Jørn Mejdell Jakobsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -339078.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935460522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:04.414813+00:00",
+      "evidence": "driftsresultat.driftsresultat: -339078.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -245566.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935460522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:04.414813+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -245566.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 154435.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935460522",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:04.414813+00:00",
+      "evidence": "eiendeler.sumEiendeler: 154435.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:04.770742+00:00",
+  "last_checked_at": "2026-10-14T08:51:04.770742+00:00",
+  "history_ref": "rev_1791967864_935460522",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4153,
+    "cached": false
+  }
+}

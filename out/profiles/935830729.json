@@ -1,0 +1,215 @@
+{
+  "org_number": "935830729",
+  "legal_name": "12I EIENDOM AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-07-09",
+  "nace_codes": [
+    "55.200 - Drift av vandrerhjem og ferieleiligheter"
+  ],
+  "address": "Kindingstadvegen 31, 4160 FINNØY",
+  "municipality": "STAVANGER",
+  "municipality_number": "1103",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Kindingstadvegen 31, 4160 FINNØY",
+    "visiting_address": "Kindingstadvegen 31, 4160 FINNØY"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Tolli Harold Andreassen Frestad",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Heidi Frestad",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "REVISJON RYFYLKE AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -146726.0,
+      "operating_profit": -146726.0,
+      "net_profit": -111747.0,
+      "assets": 2411900.0,
+      "equity": 2411753.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935830729"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "12I EIENDOM AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.229599+00:00",
+      "evidence": "enhet.navn: 12I EIENDOM AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.229599+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.229599+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-07-09",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.229599+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-07-09",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "55.200 - Drift av vandrerhjem og ferieleiligheter"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.229599+00:00",
+      "evidence": "naeringskoder: ['55.200 - Drift av vandrerhjem og ferieleiligheter']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Kindingstadvegen 31, 4160 FINNØY",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.229599+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Kindingstadvegen 31'], 'kommune': 'STAVANGER', 'kommunenummer': '1103', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '4160', 'poststed': 'FINNØY'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.229599+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Tolli Harold Andreassen Frestad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935830729/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.229599+00:00",
+      "evidence": "rolle: Styrets leder -> Tolli Harold Andreassen Frestad",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -146726.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935830729",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:13.615233+00:00",
+      "evidence": "driftsresultat.driftsresultat: -146726.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 2411753.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935830729",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:13.615233+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 2411753.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 2411900.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935830729",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:13.615233+00:00",
+      "evidence": "eiendeler.sumEiendeler: 2411900.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:13.696771+00:00",
+  "last_checked_at": "2026-10-14T08:51:13.696771+00:00",
+  "history_ref": "rev_1791967873_935830729",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4541,
+    "cached": false
+  }
+}

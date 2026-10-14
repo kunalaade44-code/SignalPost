@@ -1,0 +1,322 @@
+{
+  "org_number": "914512832",
+  "legal_name": "2TEC AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2014-11-25",
+  "nace_codes": [
+    "25.530 - Bearbeiding av metaller"
+  ],
+  "address": "Aubehagen 21, 4046 HAFRSFJORD",
+  "municipality": "STAVANGER",
+  "municipality_number": "1103",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Aubehagen 21, 4046 HAFRSFJORD",
+    "visiting_address": "Aubehagen 21, 4046 HAFRSFJORD"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Ole Jakob Olsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Ole Jakob Olsen",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -20263.0,
+      "operating_profit": -20263.0,
+      "net_profit": -20285.0,
+      "assets": 7274.0,
+      "equity": -104003.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/914512832"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -10467.0,
+      "operating_profit": -10467.0,
+      "net_profit": -10467.0,
+      "assets": 7658.0,
+      "equity": -83718.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/914512832"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -8363.0,
+      "operating_profit": -8363.0,
+      "net_profit": -8363.0,
+      "assets": 7575.0,
+      "equity": -73251.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/914512832"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2TEC AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914512832",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:29.676158+00:00",
+      "evidence": "enhet.navn: 2TEC AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914512832",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:29.676158+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914512832",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:29.676158+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2014-11-25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914512832",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:29.676158+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2014-11-25",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "25.530 - Bearbeiding av metaller"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914512832",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:29.676158+00:00",
+      "evidence": "naeringskoder: ['25.530 - Bearbeiding av metaller']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Aubehagen 21, 4046 HAFRSFJORD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914512832",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:29.676158+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Aubehagen 21'], 'kommune': 'STAVANGER', 'kommunenummer': '1103', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '4046', 'poststed': 'HAFRSFJORD'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914512832",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:29.676158+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Ole Jakob Olsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914512832/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:29.676158+00:00",
+      "evidence": "rolle: Daglig leder -> Ole Jakob Olsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Ole Jakob Olsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/914512832/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:29.676158+00:00",
+      "evidence": "rolle: Styrets leder -> Ole Jakob Olsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -20263.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/914512832",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:30.406681+00:00",
+      "evidence": "driftsresultat.driftsresultat: -20263.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -104003.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/914512832",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:30.406681+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -104003.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 7274.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/914512832",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:30.406681+00:00",
+      "evidence": "eiendeler.sumEiendeler: 7274.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -10467.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/914512832",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:30.406681+00:00",
+      "evidence": "driftsresultat.driftsresultat: -10467.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -83718.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/914512832",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:30.406681+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -83718.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 7658.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/914512832",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:30.406681+00:00",
+      "evidence": "eiendeler.sumEiendeler: 7658.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -8363.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/914512832",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:30.406681+00:00",
+      "evidence": "driftsresultat.driftsresultat: -8363.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": -73251.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/914512832",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:30.406681+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -73251.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 7575.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/914512832",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:30.406681+00:00",
+      "evidence": "eiendeler.sumEiendeler: 7575.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:46:30.425914+00:00",
+  "last_checked_at": "2026-10-14T08:46:30.425914+00:00",
+  "history_ref": "rev_1791967590_914512832",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5384,
+    "cached": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "signalpost",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Signalpost: Autonomous Agent for Norwegian Company Profiling & Verification",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev",
+    "lint": "npm --prefix frontend run lint"
+  }
+}

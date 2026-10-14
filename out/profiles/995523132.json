@@ -1,0 +1,302 @@
+{
+  "org_number": "995523132",
+  "legal_name": "3G UTVIKLING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2010-05-18",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Litlebergen, 5918 FREKHAUG",
+  "municipality": "ALVER",
+  "municipality_number": "4631",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Litlebergen, 5918 FREKHAUG",
+    "visiting_address": "Litlebergen, 5918 FREKHAUG"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Arne Giertsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Marius Tryggve Giertsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Tryggve Giertsen",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": 24300.0,
+      "operating_profit": 24300.0,
+      "net_profit": 24300.0,
+      "assets": 0.0,
+      "equity": -581603.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995523132"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -2500.0,
+      "operating_profit": -2500.0,
+      "net_profit": -2596.0,
+      "assets": 0.0,
+      "equity": -605903.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995523132"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": null,
+      "operating_profit": null,
+      "net_profit": 0.0,
+      "assets": 96.0,
+      "equity": -603307.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995523132"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3G UTVIKLING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995523132",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:58.353177+00:00",
+      "evidence": "enhet.navn: 3G UTVIKLING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995523132",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:58.353177+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995523132",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:58.353177+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2010-05-18",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995523132",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:58.353177+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2010-05-18",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995523132",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:58.353177+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Litlebergen, 5918 FREKHAUG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995523132",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:58.353177+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Litlebergen'], 'kommune': 'ALVER', 'kommunenummer': '4631', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '5918', 'poststed': 'FREKHAUG'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995523132",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:58.353177+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Arne Giertsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995523132/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:52:58.353177+00:00",
+      "evidence": "rolle: Styrets leder -> Arne Giertsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 24300.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995523132",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:00.172685+00:00",
+      "evidence": "driftsresultat.driftsresultat: 24300.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -581603.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995523132",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:00.172685+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -581603.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995523132",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:00.172685+00:00",
+      "evidence": "eiendeler.sumEiendeler: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -2500.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995523132",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:00.172685+00:00",
+      "evidence": "driftsresultat.driftsresultat: -2500.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -605903.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995523132",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:00.172685+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -605903.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995523132",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:00.172685+00:00",
+      "evidence": "eiendeler.sumEiendeler: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": -603307.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995523132",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:00.172685+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -603307.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 96.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/995523132",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:00.172685+00:00",
+      "evidence": "eiendeler.sumEiendeler: 96.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:53:00.538704+00:00",
+  "last_checked_at": "2026-10-14T08:53:00.538704+00:00",
+  "history_ref": "rev_1791967980_995523132",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5033,
+    "cached": false
+  }
+}

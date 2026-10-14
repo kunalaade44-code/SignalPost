@@ -1,0 +1,253 @@
+{
+  "org_number": "932745178",
+  "legal_name": "332 HOLDING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-01-02",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Ristadvegen 89, 7860 SKAGE I NAMDALEN",
+  "municipality": "OVERHALLA",
+  "municipality_number": "5047",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Ristadvegen 89, 7860 SKAGE I NAMDALEN",
+    "visiting_address": "Ristadvegen 89, 7860 SKAGE I NAMDALEN"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Johan Brøndbo Tetlien Sellæg",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -4286.0,
+      "operating_profit": -4286.0,
+      "net_profit": 128180.0,
+      "assets": 324568.0,
+      "equity": 324567.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932745178"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -6322.0,
+      "operating_profit": -6322.0,
+      "net_profit": 367387.0,
+      "assets": 396388.0,
+      "equity": 396387.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932745178"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "332 HOLDING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932745178",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:18.639967+00:00",
+      "evidence": "enhet.navn: 332 HOLDING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932745178",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:18.639967+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932745178",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:18.639967+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-01-02",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932745178",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:18.639967+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-01-02",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932745178",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:18.639967+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Ristadvegen 89, 7860 SKAGE I NAMDALEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932745178",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:18.639967+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Ristadvegen 89'], 'kommune': 'OVERHALLA', 'kommunenummer': '5047', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '7860', 'poststed': 'SKAGE I NAMDALEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932745178",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:18.639967+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Johan Brøndbo Tetlien Sellæg",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932745178/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:18.639967+00:00",
+      "evidence": "rolle: Styrets leder -> Johan Brøndbo Tetlien Sellæg",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -4286.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932745178",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:19.052842+00:00",
+      "evidence": "driftsresultat.driftsresultat: -4286.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 324567.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932745178",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:19.052842+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 324567.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 324568.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932745178",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:19.052842+00:00",
+      "evidence": "eiendeler.sumEiendeler: 324568.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -6322.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932745178",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:19.052842+00:00",
+      "evidence": "driftsresultat.driftsresultat: -6322.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 396387.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932745178",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:19.052842+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 396387.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 396388.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932745178",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:19.052842+00:00",
+      "evidence": "eiendeler.sumEiendeler: 396388.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:19.090937+00:00",
+  "last_checked_at": "2026-10-14T08:50:19.090937+00:00",
+  "history_ref": "rev_1791967819_932745178",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4572,
+    "cached": false
+  }
+}

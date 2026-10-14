@@ -1,0 +1,341 @@
+{
+  "org_number": "926974580",
+  "legal_name": "247 UTLEIE AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2021-04-20",
+  "nace_codes": [
+    "77.320 - Utleie og leasing av bygge- og anleggsmaskiner og -utstyr"
+  ],
+  "address": "Møvikvegen 213, 5357 FJELL",
+  "municipality": "ØYGARDEN",
+  "municipality_number": "4626",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Møvikvegen 213, 5357 FJELL",
+    "visiting_address": "Møvikvegen 213, 5357 FJELL"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Adam Arkadiusz Borkowski",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Michal Maria Halaszewski",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Adam Arkadiusz Borkowski",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2024,
+      "revenue": 0.0,
+      "profit": 0.0,
+      "operating_profit": 0.0,
+      "net_profit": 0.0,
+      "assets": 0.0,
+      "equity": 0.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926974580"
+    },
+    {
+      "year": 2023,
+      "revenue": 0.0,
+      "profit": 0.0,
+      "operating_profit": 0.0,
+      "net_profit": 0.0,
+      "assets": 0.0,
+      "equity": 0.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926974580"
+    },
+    {
+      "year": 2022,
+      "revenue": null,
+      "profit": null,
+      "operating_profit": null,
+      "net_profit": 0.0,
+      "assets": 0.0,
+      "equity": 0.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926974580"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "247 UTLEIE AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926974580",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:51.333094+00:00",
+      "evidence": "enhet.navn: 247 UTLEIE AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926974580",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:51.333094+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926974580",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:51.333094+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2021-04-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926974580",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:51.333094+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2021-04-20",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "77.320 - Utleie og leasing av bygge- og anleggsmaskiner og -utstyr"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926974580",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:51.333094+00:00",
+      "evidence": "naeringskoder: ['77.320 - Utleie og leasing av bygge- og anleggsmaskiner og -utstyr']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Møvikvegen 213, 5357 FJELL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926974580",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:51.333094+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Møvikvegen 213'], 'kommune': 'ØYGARDEN', 'kommunenummer': '4626', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '5357', 'poststed': 'FJELL'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926974580",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:51.333094+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Adam Arkadiusz Borkowski",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926974580/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:51.333094+00:00",
+      "evidence": "rolle: Daglig leder -> Adam Arkadiusz Borkowski",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Michal Maria Halaszewski",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926974580/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:51.333094+00:00",
+      "evidence": "rolle: Styrets leder -> Michal Maria Halaszewski",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926974580",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:51.771094+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926974580",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:51.771094+00:00",
+      "evidence": "driftsresultat.driftsresultat: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926974580",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:51.771094+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926974580",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:51.771094+00:00",
+      "evidence": "eiendeler.sumEiendeler: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926974580",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:51.771094+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926974580",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:51.771094+00:00",
+      "evidence": "driftsresultat.driftsresultat: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926974580",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:51.771094+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926974580",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:51.771094+00:00",
+      "evidence": "eiendeler.sumEiendeler: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2022",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926974580",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:51.771094+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2022 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2022",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926974580",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:51.771094+00:00",
+      "evidence": "eiendeler.sumEiendeler: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2022 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:48:51.776890+00:00",
+  "last_checked_at": "2026-10-14T08:48:51.776890+00:00",
+  "history_ref": "rev_1791967731_926974580",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4920,
+    "cached": false
+  }
+}

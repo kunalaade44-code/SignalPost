@@ -1,0 +1,348 @@
+{
+  "org_number": "921447000",
+  "legal_name": "3CHEFS AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2018-09-24",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Waldemar Thranes gate 66C, 0173 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Waldemar Thranes gate 66C, 0173 OSLO",
+    "visiting_address": "Waldemar Thranes gate 66C, 0173 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Lee Jackson Harvey",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "ZPECTER ØKONOMI AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 191950.0,
+      "profit": -74284.0,
+      "operating_profit": -74284.0,
+      "net_profit": -19080.0,
+      "assets": 1519030.0,
+      "equity": 874521.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000"
+    },
+    {
+      "year": 2024,
+      "revenue": 144360.0,
+      "profit": 21132.0,
+      "operating_profit": 21132.0,
+      "net_profit": -42868.0,
+      "assets": 1358750.0,
+      "equity": 893600.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000"
+    },
+    {
+      "year": 2023,
+      "revenue": 45641.0,
+      "profit": 10478.0,
+      "operating_profit": 10478.0,
+      "net_profit": 10478.0,
+      "assets": 1308606.0,
+      "equity": 936468.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3CHEFS AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921447000",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:37.990363+00:00",
+      "evidence": "enhet.navn: 3CHEFS AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921447000",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:37.990363+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921447000",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:37.990363+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2018-09-24",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921447000",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:37.990363+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2018-09-24",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921447000",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:37.990363+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Waldemar Thranes gate 66C, 0173 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921447000",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:37.990363+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Waldemar Thranes gate 66C'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0173', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921447000",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:37.990363+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Lee Jackson Harvey",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921447000/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:37.990363+00:00",
+      "evidence": "rolle: Styrets leder -> Lee Jackson Harvey",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 191950.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:38.480284+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 191950.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -74284.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:38.480284+00:00",
+      "evidence": "driftsresultat.driftsresultat: -74284.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 874521.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:38.480284+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 874521.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 1519030.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:38.480284+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1519030.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 144360.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:38.480284+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 144360.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 21132.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:38.480284+00:00",
+      "evidence": "driftsresultat.driftsresultat: 21132.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 893600.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:38.480284+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 893600.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 1358750.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:38.480284+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1358750.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 45641.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:38.480284+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 45641.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 10478.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:38.480284+00:00",
+      "evidence": "driftsresultat.driftsresultat: 10478.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 936468.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:38.480284+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 936468.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 1308606.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921447000",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:38.480284+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1308606.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:47:39.026980+00:00",
+  "last_checked_at": "2026-10-14T08:47:39.026980+00:00",
+  "history_ref": "rev_1791967659_921447000",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4848,
+    "cached": false
+  }
+}

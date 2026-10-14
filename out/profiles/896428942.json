@@ -1,0 +1,373 @@
+{
+  "org_number": "896428942",
+  "legal_name": "2C MEDIA AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2011-01-17",
+  "nace_codes": [
+    "73.110 - Reklamebyråvirksomhet"
+  ],
+  "address": "St. Jørgens vei 26, 0662 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "St. Jørgens vei 26, 0662 OSLO",
+    "visiting_address": "St. Jørgens vei 26, 0662 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Christian Thomassen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Christian Thomassen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Sindre Laksemo",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Unni Lorense Thomassen",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 599794.0,
+      "profit": -29348.0,
+      "operating_profit": -29348.0,
+      "net_profit": -22802.0,
+      "assets": 82421.0,
+      "equity": 57289.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942"
+    },
+    {
+      "year": 2024,
+      "revenue": 360415.0,
+      "profit": -41714.0,
+      "operating_profit": -41714.0,
+      "net_profit": -32537.0,
+      "assets": 121164.0,
+      "equity": 80090.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942"
+    },
+    {
+      "year": 2023,
+      "revenue": 604185.0,
+      "profit": 57733.0,
+      "operating_profit": 57733.0,
+      "net_profit": 45032.0,
+      "assets": 167815.0,
+      "equity": 112628.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2C MEDIA AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896428942",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:03.129405+00:00",
+      "evidence": "enhet.navn: 2C MEDIA AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896428942",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:03.129405+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896428942",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:03.129405+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2011-01-17",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896428942",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:03.129405+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2011-01-17",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "73.110 - Reklamebyråvirksomhet"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896428942",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:03.129405+00:00",
+      "evidence": "naeringskoder: ['73.110 - Reklamebyråvirksomhet']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "St. Jørgens vei 26, 0662 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896428942",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:03.129405+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['St. Jørgens vei 26'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0662', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896428942",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:03.129405+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Christian Thomassen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896428942/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:03.129405+00:00",
+      "evidence": "rolle: Daglig leder -> Christian Thomassen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Christian Thomassen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896428942/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:03.129405+00:00",
+      "evidence": "rolle: Styrets leder -> Christian Thomassen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 599794.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:04.091486+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 599794.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -29348.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:04.091486+00:00",
+      "evidence": "driftsresultat.driftsresultat: -29348.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 57289.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:04.091486+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 57289.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 82421.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:04.091486+00:00",
+      "evidence": "eiendeler.sumEiendeler: 82421.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 360415.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:04.091486+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 360415.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -41714.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:04.091486+00:00",
+      "evidence": "driftsresultat.driftsresultat: -41714.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 80090.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:04.091486+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 80090.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 121164.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:04.091486+00:00",
+      "evidence": "eiendeler.sumEiendeler: 121164.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 604185.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:04.091486+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 604185.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 57733.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:04.091486+00:00",
+      "evidence": "driftsresultat.driftsresultat: 57733.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 112628.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:04.091486+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 112628.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 167815.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/896428942",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:04.091486+00:00",
+      "evidence": "eiendeler.sumEiendeler: 167815.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:46:05.304203+00:00",
+  "last_checked_at": "2026-10-14T08:46:05.304203+00:00",
+  "history_ref": "rev_1791967565_896428942",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5689,
+    "cached": false
+  }
+}

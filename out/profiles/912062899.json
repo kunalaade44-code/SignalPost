@@ -1,0 +1,328 @@
+{
+  "org_number": "912062899",
+  "legal_name": "360WORLD AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2013-06-12",
+  "nace_codes": [
+    "74.200 - Fotografvirksomhet"
+  ],
+  "address": "Hegrevegen 15, 6783 STRYN",
+  "municipality": "STRYN",
+  "municipality_number": "4651",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Hegrevegen 15, 6783 STRYN",
+    "visiting_address": "Hegrevegen 15, 6783 STRYN"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Jon Gudbrand Kveen Øvre-Flo",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Lars Helge Øvre-Flo Kveen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "HALSTEINSLID AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 163420.0,
+      "profit": 158477.0,
+      "operating_profit": 158477.0,
+      "net_profit": 158428.0,
+      "assets": 9362.0,
+      "equity": -10638.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/912062899"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -6615.0,
+      "operating_profit": -6615.0,
+      "net_profit": -6641.0,
+      "assets": -647.0,
+      "equity": -169067.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/912062899"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -5752.0,
+      "operating_profit": -5752.0,
+      "net_profit": -5752.0,
+      "assets": 994.0,
+      "equity": -162426.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/912062899"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "360WORLD AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912062899",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:12.068113+00:00",
+      "evidence": "enhet.navn: 360WORLD AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912062899",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:12.068113+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912062899",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:12.068113+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2013-06-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912062899",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:12.068113+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2013-06-12",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "74.200 - Fotografvirksomhet"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912062899",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:12.068113+00:00",
+      "evidence": "naeringskoder: ['74.200 - Fotografvirksomhet']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Hegrevegen 15, 6783 STRYN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912062899",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:12.068113+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Hegrevegen 15'], 'kommune': 'STRYN', 'kommunenummer': '4651', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '6783', 'poststed': 'STRYN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912062899",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:12.068113+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Jon Gudbrand Kveen Øvre-Flo",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912062899/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:12.068113+00:00",
+      "evidence": "rolle: Styrets leder -> Jon Gudbrand Kveen Øvre-Flo",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 163420.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/912062899",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:13.469616+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 163420.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 158477.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/912062899",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:13.469616+00:00",
+      "evidence": "driftsresultat.driftsresultat: 158477.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -10638.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/912062899",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:13.469616+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -10638.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 9362.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/912062899",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:13.469616+00:00",
+      "evidence": "eiendeler.sumEiendeler: 9362.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -6615.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/912062899",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:13.469616+00:00",
+      "evidence": "driftsresultat.driftsresultat: -6615.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -169067.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/912062899",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:13.469616+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -169067.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": -647.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/912062899",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:13.469616+00:00",
+      "evidence": "eiendeler.sumEiendeler: -647.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -5752.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/912062899",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:13.469616+00:00",
+      "evidence": "driftsresultat.driftsresultat: -5752.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": -162426.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/912062899",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:13.469616+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -162426.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 994.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/912062899",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:13.469616+00:00",
+      "evidence": "eiendeler.sumEiendeler: 994.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:46:13.485561+00:00",
+  "last_checked_at": "2026-10-14T08:46:13.485561+00:00",
+  "history_ref": "rev_1791967573_912062899",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5685,
+    "cached": false
+  }
+}

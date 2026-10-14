@@ -1,0 +1,322 @@
+{
+  "org_number": "918450920",
+  "legal_name": "1593 HOLDING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2017-03-02",
+  "nace_codes": [
+    "77.390 - Utleie og leasing av andre maskiner og annet utstyr og materiell ikke nevnt annet sted"
+  ],
+  "address": "Svinndalveien 415, 1593 SVINNDAL",
+  "municipality": "VÅLER",
+  "municipality_number": "3114",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Svinndalveien 415, 1593 SVINNDAL",
+    "visiting_address": "Svinndalveien 415, 1593 SVINNDAL"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Espen Ivar Rusvik Engebretsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "William Rusvik Engebretsen",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -5165.0,
+      "operating_profit": -5165.0,
+      "net_profit": -5165.0,
+      "assets": 30048.0,
+      "equity": 30048.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918450920"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -4244.0,
+      "operating_profit": -4244.0,
+      "net_profit": -4096.0,
+      "assets": 262977.0,
+      "equity": 262930.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918450920"
+    },
+    {
+      "year": 2023,
+      "revenue": 0.0,
+      "profit": -3262.0,
+      "operating_profit": -3262.0,
+      "net_profit": -3479.0,
+      "assets": 267074.0,
+      "equity": 267027.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918450920"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1593 HOLDING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918450920",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:02.252476+00:00",
+      "evidence": "enhet.navn: 1593 HOLDING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918450920",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:02.252476+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918450920",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:02.252476+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2017-03-02",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918450920",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:02.252476+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2017-03-02",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "77.390 - Utleie og leasing av andre maskiner og annet utstyr og materiell ikke nevnt annet sted"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918450920",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:02.252476+00:00",
+      "evidence": "naeringskoder: ['77.390 - Utleie og leasing av andre maskiner og annet utstyr og materiell ikke nevnt annet sted']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Svinndalveien 415, 1593 SVINNDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918450920",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:02.252476+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Svinndalveien 415'], 'kommune': 'VÅLER', 'kommunenummer': '3114', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1593', 'poststed': 'SVINNDAL'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918450920",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:02.252476+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Espen Ivar Rusvik Engebretsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918450920/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:02.252476+00:00",
+      "evidence": "rolle: Styrets leder -> Espen Ivar Rusvik Engebretsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -5165.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918450920",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:02.580914+00:00",
+      "evidence": "driftsresultat.driftsresultat: -5165.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 30048.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918450920",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:02.580914+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 30048.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 30048.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918450920",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:02.580914+00:00",
+      "evidence": "eiendeler.sumEiendeler: 30048.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -4244.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918450920",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:02.580914+00:00",
+      "evidence": "driftsresultat.driftsresultat: -4244.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 262930.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918450920",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:02.580914+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 262930.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 262977.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918450920",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:02.580914+00:00",
+      "evidence": "eiendeler.sumEiendeler: 262977.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918450920",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:02.580914+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -3262.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918450920",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:02.580914+00:00",
+      "evidence": "driftsresultat.driftsresultat: -3262.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 267027.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918450920",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:02.580914+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 267027.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 267074.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918450920",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:02.580914+00:00",
+      "evidence": "eiendeler.sumEiendeler: 267074.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:47:02.591486+00:00",
+  "last_checked_at": "2026-10-14T08:47:02.591486+00:00",
+  "history_ref": "rev_1791967622_918450920",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 3480,
+    "cached": false
+  }
+}

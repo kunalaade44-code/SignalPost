@@ -1,0 +1,379 @@
+{
+  "org_number": "998444896",
+  "legal_name": "3D MOTION TECHNOLOGIES AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2012-06-09",
+  "nace_codes": [
+    "72.100 - Forskning og eksperimentell utvikling innenfor naturvitenskap og teknikk"
+  ],
+  "address": "NTNU, IT-Syd, Sem Sælands vei 9, 7034 TRONDHEIM",
+  "municipality": "TRONDHEIM",
+  "municipality_number": "5001",
+  "employees": null,
+  "vat_registered": false,
+  "website": "https://3dmotech.com",
+  "contact": {
+    "email": "post@3dmotech.com",
+    "phone": "+47 20 12 20 26",
+    "postal_address": "NTNU, IT-Syd, Sem Sælands vei 9, 7034 TRONDHEIM",
+    "visiting_address": "NTNU, IT-Syd, Sem Sælands vei 9, 7034 TRONDHEIM"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Jan Harald Nilsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Tomas Holt",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Grethe Sandstrak",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Jan Harald Nilsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Alexander Holt",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 0.0,
+      "profit": -6023.0,
+      "operating_profit": -6023.0,
+      "net_profit": -5296.0,
+      "assets": 20672.0,
+      "equity": 20668.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896"
+    },
+    {
+      "year": 2024,
+      "revenue": 31500.0,
+      "profit": -12128.0,
+      "operating_profit": -12128.0,
+      "net_profit": -11130.0,
+      "assets": 25963.0,
+      "equity": 25963.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -5426.0,
+      "operating_profit": -5426.0,
+      "net_profit": -4763.0,
+      "assets": 38512.0,
+      "equity": 37094.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896"
+    }
+  ],
+  "description": "Motion capturing systems are used to record industrial, human or animal motion. There are a number of ways this can be done. Our system is an optical based system where several cameras are used to compute the 3D position of a set of markers. Very advanced calibration and tracking algorithms ensures ",
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3D MOTION TECHNOLOGIES AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998444896",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:15.619008+00:00",
+      "evidence": "enhet.navn: 3D MOTION TECHNOLOGIES AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998444896",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:15.619008+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998444896",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:15.619008+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2012-06-09",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998444896",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:15.619008+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2012-06-09",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "72.100 - Forskning og eksperimentell utvikling innenfor naturvitenskap og teknikk"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998444896",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:15.619008+00:00",
+      "evidence": "naeringskoder: ['72.100 - Forskning og eksperimentell utvikling innenfor naturvitenskap og teknikk']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "NTNU, IT-Syd, Sem Sælands vei 9, 7034 TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998444896",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:15.619008+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['NTNU', 'IT-Syd', 'Sem Sælands vei 9'], 'kommune': 'TRONDHEIM', 'kommunenummer': '5001', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '7034', 'poststed': 'TRONDHEIM'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998444896",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:15.619008+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://3dmotech.com",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998444896",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:15.619008+00:00",
+      "evidence": "hjemmeside: 3dmotech.com",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Jan Harald Nilsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998444896/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:15.619008+00:00",
+      "evidence": "rolle: Daglig leder -> Jan Harald Nilsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Tomas Holt",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998444896/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:15.619008+00:00",
+      "evidence": "rolle: Styrets leder -> Tomas Holt",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:15.983994+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -6023.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:15.983994+00:00",
+      "evidence": "driftsresultat.driftsresultat: -6023.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 20668.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:15.983994+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 20668.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 20672.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:15.983994+00:00",
+      "evidence": "eiendeler.sumEiendeler: 20672.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 31500.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:15.983994+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 31500.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -12128.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:15.983994+00:00",
+      "evidence": "driftsresultat.driftsresultat: -12128.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 25963.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:15.983994+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 25963.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 25963.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:15.983994+00:00",
+      "evidence": "eiendeler.sumEiendeler: 25963.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -5426.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:15.983994+00:00",
+      "evidence": "driftsresultat.driftsresultat: -5426.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 37094.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:15.983994+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 37094.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 38512.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998444896",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:15.983994+00:00",
+      "evidence": "eiendeler.sumEiendeler: 38512.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:53:24.486273+00:00",
+  "last_checked_at": "2026-10-14T08:53:24.486273+00:00",
+  "history_ref": "rev_1791968004_998444896",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 5,
+    "cost_usd": 0.0,
+    "duration_ms": 12971,
+    "cached": false
+  }
+}

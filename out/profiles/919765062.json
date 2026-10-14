@@ -1,0 +1,302 @@
+{
+  "org_number": "919765062",
+  "legal_name": "1350 HOLDING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2017-10-23",
+  "nace_codes": [
+    "71.121 - Byggeteknisk konsulentvirksomhet"
+  ],
+  "address": "Skarvaveien 30, 1350 LOMMEDALEN",
+  "municipality": "BÆRUM",
+  "municipality_number": "3201",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Skarvaveien 30, 1350 LOMMEDALEN",
+    "visiting_address": "Skarvaveien 30, 1350 LOMMEDALEN"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Arman Farhadi",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Arman Farhadi",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "HITTIN REGNSKAP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": null,
+      "operating_profit": null,
+      "net_profit": 310263.0,
+      "assets": 761223.0,
+      "equity": 544694.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919765062"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -35000.0,
+      "operating_profit": -35000.0,
+      "net_profit": 297960.0,
+      "assets": 447000.0,
+      "equity": 234431.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919765062"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": null,
+      "operating_profit": null,
+      "net_profit": 0.0,
+      "assets": 0.0,
+      "equity": -63529.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919765062"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1350 HOLDING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919765062",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.904379+00:00",
+      "evidence": "enhet.navn: 1350 HOLDING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919765062",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.904379+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919765062",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.904379+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2017-10-23",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919765062",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.904379+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2017-10-23",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "71.121 - Byggeteknisk konsulentvirksomhet"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919765062",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.904379+00:00",
+      "evidence": "naeringskoder: ['71.121 - Byggeteknisk konsulentvirksomhet']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Skarvaveien 30, 1350 LOMMEDALEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919765062",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.904379+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Skarvaveien 30'], 'kommune': 'BÆRUM', 'kommunenummer': '3201', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1350', 'poststed': 'LOMMEDALEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919765062",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.904379+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Arman Farhadi",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919765062/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.904379+00:00",
+      "evidence": "rolle: Daglig leder -> Arman Farhadi",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Arman Farhadi",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919765062/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:18.904379+00:00",
+      "evidence": "rolle: Styrets leder -> Arman Farhadi",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "equity_2025",
+      "value": 544694.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919765062",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:20.313511+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 544694.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 761223.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919765062",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:20.313511+00:00",
+      "evidence": "eiendeler.sumEiendeler: 761223.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -35000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919765062",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:20.313511+00:00",
+      "evidence": "driftsresultat.driftsresultat: -35000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 234431.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919765062",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:20.313511+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 234431.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 447000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919765062",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:20.313511+00:00",
+      "evidence": "eiendeler.sumEiendeler: 447000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": -63529.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919765062",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:20.313511+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -63529.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919765062",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:20.313511+00:00",
+      "evidence": "eiendeler.sumEiendeler: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:47:20.343499+00:00",
+  "last_checked_at": "2026-10-14T08:47:20.343499+00:00",
+  "history_ref": "rev_1791967640_919765062",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5174,
+    "cached": false
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "org_number": "837628202",
+  "legal_name": "3H BYGG TJENESTER AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2026-05-23",
+  "nace_codes": [
+    "41.000 - Oppføring av bygninger"
+  ],
+  "address": "Mildegeilen 38, 5259 HJELLESTAD",
+  "municipality": "BERGEN",
+  "municipality_number": "4601",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Mildegeilen 38, 5259 HJELLESTAD",
+    "visiting_address": "Mildegeilen 38, 5259 HJELLESTAD"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Charlie Kalleklev",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Richard Kalleklev",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3H BYGG TJENESTER AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837628202",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.500436+00:00",
+      "evidence": "enhet.navn: 3H BYGG TJENESTER AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837628202",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.500436+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837628202",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.500436+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2026-05-23",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837628202",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.500436+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2026-05-23",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "41.000 - Oppføring av bygninger"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837628202",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.500436+00:00",
+      "evidence": "naeringskoder: ['41.000 - Oppføring av bygninger']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Mildegeilen 38, 5259 HJELLESTAD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837628202",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.500436+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Mildegeilen 38'], 'kommune': 'BERGEN', 'kommunenummer': '4601', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '5259', 'poststed': 'HJELLESTAD'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837628202",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.500436+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Charlie Kalleklev",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837628202/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.500436+00:00",
+      "evidence": "rolle: Daglig leder -> Charlie Kalleklev",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Richard Kalleklev",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837628202/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.500436+00:00",
+      "evidence": "rolle: Styrets leder -> Richard Kalleklev",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:45:57.009638+00:00",
+  "last_checked_at": "2026-10-14T08:45:57.009638+00:00",
+  "history_ref": "rev_1791967557_837628202",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4506,
+    "cached": false
+  }
+}

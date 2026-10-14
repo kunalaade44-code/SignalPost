@@ -1,0 +1,374 @@
+{
+  "org_number": "915382460",
+  "legal_name": "2XM INVEST AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2015-05-13",
+  "nace_codes": [
+    "93.130 - Treningssentervirksomhet"
+  ],
+  "address": "Hanseringen 34, 3406 TRANBY",
+  "municipality": "LIER",
+  "municipality_number": "3312",
+  "employees": null,
+  "vat_registered": false,
+  "website": "https://www.alpha-trening.no",
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Hanseringen 34, 3406 TRANBY",
+    "visiting_address": "Hanseringen 34, 3406 TRANBY"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Marius Martinsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Marius Martinsen",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 0.0,
+      "profit": -2350.0,
+      "operating_profit": -2350.0,
+      "net_profit": -2371.0,
+      "assets": 671.0,
+      "equity": -20559.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460"
+    },
+    {
+      "year": 2024,
+      "revenue": 0.0,
+      "profit": -2042.0,
+      "operating_profit": -2042.0,
+      "net_profit": -12043.0,
+      "assets": 671.0,
+      "equity": -18188.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460"
+    },
+    {
+      "year": 2023,
+      "revenue": 0.0,
+      "profit": -480.0,
+      "operating_profit": -480.0,
+      "net_profit": -42980.0,
+      "assets": 10677.0,
+      "equity": -6144.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2XM INVEST AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915382460",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:34.820202+00:00",
+      "evidence": "enhet.navn: 2XM INVEST AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915382460",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:34.820202+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915382460",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:34.820202+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2015-05-13",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915382460",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:34.820202+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2015-05-13",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "93.130 - Treningssentervirksomhet"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915382460",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:34.820202+00:00",
+      "evidence": "naeringskoder: ['93.130 - Treningssentervirksomhet']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Hanseringen 34, 3406 TRANBY",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915382460",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:34.820202+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Hanseringen 34'], 'kommune': 'LIER', 'kommunenummer': '3312', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '3406', 'poststed': 'TRANBY'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915382460",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:34.820202+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://www.alpha-trening.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915382460",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:34.820202+00:00",
+      "evidence": "hjemmeside: www.alpha-trening.no",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Marius Martinsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915382460/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:34.820202+00:00",
+      "evidence": "rolle: Daglig leder -> Marius Martinsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Marius Martinsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915382460/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:34.820202+00:00",
+      "evidence": "rolle: Styrets leder -> Marius Martinsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:35.225865+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -2350.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:35.225865+00:00",
+      "evidence": "driftsresultat.driftsresultat: -2350.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -20559.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:35.225865+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -20559.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 671.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:35.225865+00:00",
+      "evidence": "eiendeler.sumEiendeler: 671.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:35.225865+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -2042.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:35.225865+00:00",
+      "evidence": "driftsresultat.driftsresultat: -2042.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -18188.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:35.225865+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -18188.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 671.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:35.225865+00:00",
+      "evidence": "eiendeler.sumEiendeler: 671.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:35.225865+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -480.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:35.225865+00:00",
+      "evidence": "driftsresultat.driftsresultat: -480.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": -6144.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:35.225865+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -6144.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 10677.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/915382460",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:35.225865+00:00",
+      "evidence": "eiendeler.sumEiendeler: 10677.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:46:36.341521+00:00",
+  "last_checked_at": "2026-10-14T08:46:36.341521+00:00",
+  "history_ref": "rev_1791967596_915382460",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5365,
+    "cached": false
+  }
+}

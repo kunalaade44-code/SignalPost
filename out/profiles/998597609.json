@@ -1,0 +1,328 @@
+{
+  "org_number": "998597609",
+  "legal_name": "1 KLIKK AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2012-07-07",
+  "nace_codes": [
+    "46.340 - Engroshandel med drikkevarer"
+  ],
+  "address": "Årvollskogen 29, 1529 MOSS",
+  "municipality": "MOSS",
+  "municipality_number": "3103",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Årvollskogen 29, 1529 MOSS",
+    "visiting_address": "Årvollskogen 29, 1529 MOSS"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Leif Egil Nilsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Stig Ketil Lunde",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Leif Egil Nilsen",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -3708.0,
+      "operating_profit": -3708.0,
+      "net_profit": -3708.0,
+      "assets": 566.0,
+      "equity": -3142.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998597609"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": 0.0,
+      "operating_profit": 0.0,
+      "net_profit": 0.0,
+      "assets": 566.0,
+      "equity": 566.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998597609"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": 0.0,
+      "operating_profit": 0.0,
+      "net_profit": 0.0,
+      "assets": 566.0,
+      "equity": 566.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998597609"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1 KLIKK AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998597609",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:18.621474+00:00",
+      "evidence": "enhet.navn: 1 KLIKK AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998597609",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:18.621474+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998597609",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:18.621474+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2012-07-07",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998597609",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:18.621474+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2012-07-07",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "46.340 - Engroshandel med drikkevarer"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998597609",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:18.621474+00:00",
+      "evidence": "naeringskoder: ['46.340 - Engroshandel med drikkevarer']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Årvollskogen 29, 1529 MOSS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998597609",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:18.621474+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Årvollskogen 29'], 'kommune': 'MOSS', 'kommunenummer': '3103', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1529', 'poststed': 'MOSS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998597609",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:18.621474+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Leif Egil Nilsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998597609/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:18.621474+00:00",
+      "evidence": "rolle: Daglig leder -> Leif Egil Nilsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Stig Ketil Lunde",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/998597609/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:53:18.621474+00:00",
+      "evidence": "rolle: Styrets leder -> Stig Ketil Lunde",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -3708.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998597609",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:19.074253+00:00",
+      "evidence": "driftsresultat.driftsresultat: -3708.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -3142.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998597609",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:19.074253+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -3142.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 566.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998597609",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:19.074253+00:00",
+      "evidence": "eiendeler.sumEiendeler: 566.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998597609",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:19.074253+00:00",
+      "evidence": "driftsresultat.driftsresultat: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 566.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998597609",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:19.074253+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 566.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 566.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998597609",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:19.074253+00:00",
+      "evidence": "eiendeler.sumEiendeler: 566.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998597609",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:19.074253+00:00",
+      "evidence": "driftsresultat.driftsresultat: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 566.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998597609",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:19.074253+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 566.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 566.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/998597609",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:53:19.074253+00:00",
+      "evidence": "eiendeler.sumEiendeler: 566.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:53:19.802229+00:00",
+  "last_checked_at": "2026-10-14T08:53:19.802229+00:00",
+  "history_ref": "rev_1791967999_998597609",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4964,
+    "cached": false
+  }
+}

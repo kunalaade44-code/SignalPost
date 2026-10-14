@@ -1,0 +1,309 @@
+{
+  "org_number": "925024678",
+  "legal_name": "13:13 DESIGN STUDIO AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2020-05-05",
+  "nace_codes": [
+    "74.110 - Industri-, produkt- og motedesignvirksomhet"
+  ],
+  "address": "c/o Jonas Norheim, Vassbunnveien 20, 1388 BORGEN",
+  "municipality": "ASKER",
+  "municipality_number": "3203",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "c/o Jonas Norheim, Vassbunnveien 20, 1388 BORGEN",
+    "visiting_address": "c/o Jonas Norheim, Vassbunnveien 20, 1388 BORGEN"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Jonas Norheim",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "B&G REGNSKAP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -7943.0,
+      "operating_profit": -7943.0,
+      "net_profit": -7927.0,
+      "assets": 141098.0,
+      "equity": 114042.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925024678"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -3935.0,
+      "operating_profit": -3935.0,
+      "net_profit": 12284.0,
+      "assets": 150439.0,
+      "equity": 121969.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925024678"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": 0.0,
+      "operating_profit": 0.0,
+      "net_profit": 0.0,
+      "assets": 130371.0,
+      "equity": 109685.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925024678"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "13:13 DESIGN STUDIO AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925024678",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:20.277985+00:00",
+      "evidence": "enhet.navn: 13:13 DESIGN STUDIO AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925024678",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:20.277985+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925024678",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:20.277985+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2020-05-05",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925024678",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:20.277985+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2020-05-05",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "74.110 - Industri-, produkt- og motedesignvirksomhet"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925024678",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:20.277985+00:00",
+      "evidence": "naeringskoder: ['74.110 - Industri-, produkt- og motedesignvirksomhet']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "c/o Jonas Norheim, Vassbunnveien 20, 1388 BORGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925024678",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:20.277985+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['c/o Jonas Norheim', 'Vassbunnveien 20'], 'kommune': 'ASKER', 'kommunenummer': '3203', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1388', 'poststed': 'BORGEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925024678",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:20.277985+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Jonas Norheim",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925024678/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:20.277985+00:00",
+      "evidence": "rolle: Styrets leder -> Jonas Norheim",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -7943.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925024678",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:20.727382+00:00",
+      "evidence": "driftsresultat.driftsresultat: -7943.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 114042.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925024678",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:20.727382+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 114042.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 141098.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925024678",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:20.727382+00:00",
+      "evidence": "eiendeler.sumEiendeler: 141098.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -3935.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925024678",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:20.727382+00:00",
+      "evidence": "driftsresultat.driftsresultat: -3935.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 121969.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925024678",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:20.727382+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 121969.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 150439.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925024678",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:20.727382+00:00",
+      "evidence": "eiendeler.sumEiendeler: 150439.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925024678",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:20.727382+00:00",
+      "evidence": "driftsresultat.driftsresultat: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 109685.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925024678",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:20.727382+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 109685.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 130371.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925024678",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:20.727382+00:00",
+      "evidence": "eiendeler.sumEiendeler: 130371.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:48:21.116678+00:00",
+  "last_checked_at": "2026-10-14T08:48:21.116678+00:00",
+  "history_ref": "rev_1791967701_925024678",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5270,
+    "cached": false
+  }
+}

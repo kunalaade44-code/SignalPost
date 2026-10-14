@@ -1,0 +1,235 @@
+{
+  "org_number": "936855814",
+  "legal_name": "2 STRØK AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-12-18",
+  "nace_codes": [
+    "43.330 - Gulvlegging og tapetsering"
+  ],
+  "address": "Haneholmveien 66B, 3209 SANDEFJORD",
+  "municipality": "SANDEFJORD",
+  "municipality_number": "3907",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Haneholmveien 66B, 3209 SANDEFJORD",
+    "visiting_address": "Haneholmveien 66B, 3209 SANDEFJORD"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Tor-Jonny Johnsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Tor-Jonny Johnsen",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 0.0,
+      "profit": -1568.0,
+      "operating_profit": -1568.0,
+      "net_profit": -1568.0,
+      "assets": 30000.0,
+      "equity": 21932.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936855814"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2 STRØK AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936855814",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.736320+00:00",
+      "evidence": "enhet.navn: 2 STRØK AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936855814",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.736320+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936855814",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.736320+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-12-18",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936855814",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.736320+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-12-18",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "43.330 - Gulvlegging og tapetsering"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936855814",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.736320+00:00",
+      "evidence": "naeringskoder: ['43.330 - Gulvlegging og tapetsering']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Haneholmveien 66B, 3209 SANDEFJORD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936855814",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.736320+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Haneholmveien 66B'], 'kommune': 'SANDEFJORD', 'kommunenummer': '3907', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '3209', 'poststed': 'SANDEFJORD'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936855814",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.736320+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Tor-Jonny Johnsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936855814/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.736320+00:00",
+      "evidence": "rolle: Daglig leder -> Tor-Jonny Johnsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Tor-Jonny Johnsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936855814/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.736320+00:00",
+      "evidence": "rolle: Styrets leder -> Tor-Jonny Johnsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936855814",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:27.243283+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -1568.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936855814",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:27.243283+00:00",
+      "evidence": "driftsresultat.driftsresultat: -1568.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 21932.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936855814",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:27.243283+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 21932.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 30000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936855814",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:27.243283+00:00",
+      "evidence": "eiendeler.sumEiendeler: 30000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:27.617768+00:00",
+  "last_checked_at": "2026-10-14T08:51:27.617768+00:00",
+  "history_ref": "rev_1791967887_936855814",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4713,
+    "cached": false
+  }
+}

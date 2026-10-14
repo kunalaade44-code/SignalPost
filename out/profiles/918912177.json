@@ -1,0 +1,361 @@
+{
+  "org_number": "918912177",
+  "legal_name": "3D-MODELLERING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2017-04-26",
+  "nace_codes": [
+    "71.129 - Annen teknisk konsulentvirksomhet"
+  ],
+  "address": "c/o Øystein Vetås, Vetåsvegen 134, 5938 SÆBØVÅGEN",
+  "municipality": "ALVER",
+  "municipality_number": "4631",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "c/o Øystein Vetås, Vetåsvegen 134, 5938 SÆBØVÅGEN",
+    "visiting_address": "c/o Øystein Vetås, Vetåsvegen 134, 5938 SÆBØVÅGEN"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Øystein Vetås",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Øystein Vetås",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 176150.0,
+      "profit": 951.0,
+      "operating_profit": 951.0,
+      "net_profit": 742.0,
+      "assets": 138573.0,
+      "equity": 85444.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177"
+    },
+    {
+      "year": 2024,
+      "revenue": 156400.0,
+      "profit": -2819.0,
+      "operating_profit": -2819.0,
+      "net_profit": -2819.0,
+      "assets": 119284.0,
+      "equity": 84703.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177"
+    },
+    {
+      "year": 2023,
+      "revenue": 127946.0,
+      "profit": -12561.0,
+      "operating_profit": -12561.0,
+      "net_profit": -10088.0,
+      "assets": 139567.0,
+      "equity": 87522.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3D-MODELLERING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918912177",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:08.747681+00:00",
+      "evidence": "enhet.navn: 3D-MODELLERING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918912177",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:08.747681+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918912177",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:08.747681+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2017-04-26",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918912177",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:08.747681+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2017-04-26",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "71.129 - Annen teknisk konsulentvirksomhet"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918912177",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:08.747681+00:00",
+      "evidence": "naeringskoder: ['71.129 - Annen teknisk konsulentvirksomhet']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "c/o Øystein Vetås, Vetåsvegen 134, 5938 SÆBØVÅGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918912177",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:08.747681+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['c/o Øystein Vetås', 'Vetåsvegen 134'], 'kommune': 'ALVER', 'kommunenummer': '4631', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '5938', 'poststed': 'SÆBØVÅGEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918912177",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:08.747681+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Øystein Vetås",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918912177/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:08.747681+00:00",
+      "evidence": "rolle: Daglig leder -> Øystein Vetås",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Øystein Vetås",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918912177/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:08.747681+00:00",
+      "evidence": "rolle: Styrets leder -> Øystein Vetås",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 176150.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:10.195189+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 176150.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 951.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:10.195189+00:00",
+      "evidence": "driftsresultat.driftsresultat: 951.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 85444.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:10.195189+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 85444.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 138573.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:10.195189+00:00",
+      "evidence": "eiendeler.sumEiendeler: 138573.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 156400.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:10.195189+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 156400.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -2819.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:10.195189+00:00",
+      "evidence": "driftsresultat.driftsresultat: -2819.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 84703.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:10.195189+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 84703.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 119284.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:10.195189+00:00",
+      "evidence": "eiendeler.sumEiendeler: 119284.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 127946.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:10.195189+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 127946.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -12561.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:10.195189+00:00",
+      "evidence": "driftsresultat.driftsresultat: -12561.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 87522.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:10.195189+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 87522.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 139567.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918912177",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:10.195189+00:00",
+      "evidence": "eiendeler.sumEiendeler: 139567.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:47:10.227054+00:00",
+  "last_checked_at": "2026-10-14T08:47:10.227054+00:00",
+  "history_ref": "rev_1791967630_918912177",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4209,
+    "cached": false
+  }
+}

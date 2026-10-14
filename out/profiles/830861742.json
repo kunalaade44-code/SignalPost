@@ -1,0 +1,329 @@
+{
+  "org_number": "830861742",
+  "legal_name": "11:11 SKINCARE AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2023-02-21",
+  "nace_codes": [
+    "47.750 - Detaljhandel med kosmetikk og toalettartikler"
+  ],
+  "address": "c/o That girl AS, Briskebyveien 56, 0259 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "c/o That girl AS, Briskebyveien 56, 0259 OSLO",
+    "visiting_address": "c/o That girl AS, Briskebyveien 56, 0259 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Iselin Margareth Gangstø",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -12572.0,
+      "operating_profit": -12572.0,
+      "net_profit": -12572.0,
+      "assets": 2271.0,
+      "equity": 2271.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742"
+    },
+    {
+      "year": 2024,
+      "revenue": 0.0,
+      "profit": -17265.0,
+      "operating_profit": -17265.0,
+      "net_profit": -17265.0,
+      "assets": 14843.0,
+      "equity": 14843.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742"
+    },
+    {
+      "year": 2023,
+      "revenue": 0.0,
+      "profit": -9321.0,
+      "operating_profit": -9321.0,
+      "net_profit": -9321.0,
+      "assets": 15109.0,
+      "equity": 15109.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "11:11 SKINCARE AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830861742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:45.353429+00:00",
+      "evidence": "enhet.navn: 11:11 SKINCARE AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830861742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:45.353429+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830861742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:45.353429+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2023-02-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830861742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:45.353429+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2023-02-21",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "47.750 - Detaljhandel med kosmetikk og toalettartikler"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830861742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:45.353429+00:00",
+      "evidence": "naeringskoder: ['47.750 - Detaljhandel med kosmetikk og toalettartikler']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "c/o That girl AS, Briskebyveien 56, 0259 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830861742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:45.353429+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['c/o That girl AS', 'Briskebyveien 56'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0259', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830861742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:45.353429+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Iselin Margareth Gangstø",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/830861742/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:45.353429+00:00",
+      "evidence": "rolle: Styrets leder -> Iselin Margareth Gangstø",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -12572.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:45.839280+00:00",
+      "evidence": "driftsresultat.driftsresultat: -12572.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 2271.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:45.839280+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 2271.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 2271.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:45.839280+00:00",
+      "evidence": "eiendeler.sumEiendeler: 2271.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:45.839280+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -17265.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:45.839280+00:00",
+      "evidence": "driftsresultat.driftsresultat: -17265.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 14843.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:45.839280+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 14843.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 14843.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:45.839280+00:00",
+      "evidence": "eiendeler.sumEiendeler: 14843.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:45.839280+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -9321.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:45.839280+00:00",
+      "evidence": "driftsresultat.driftsresultat: -9321.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 15109.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:45.839280+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 15109.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 15109.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/830861742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:45:45.839280+00:00",
+      "evidence": "eiendeler.sumEiendeler: 15109.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:45:46.253699+00:00",
+  "last_checked_at": "2026-10-14T08:45:46.253699+00:00",
+  "history_ref": "rev_1791967546_830861742",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4920,
+    "cached": false
+  }
+}

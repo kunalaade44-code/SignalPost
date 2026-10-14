@@ -1,0 +1,271 @@
+{
+  "org_number": "934626796",
+  "legal_name": "3LARS AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-12-12",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Boganesringen 21, 4032 STAVANGER",
+  "municipality": "STAVANGER",
+  "municipality_number": "1103",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Boganesringen 21, 4032 STAVANGER",
+    "visiting_address": "Boganesringen 21, 4032 STAVANGER"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Lars Johan Voll",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Lars Jørgen Alstad Flem",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Lars Henrik Frøyen Voll",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "REVISJON 1 AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -7629.0,
+      "operating_profit": -7629.0,
+      "net_profit": -180119.0,
+      "assets": 1314099.0,
+      "equity": -85901.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934626796"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -5786.0,
+      "operating_profit": -5786.0,
+      "net_profit": -5782.0,
+      "assets": 1494218.0,
+      "equity": 94218.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934626796"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3LARS AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934626796",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:48.905280+00:00",
+      "evidence": "enhet.navn: 3LARS AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934626796",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:48.905280+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934626796",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:48.905280+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-12-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934626796",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:48.905280+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-12-12",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934626796",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:48.905280+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Boganesringen 21, 4032 STAVANGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934626796",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:48.905280+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Boganesringen 21'], 'kommune': 'STAVANGER', 'kommunenummer': '1103', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '4032', 'poststed': 'STAVANGER'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934626796",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:48.905280+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Lars Johan Voll",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934626796/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:48.905280+00:00",
+      "evidence": "rolle: Styrets leder -> Lars Johan Voll",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -7629.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934626796",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:49.291913+00:00",
+      "evidence": "driftsresultat.driftsresultat: -7629.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -85901.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934626796",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:49.291913+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -85901.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 1314099.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934626796",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:49.291913+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1314099.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -5786.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934626796",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:49.291913+00:00",
+      "evidence": "driftsresultat.driftsresultat: -5786.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 94218.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934626796",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:49.291913+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 94218.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 1494218.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934626796",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:49.291913+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1494218.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:49.316061+00:00",
+  "last_checked_at": "2026-10-14T08:50:49.316061+00:00",
+  "history_ref": "rev_1791967849_934626796",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4607,
+    "cached": false
+  }
+}

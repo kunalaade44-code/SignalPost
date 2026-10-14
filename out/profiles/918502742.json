@@ -1,0 +1,367 @@
+{
+  "org_number": "918502742",
+  "legal_name": "2FAST AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2017-02-03",
+  "nace_codes": [
+    "79.121 - Aktiviteter utført av utflukts- og eventarrangører"
+  ],
+  "address": "Heggsnipvegen 6, 7070 BOSBERG",
+  "municipality": "TRONDHEIM",
+  "municipality_number": "5001",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Heggsnipvegen 6, 7070 BOSBERG",
+    "visiting_address": "Heggsnipvegen 6, 7070 BOSBERG"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Johan Erlend Lund Haukø Dybvik",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Johan Erlend Lund Haukø Dybvik",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "TRONDHEIM REGNSKAPSKONTOR AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 845816.0,
+      "profit": 64091.0,
+      "operating_profit": 64091.0,
+      "net_profit": 41297.0,
+      "assets": 337749.0,
+      "equity": 245471.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742"
+    },
+    {
+      "year": 2024,
+      "revenue": 983474.0,
+      "profit": 133771.0,
+      "operating_profit": 133771.0,
+      "net_profit": 114170.0,
+      "assets": 295406.0,
+      "equity": 204173.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742"
+    },
+    {
+      "year": 2023,
+      "revenue": 903044.0,
+      "profit": 197545.0,
+      "operating_profit": 197545.0,
+      "net_profit": 195220.0,
+      "assets": 514054.0,
+      "equity": 90004.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2FAST AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918502742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:06.636778+00:00",
+      "evidence": "enhet.navn: 2FAST AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918502742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:06.636778+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918502742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:06.636778+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2017-02-03",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918502742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:06.636778+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2017-02-03",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "79.121 - Aktiviteter utført av utflukts- og eventarrangører"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918502742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:06.636778+00:00",
+      "evidence": "naeringskoder: ['79.121 - Aktiviteter utført av utflukts- og eventarrangører']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Heggsnipvegen 6, 7070 BOSBERG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918502742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:06.636778+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Heggsnipvegen 6'], 'kommune': 'TRONDHEIM', 'kommunenummer': '5001', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '7070', 'poststed': 'BOSBERG'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918502742",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:06.636778+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Johan Erlend Lund Haukø Dybvik",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918502742/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:06.636778+00:00",
+      "evidence": "rolle: Daglig leder -> Johan Erlend Lund Haukø Dybvik",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Johan Erlend Lund Haukø Dybvik",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918502742/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:06.636778+00:00",
+      "evidence": "rolle: Styrets leder -> Johan Erlend Lund Haukø Dybvik",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 845816.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:06.999476+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 845816.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 64091.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:06.999476+00:00",
+      "evidence": "driftsresultat.driftsresultat: 64091.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 245471.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:06.999476+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 245471.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 337749.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:06.999476+00:00",
+      "evidence": "eiendeler.sumEiendeler: 337749.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 983474.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:06.999476+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 983474.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 133771.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:06.999476+00:00",
+      "evidence": "driftsresultat.driftsresultat: 133771.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 204173.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:06.999476+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 204173.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 295406.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:06.999476+00:00",
+      "evidence": "eiendeler.sumEiendeler: 295406.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 903044.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:06.999476+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 903044.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 197545.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:06.999476+00:00",
+      "evidence": "driftsresultat.driftsresultat: 197545.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 90004.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:06.999476+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 90004.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 514054.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/918502742",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:06.999476+00:00",
+      "evidence": "eiendeler.sumEiendeler: 514054.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:47:07.015462+00:00",
+  "last_checked_at": "2026-10-14T08:47:07.015462+00:00",
+  "history_ref": "rev_1791967627_918502742",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4380,
+    "cached": false
+  }
+}

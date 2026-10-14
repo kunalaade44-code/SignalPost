@@ -1,0 +1,285 @@
+{
+  "org_number": "933480275",
+  "legal_name": "2286MOH AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-05-22",
+  "nace_codes": [
+    "71.123 - Utarbeidelse av kart og oppmåling"
+  ],
+  "address": "Gamle Kongeveg 115F, 7340 OPPDAL",
+  "municipality": "OPPDAL",
+  "municipality_number": "5021",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Gamle Kongeveg 115F, 7340 OPPDAL",
+    "visiting_address": "Gamle Kongeveg 115F, 7340 OPPDAL"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Lina Benjaminsen Haggard",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "SPAREBANK 1 REGNSKAPSHUSET SMN AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 718174.0,
+      "profit": 177800.0,
+      "operating_profit": 177800.0,
+      "net_profit": 137882.0,
+      "assets": 534918.0,
+      "equity": 375438.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933480275"
+    },
+    {
+      "year": 2024,
+      "revenue": 447776.0,
+      "profit": 182136.0,
+      "operating_profit": 182136.0,
+      "net_profit": 143339.0,
+      "assets": 410097.0,
+      "equity": 237555.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933480275"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2286MOH AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933480275",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:31.577134+00:00",
+      "evidence": "enhet.navn: 2286MOH AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933480275",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:31.577134+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933480275",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:31.577134+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-05-22",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933480275",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:31.577134+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-05-22",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "71.123 - Utarbeidelse av kart og oppmåling"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933480275",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:31.577134+00:00",
+      "evidence": "naeringskoder: ['71.123 - Utarbeidelse av kart og oppmåling']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Gamle Kongeveg 115F, 7340 OPPDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933480275",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:31.577134+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Gamle Kongeveg 115F'], 'kommune': 'OPPDAL', 'kommunenummer': '5021', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '7340', 'poststed': 'OPPDAL'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933480275",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:31.577134+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Lina Benjaminsen Haggard",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933480275/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:31.577134+00:00",
+      "evidence": "rolle: Styrets leder -> Lina Benjaminsen Haggard",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 718174.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933480275",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:32.703230+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 718174.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 177800.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933480275",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:32.703230+00:00",
+      "evidence": "driftsresultat.driftsresultat: 177800.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 375438.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933480275",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:32.703230+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 375438.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 534918.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933480275",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:32.703230+00:00",
+      "evidence": "eiendeler.sumEiendeler: 534918.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 447776.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933480275",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:32.703230+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 447776.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 182136.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933480275",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:32.703230+00:00",
+      "evidence": "driftsresultat.driftsresultat: 182136.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 237555.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933480275",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:32.703230+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 237555.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 410097.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933480275",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:32.703230+00:00",
+      "evidence": "eiendeler.sumEiendeler: 410097.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:32.717899+00:00",
+  "last_checked_at": "2026-10-14T08:50:32.717899+00:00",
+  "history_ref": "rev_1791967832_933480275",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5121,
+    "cached": false
+  }
+}

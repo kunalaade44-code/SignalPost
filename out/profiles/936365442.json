@@ -1,0 +1,235 @@
+{
+  "org_number": "936365442",
+  "legal_name": "19 EIGHTYSIX VENTURES AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-10-13",
+  "nace_codes": [
+    "56.110 - Drift av restauranter"
+  ],
+  "address": "Elmholt allé 6, 0275 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Elmholt allé 6, 0275 OSLO",
+    "visiting_address": "Elmholt allé 6, 0275 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Udson Halley Gouveia Silva",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Udson Halley Gouveia Silva",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 94758.0,
+      "profit": -26070.0,
+      "operating_profit": -26070.0,
+      "net_profit": -26070.0,
+      "assets": 60683.0,
+      "equity": 3929.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936365442"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "19 EIGHTYSIX VENTURES AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936365442",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:22.864872+00:00",
+      "evidence": "enhet.navn: 19 EIGHTYSIX VENTURES AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936365442",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:22.864872+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936365442",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:22.864872+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-10-13",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936365442",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:22.864872+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-10-13",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "56.110 - Drift av restauranter"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936365442",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:22.864872+00:00",
+      "evidence": "naeringskoder: ['56.110 - Drift av restauranter']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Elmholt allé 6, 0275 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936365442",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:22.864872+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Elmholt allé 6'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0275', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936365442",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:22.864872+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Udson Halley Gouveia Silva",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936365442/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:22.864872+00:00",
+      "evidence": "rolle: Daglig leder -> Udson Halley Gouveia Silva",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Udson Halley Gouveia Silva",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936365442/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:22.864872+00:00",
+      "evidence": "rolle: Styrets leder -> Udson Halley Gouveia Silva",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 94758.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936365442",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:23.583741+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 94758.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -26070.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936365442",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:23.583741+00:00",
+      "evidence": "driftsresultat.driftsresultat: -26070.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 3929.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936365442",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:23.583741+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 3929.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 60683.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936365442",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:23.583741+00:00",
+      "evidence": "eiendeler.sumEiendeler: 60683.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:23.596995+00:00",
+  "last_checked_at": "2026-10-14T08:51:23.596995+00:00",
+  "history_ref": "rev_1791967883_936365442",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5172,
+    "cached": false
+  }
+}

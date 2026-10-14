@@ -1,0 +1,170 @@
+{
+  "org_number": "937263686",
+  "legal_name": "22 GROUP AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2026-02-27",
+  "nace_codes": [
+    "96.210 - Frisering og barbering"
+  ],
+  "address": "Vestre Strandgate 24B, 4611 KRISTIANSAND S",
+  "municipality": "KRISTIANSAND",
+  "municipality_number": "4204",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Vestre Strandgate 24B, 4611 KRISTIANSAND S",
+    "visiting_address": "Vestre Strandgate 24B, 4611 KRISTIANSAND S"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "David Nateland",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Annel Praso",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Aris Praso",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "VITAL REGNSKAP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "22 GROUP AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937263686",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:33.366839+00:00",
+      "evidence": "enhet.navn: 22 GROUP AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937263686",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:33.366839+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937263686",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:33.366839+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2026-02-27",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937263686",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:33.366839+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2026-02-27",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "96.210 - Frisering og barbering"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937263686",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:33.366839+00:00",
+      "evidence": "naeringskoder: ['96.210 - Frisering og barbering']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Vestre Strandgate 24B, 4611 KRISTIANSAND S",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937263686",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:33.366839+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Vestre Strandgate 24B'], 'kommune': 'KRISTIANSAND', 'kommunenummer': '4204', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '4611', 'poststed': 'KRISTIANSAND S'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937263686",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:33.366839+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "David Nateland",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/937263686/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:33.366839+00:00",
+      "evidence": "rolle: Styrets leder -> David Nateland",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:33.792839+00:00",
+  "last_checked_at": "2026-10-14T08:51:33.792839+00:00",
+  "history_ref": "rev_1791967893_937263686",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 3618,
+    "cached": false
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "org_number": "933105849",
+  "legal_name": "261 HOLDING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-03-01",
+  "nace_codes": [
+    "43.120 - Grunnarbeid"
+  ],
+  "address": "Nykirkeveien 230, 3180 NYKIRKE",
+  "municipality": "HORTEN",
+  "municipality_number": "3901",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Nykirkeveien 230, 3180 NYKIRKE",
+    "visiting_address": "Nykirkeveien 230, 3180 NYKIRKE"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Edwin Pauli",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Edwin Pauli",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "TALLVERKET AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -20236.0,
+      "operating_profit": -20236.0,
+      "net_profit": 0.0,
+      "assets": 1021978.0,
+      "equity": 1019531.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933105849"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -10469.0,
+      "operating_profit": -10469.0,
+      "net_profit": -10469.0,
+      "assets": 19531.0,
+      "equity": 19531.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933105849"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "261 HOLDING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933105849",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:23.972343+00:00",
+      "evidence": "enhet.navn: 261 HOLDING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933105849",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:23.972343+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933105849",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:23.972343+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-03-01",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933105849",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:23.972343+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-03-01",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "43.120 - Grunnarbeid"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933105849",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:23.972343+00:00",
+      "evidence": "naeringskoder: ['43.120 - Grunnarbeid']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Nykirkeveien 230, 3180 NYKIRKE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933105849",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:23.972343+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Nykirkeveien 230'], 'kommune': 'HORTEN', 'kommunenummer': '3901', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '3180', 'poststed': 'NYKIRKE'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933105849",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:23.972343+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Edwin Pauli",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933105849/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:23.972343+00:00",
+      "evidence": "rolle: Daglig leder -> Edwin Pauli",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Edwin Pauli",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933105849/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:23.972343+00:00",
+      "evidence": "rolle: Styrets leder -> Edwin Pauli",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -20236.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933105849",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:24.310085+00:00",
+      "evidence": "driftsresultat.driftsresultat: -20236.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 1019531.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933105849",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:24.310085+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 1019531.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 1021978.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933105849",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:24.310085+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1021978.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -10469.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933105849",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:24.310085+00:00",
+      "evidence": "driftsresultat.driftsresultat: -10469.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 19531.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933105849",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:24.310085+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 19531.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 19531.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933105849",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:24.310085+00:00",
+      "evidence": "eiendeler.sumEiendeler: 19531.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:24.338187+00:00",
+  "last_checked_at": "2026-10-14T08:50:24.338187+00:00",
+  "history_ref": "rev_1791967824_933105849",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4684,
+    "cached": false
+  }
+}

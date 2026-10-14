@@ -1,0 +1,298 @@
+{
+  "org_number": "934630122",
+  "legal_name": "2TG EVENT AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-12-11",
+  "nace_codes": [
+    "47.120 - Detaljhandel med bredt vareutvalg ellers"
+  ],
+  "address": "Lensegata 28, 8656 MOSJØEN",
+  "municipality": "VEFSN",
+  "municipality_number": "1824",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Lensegata 28, 8656 MOSJØEN",
+    "visiting_address": "Lensegata 28, 8656 MOSJØEN"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Tommy Gjerstad",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Tommy Gjerstad",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 179868.0,
+      "profit": 74567.0,
+      "operating_profit": 74567.0,
+      "net_profit": 58010.0,
+      "assets": 242352.0,
+      "equity": 114230.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934630122"
+    },
+    {
+      "year": 2024,
+      "revenue": 114163.0,
+      "profit": 39399.0,
+      "operating_profit": 39399.0,
+      "net_profit": 32004.0,
+      "assets": 159604.0,
+      "equity": 56221.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934630122"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2TG EVENT AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934630122",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:49.289480+00:00",
+      "evidence": "enhet.navn: 2TG EVENT AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934630122",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:49.289480+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934630122",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:49.289480+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-12-11",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934630122",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:49.289480+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-12-11",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "47.120 - Detaljhandel med bredt vareutvalg ellers"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934630122",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:49.289480+00:00",
+      "evidence": "naeringskoder: ['47.120 - Detaljhandel med bredt vareutvalg ellers']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Lensegata 28, 8656 MOSJØEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934630122",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:49.289480+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Lensegata 28'], 'kommune': 'VEFSN', 'kommunenummer': '1824', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '8656', 'poststed': 'MOSJØEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934630122",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:49.289480+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Tommy Gjerstad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934630122/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:49.289480+00:00",
+      "evidence": "rolle: Daglig leder -> Tommy Gjerstad",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Tommy Gjerstad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934630122/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:49.289480+00:00",
+      "evidence": "rolle: Styrets leder -> Tommy Gjerstad",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 179868.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934630122",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.041882+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 179868.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 74567.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934630122",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.041882+00:00",
+      "evidence": "driftsresultat.driftsresultat: 74567.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 114230.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934630122",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.041882+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 114230.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 242352.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934630122",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.041882+00:00",
+      "evidence": "eiendeler.sumEiendeler: 242352.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 114163.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934630122",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.041882+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 114163.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 39399.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934630122",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.041882+00:00",
+      "evidence": "driftsresultat.driftsresultat: 39399.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 56221.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934630122",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.041882+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 56221.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 159604.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934630122",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:50.041882+00:00",
+      "evidence": "eiendeler.sumEiendeler: 159604.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:50.061814+00:00",
+  "last_checked_at": "2026-10-14T08:50:50.061814+00:00",
+  "history_ref": "rev_1791967850_934630122",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4542,
+    "cached": false
+  }
+}

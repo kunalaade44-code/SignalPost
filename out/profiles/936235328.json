@@ -1,0 +1,254 @@
+{
+  "org_number": "936235328",
+  "legal_name": "24/7 GÅLÅ AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-09-24",
+  "nace_codes": [
+    "81.100 - Kombinerte tjenester tilknyttet eiendomsdrift"
+  ],
+  "address": "Lomsetervegen 25, 2640 VINSTRA",
+  "municipality": "NORD-FRON",
+  "municipality_number": "3436",
+  "employees": 5,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Lomsetervegen 25, 2640 VINSTRA",
+    "visiting_address": "Lomsetervegen 25, 2640 VINSTRA"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Tom Erik Hoff",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Fazilet Hoff",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Tom Erik Hoff",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 600841.0,
+      "profit": -171478.0,
+      "operating_profit": -171478.0,
+      "net_profit": -171478.0,
+      "assets": 53876.0,
+      "equity": -141477.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936235328"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "24/7 GÅLÅ AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936235328",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:21.324719+00:00",
+      "evidence": "enhet.navn: 24/7 GÅLÅ AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936235328",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:21.324719+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936235328",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:21.324719+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-09-24",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936235328",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:21.324719+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-09-24",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "81.100 - Kombinerte tjenester tilknyttet eiendomsdrift"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936235328",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:21.324719+00:00",
+      "evidence": "naeringskoder: ['81.100 - Kombinerte tjenester tilknyttet eiendomsdrift']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Lomsetervegen 25, 2640 VINSTRA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936235328",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:21.324719+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Lomsetervegen 25'], 'kommune': 'NORD-FRON', 'kommunenummer': '3436', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '2640', 'poststed': 'VINSTRA'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "employees",
+      "value": 5,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936235328",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:21.324719+00:00",
+      "evidence": "antallAnsatte: 5",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered employee headcount reported to the Aa-register (NAV/SSB)."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936235328",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:21.324719+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Tom Erik Hoff",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936235328/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:21.324719+00:00",
+      "evidence": "rolle: Daglig leder -> Tom Erik Hoff",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Fazilet Hoff",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936235328/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:21.324719+00:00",
+      "evidence": "rolle: Styrets leder -> Fazilet Hoff",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 600841.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936235328",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:21.660679+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 600841.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -171478.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936235328",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:21.660679+00:00",
+      "evidence": "driftsresultat.driftsresultat: -171478.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -141477.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936235328",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:21.660679+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -141477.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 53876.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936235328",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:21.660679+00:00",
+      "evidence": "eiendeler.sumEiendeler: 53876.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:21.669400+00:00",
+  "last_checked_at": "2026-10-14T08:51:21.669400+00:00",
+  "history_ref": "rev_1791967881_936235328",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4569,
+    "cached": false
+  }
+}

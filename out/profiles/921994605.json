@@ -1,0 +1,315 @@
+{
+  "org_number": "921994605",
+  "legal_name": "1540 HERITAGE CAPITAL AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2019-01-03",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "c/o Richard Aaeng, Graahbakken 2, 0286 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "c/o Richard Aaeng, Graahbakken 2, 0286 OSLO",
+    "visiting_address": "c/o Richard Aaeng, Graahbakken 2, 0286 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Forretningsfører",
+      "name": "PARETO BUSINESS MANAGEMENT AS",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Richard Aaeng",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "PARETO BUSINESS MANAGEMENT AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -3950.0,
+      "operating_profit": -3950.0,
+      "net_profit": 735259.0,
+      "assets": 890311.0,
+      "equity": 884241.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921994605"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -20.0,
+      "operating_profit": -20.0,
+      "net_profit": 269213.0,
+      "assets": 1117891.0,
+      "equity": 1079509.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921994605"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -1119.0,
+      "operating_profit": -1119.0,
+      "net_profit": 991385.0,
+      "assets": 2316912.0,
+      "equity": 2310296.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921994605"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1540 HERITAGE CAPITAL AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921994605",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:41.867618+00:00",
+      "evidence": "enhet.navn: 1540 HERITAGE CAPITAL AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921994605",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:41.867618+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921994605",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:41.867618+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2019-01-03",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921994605",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:41.867618+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2019-01-03",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921994605",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:41.867618+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "c/o Richard Aaeng, Graahbakken 2, 0286 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921994605",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:41.867618+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['c/o Richard Aaeng', 'Graahbakken 2'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0286', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921994605",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:41.867618+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Richard Aaeng",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921994605/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:41.867618+00:00",
+      "evidence": "rolle: Styrets leder -> Richard Aaeng",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -3950.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921994605",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:42.322332+00:00",
+      "evidence": "driftsresultat.driftsresultat: -3950.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 884241.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921994605",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:42.322332+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 884241.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 890311.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921994605",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:42.322332+00:00",
+      "evidence": "eiendeler.sumEiendeler: 890311.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -20.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921994605",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:42.322332+00:00",
+      "evidence": "driftsresultat.driftsresultat: -20.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 1079509.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921994605",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:42.322332+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 1079509.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 1117891.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921994605",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:42.322332+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1117891.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -1119.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921994605",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:42.322332+00:00",
+      "evidence": "driftsresultat.driftsresultat: -1119.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 2310296.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921994605",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:42.322332+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 2310296.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 2316912.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921994605",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:42.322332+00:00",
+      "evidence": "eiendeler.sumEiendeler: 2316912.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:47:42.997012+00:00",
+  "last_checked_at": "2026-10-14T08:47:42.997012+00:00",
+  "history_ref": "rev_1791967662_921994605",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4947,
+    "cached": false
+  }
+}

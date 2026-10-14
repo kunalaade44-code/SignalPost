@@ -1,0 +1,367 @@
+{
+  "org_number": "917907412",
+  "legal_name": "1-VENN AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2016-10-20",
+  "nace_codes": [
+    "56.110 - Drift av restauranter"
+  ],
+  "address": "Astrids vei 11, 1473 LØRENSKOG",
+  "municipality": "LØRENSKOG",
+  "municipality_number": "3222",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Astrids vei 11, 1473 LØRENSKOG",
+    "visiting_address": "Astrids vei 11, 1473 LØRENSKOG"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Hoang Quoc Thao Nguyen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Van Toan Le",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "ADAC ADRIAN LE",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 430154.0,
+      "profit": -106257.0,
+      "operating_profit": -106257.0,
+      "net_profit": -106259.0,
+      "assets": 91988.0,
+      "equity": -76259.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412"
+    },
+    {
+      "year": 2024,
+      "revenue": 1.0,
+      "profit": -3398.0,
+      "operating_profit": -3398.0,
+      "net_profit": -3398.0,
+      "assets": 10.0,
+      "equity": 10.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412"
+    },
+    {
+      "year": 2023,
+      "revenue": 39.0,
+      "profit": -3209.0,
+      "operating_profit": -3209.0,
+      "net_profit": -3209.0,
+      "assets": 3408.0,
+      "equity": 3408.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1-VENN AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917907412",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:59.035558+00:00",
+      "evidence": "enhet.navn: 1-VENN AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917907412",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:59.035558+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917907412",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:59.035558+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2016-10-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917907412",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:59.035558+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2016-10-20",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "56.110 - Drift av restauranter"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917907412",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:59.035558+00:00",
+      "evidence": "naeringskoder: ['56.110 - Drift av restauranter']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Astrids vei 11, 1473 LØRENSKOG",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917907412",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:59.035558+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Astrids vei 11'], 'kommune': 'LØRENSKOG', 'kommunenummer': '3222', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1473', 'poststed': 'LØRENSKOG'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917907412",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:59.035558+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Hoang Quoc Thao Nguyen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917907412/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:59.035558+00:00",
+      "evidence": "rolle: Daglig leder -> Hoang Quoc Thao Nguyen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Van Toan Le",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917907412/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:59.035558+00:00",
+      "evidence": "rolle: Styrets leder -> Van Toan Le",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 430154.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:00.200907+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 430154.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -106257.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:00.200907+00:00",
+      "evidence": "driftsresultat.driftsresultat: -106257.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -76259.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:00.200907+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -76259.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 91988.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:00.200907+00:00",
+      "evidence": "eiendeler.sumEiendeler: 91988.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 1.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:00.200907+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 1.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -3398.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:00.200907+00:00",
+      "evidence": "driftsresultat.driftsresultat: -3398.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 10.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:00.200907+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 10.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 10.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:00.200907+00:00",
+      "evidence": "eiendeler.sumEiendeler: 10.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 39.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:00.200907+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 39.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -3209.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:00.200907+00:00",
+      "evidence": "driftsresultat.driftsresultat: -3209.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 3408.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:00.200907+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 3408.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 3408.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917907412",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:00.200907+00:00",
+      "evidence": "eiendeler.sumEiendeler: 3408.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:47:00.208677+00:00",
+  "last_checked_at": "2026-10-14T08:47:00.208677+00:00",
+  "history_ref": "rev_1791967620_917907412",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4598,
+    "cached": false
+  }
+}

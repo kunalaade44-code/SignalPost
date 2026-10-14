@@ -1,0 +1,322 @@
+{
+  "org_number": "927876604",
+  "legal_name": "2.0 MEDIA AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2021-10-06",
+  "nace_codes": [
+    "73.110 - Reklamebyråvirksomhet"
+  ],
+  "address": "c/o Espen Buen, Bogstadveien 72A, 0366 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "c/o Espen Buen, Bogstadveien 72A, 0366 OSLO",
+    "visiting_address": "c/o Espen Buen, Bogstadveien 72A, 0366 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Espen Buen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Espen Buen",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -8001.0,
+      "operating_profit": -8001.0,
+      "net_profit": -8001.0,
+      "assets": 11250.0,
+      "equity": -13751.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927876604"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -5294.0,
+      "operating_profit": -5294.0,
+      "net_profit": -5294.0,
+      "assets": 14250.0,
+      "equity": -5750.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927876604"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -14886.0,
+      "operating_profit": -14886.0,
+      "net_profit": -14886.0,
+      "assets": 14544.0,
+      "equity": -456.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927876604"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2.0 MEDIA AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927876604",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:05.690431+00:00",
+      "evidence": "enhet.navn: 2.0 MEDIA AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927876604",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:05.690431+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927876604",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:05.690431+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2021-10-06",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927876604",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:05.690431+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2021-10-06",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "73.110 - Reklamebyråvirksomhet"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927876604",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:05.690431+00:00",
+      "evidence": "naeringskoder: ['73.110 - Reklamebyråvirksomhet']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "c/o Espen Buen, Bogstadveien 72A, 0366 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927876604",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:05.690431+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['c/o Espen Buen', 'Bogstadveien 72A'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0366', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927876604",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:05.690431+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Espen Buen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927876604/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:05.690431+00:00",
+      "evidence": "rolle: Daglig leder -> Espen Buen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Espen Buen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927876604/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:05.690431+00:00",
+      "evidence": "rolle: Styrets leder -> Espen Buen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -8001.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927876604",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:06.194369+00:00",
+      "evidence": "driftsresultat.driftsresultat: -8001.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -13751.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927876604",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:06.194369+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -13751.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 11250.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927876604",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:06.194369+00:00",
+      "evidence": "eiendeler.sumEiendeler: 11250.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -5294.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927876604",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:06.194369+00:00",
+      "evidence": "driftsresultat.driftsresultat: -5294.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -5750.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927876604",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:06.194369+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -5750.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 14250.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927876604",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:06.194369+00:00",
+      "evidence": "eiendeler.sumEiendeler: 14250.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -14886.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927876604",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:06.194369+00:00",
+      "evidence": "driftsresultat.driftsresultat: -14886.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": -456.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927876604",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:06.194369+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -456.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 14544.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927876604",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:06.194369+00:00",
+      "evidence": "eiendeler.sumEiendeler: 14544.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:49:06.211251+00:00",
+  "last_checked_at": "2026-10-14T08:49:06.211251+00:00",
+  "history_ref": "rev_1791967746_927876604",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5004,
+    "cached": false
+  }
+}

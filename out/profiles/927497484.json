@@ -1,0 +1,373 @@
+{
+  "org_number": "927497484",
+  "legal_name": "24/7 RØRLEGGERVAKTEN AVD. STAVANGER AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2021-08-03",
+  "nace_codes": [
+    "43.221 - Rørleggerarbeid"
+  ],
+  "address": "Fåhadlet 78, 4160 FINNØY",
+  "municipality": "STAVANGER",
+  "municipality_number": "1103",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Fåhadlet 78, 4160 FINNØY",
+    "visiting_address": "Fåhadlet 78, 4160 FINNØY"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Marius Watson",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Marius Watson",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Anne Brit Landa Watson",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "HAV REGNSKAP FINNØY AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 3990903.0,
+      "profit": -185477.0,
+      "operating_profit": -185477.0,
+      "net_profit": -274895.0,
+      "assets": 1100163.0,
+      "equity": 287342.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484"
+    },
+    {
+      "year": 2024,
+      "revenue": 3309276.0,
+      "profit": 48865.0,
+      "operating_profit": 48865.0,
+      "net_profit": 4067.0,
+      "assets": 1501026.0,
+      "equity": 562237.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484"
+    },
+    {
+      "year": 2023,
+      "revenue": 4148965.0,
+      "profit": -265469.0,
+      "operating_profit": -265469.0,
+      "net_profit": -227220.0,
+      "assets": 1921457.0,
+      "equity": 558170.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "24/7 RØRLEGGERVAKTEN AVD. STAVANGER AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927497484",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:59.466335+00:00",
+      "evidence": "enhet.navn: 24/7 RØRLEGGERVAKTEN AVD. STAVANGER AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927497484",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:59.466335+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927497484",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:59.466335+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2021-08-03",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927497484",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:59.466335+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2021-08-03",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "43.221 - Rørleggerarbeid"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927497484",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:59.466335+00:00",
+      "evidence": "naeringskoder: ['43.221 - Rørleggerarbeid']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Fåhadlet 78, 4160 FINNØY",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927497484",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:59.466335+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Fåhadlet 78'], 'kommune': 'STAVANGER', 'kommunenummer': '1103', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '4160', 'poststed': 'FINNØY'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927497484",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:59.466335+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Marius Watson",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927497484/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:59.466335+00:00",
+      "evidence": "rolle: Daglig leder -> Marius Watson",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Marius Watson",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/927497484/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:59.466335+00:00",
+      "evidence": "rolle: Styrets leder -> Marius Watson",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 3990903.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:00.754414+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 3990903.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -185477.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:00.754414+00:00",
+      "evidence": "driftsresultat.driftsresultat: -185477.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 287342.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:00.754414+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 287342.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 1100163.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:00.754414+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1100163.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 3309276.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:00.754414+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 3309276.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 48865.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:00.754414+00:00",
+      "evidence": "driftsresultat.driftsresultat: 48865.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 562237.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:00.754414+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 562237.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 1501026.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:00.754414+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1501026.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 4148965.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:00.754414+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 4148965.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -265469.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:00.754414+00:00",
+      "evidence": "driftsresultat.driftsresultat: -265469.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 558170.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:00.754414+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 558170.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 1921457.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/927497484",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:00.754414+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1921457.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:49:00.768506+00:00",
+  "last_checked_at": "2026-10-14T08:49:00.768506+00:00",
+  "history_ref": "rev_1791967740_927497484",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5810,
+    "cached": false
+  }
+}

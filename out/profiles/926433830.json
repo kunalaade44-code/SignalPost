@@ -1,0 +1,354 @@
+{
+  "org_number": "926433830",
+  "legal_name": "2P-HOLDING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2021-01-22",
+  "nace_codes": [
+    "23.110 - Produksjon av planglass"
+  ],
+  "address": "c/o Pärkkä, Bruksenhetsnummer H0604, Gladbakkgutua 14C, 2070 RÅHOLT",
+  "municipality": "EIDSVOLL",
+  "municipality_number": "3240",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "c/o Pärkkä, Bruksenhetsnummer H0604, Gladbakkgutua 14C, 2070 RÅHOLT",
+    "visiting_address": "c/o Pärkkä, Bruksenhetsnummer H0604, Gladbakkgutua 14C, 2070 RÅHOLT"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Pasi Juhani Pärkkä",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Anna Silja Maaret Pärkkä",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "BALANCO ACCOUNTING AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 0.0,
+      "profit": -480.0,
+      "operating_profit": -480.0,
+      "net_profit": -480.0,
+      "assets": 142939.0,
+      "equity": 12939.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830"
+    },
+    {
+      "year": 2024,
+      "revenue": 0.0,
+      "profit": -360.0,
+      "operating_profit": -360.0,
+      "net_profit": -360.0,
+      "assets": 143419.0,
+      "equity": 13419.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830"
+    },
+    {
+      "year": 2023,
+      "revenue": 0.0,
+      "profit": -4736.0,
+      "operating_profit": -4736.0,
+      "net_profit": -4736.0,
+      "assets": 98779.0,
+      "equity": 13779.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2P-HOLDING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926433830",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:43.749084+00:00",
+      "evidence": "enhet.navn: 2P-HOLDING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926433830",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:43.749084+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926433830",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:43.749084+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2021-01-22",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926433830",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:43.749084+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2021-01-22",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "23.110 - Produksjon av planglass"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926433830",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:43.749084+00:00",
+      "evidence": "naeringskoder: ['23.110 - Produksjon av planglass']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "c/o Pärkkä, Bruksenhetsnummer H0604, Gladbakkgutua 14C, 2070 RÅHOLT",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926433830",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:43.749084+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['c/o Pärkkä', 'Bruksenhetsnummer H0604', 'Gladbakkgutua 14C'], 'kommune': 'EIDSVOLL', 'kommunenummer': '3240', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '2070', 'poststed': 'RÅHOLT'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926433830",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:43.749084+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Pasi Juhani Pärkkä",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926433830/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:43.749084+00:00",
+      "evidence": "rolle: Styrets leder -> Pasi Juhani Pärkkä",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:44.091666+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -480.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:44.091666+00:00",
+      "evidence": "driftsresultat.driftsresultat: -480.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 12939.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:44.091666+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 12939.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 142939.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:44.091666+00:00",
+      "evidence": "eiendeler.sumEiendeler: 142939.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:44.091666+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -360.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:44.091666+00:00",
+      "evidence": "driftsresultat.driftsresultat: -360.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 13419.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:44.091666+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 13419.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 143419.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:44.091666+00:00",
+      "evidence": "eiendeler.sumEiendeler: 143419.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:44.091666+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -4736.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:44.091666+00:00",
+      "evidence": "driftsresultat.driftsresultat: -4736.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 13779.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:44.091666+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 13779.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 98779.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926433830",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:44.091666+00:00",
+      "evidence": "eiendeler.sumEiendeler: 98779.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:48:44.142560+00:00",
+  "last_checked_at": "2026-10-14T08:48:44.142560+00:00",
+  "history_ref": "rev_1791967724_926433830",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4140,
+    "cached": false
+  }
+}

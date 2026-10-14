@@ -1,0 +1,177 @@
+{
+  "org_number": "936978843",
+  "legal_name": "100BIRDIES AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2026-01-16",
+  "nace_codes": [
+    "93.190 - Sportsaktiviteter ikke nevnt annet sted"
+  ],
+  "address": "Hundsundveien 23, 1367 SNARØYA",
+  "municipality": "BÆRUM",
+  "municipality_number": "3201",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Hundsundveien 23, 1367 SNARØYA",
+    "visiting_address": "Hundsundveien 23, 1367 SNARØYA"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Henric Sigvard Bjelke",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Henric Sigvard Bjelke",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Tore Bjelke",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "100BIRDIES AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936978843",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:29.461717+00:00",
+      "evidence": "enhet.navn: 100BIRDIES AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936978843",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:29.461717+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936978843",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:29.461717+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2026-01-16",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936978843",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:29.461717+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2026-01-16",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "93.190 - Sportsaktiviteter ikke nevnt annet sted"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936978843",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:29.461717+00:00",
+      "evidence": "naeringskoder: ['93.190 - Sportsaktiviteter ikke nevnt annet sted']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Hundsundveien 23, 1367 SNARØYA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936978843",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:29.461717+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Hundsundveien 23'], 'kommune': 'BÆRUM', 'kommunenummer': '3201', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1367', 'poststed': 'SNARØYA'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936978843",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:29.461717+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Henric Sigvard Bjelke",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936978843/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:29.461717+00:00",
+      "evidence": "rolle: Daglig leder -> Henric Sigvard Bjelke",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Henric Sigvard Bjelke",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936978843/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:29.461717+00:00",
+      "evidence": "rolle: Styrets leder -> Henric Sigvard Bjelke",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:30.917994+00:00",
+  "last_checked_at": "2026-10-14T08:51:30.917994+00:00",
+  "history_ref": "rev_1791967890_936978843",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4529,
+    "cached": false
+  }
+}

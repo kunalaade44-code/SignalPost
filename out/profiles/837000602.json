@@ -1,0 +1,158 @@
+{
+  "org_number": "837000602",
+  "legal_name": "0000 NORGE AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2026-01-20",
+  "nace_codes": [
+    "79.121 - Aktiviteter utført av utflukts- og eventarrangører"
+  ],
+  "address": "Kongens gate 6, 0153 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Kongens gate 6, 0153 OSLO",
+    "visiting_address": "Kongens gate 6, 0153 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Shire Marius Standnes",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Peter Schanche Eikeland",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "0000 NORGE AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837000602",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:55.205924+00:00",
+      "evidence": "enhet.navn: 0000 NORGE AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837000602",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:55.205924+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837000602",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:55.205924+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2026-01-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837000602",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:55.205924+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2026-01-20",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "79.121 - Aktiviteter utført av utflukts- og eventarrangører"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837000602",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:55.205924+00:00",
+      "evidence": "naeringskoder: ['79.121 - Aktiviteter utført av utflukts- og eventarrangører']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Kongens gate 6, 0153 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837000602",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:55.205924+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Kongens gate 6'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0153', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837000602",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:55.205924+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Shire Marius Standnes",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837000602/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:55.205924+00:00",
+      "evidence": "rolle: Styrets leder -> Shire Marius Standnes",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:45:55.608573+00:00",
+  "last_checked_at": "2026-10-14T08:45:55.608573+00:00",
+  "history_ref": "rev_1791967555_837000602",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4365,
+    "cached": false
+  }
+}

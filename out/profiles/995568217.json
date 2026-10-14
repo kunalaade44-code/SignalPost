@@ -1,0 +1,265 @@
+{
+  "org_number": "995568217",
+  "legal_name": "GJENSIDIGE FORSIKRING ASA",
+  "status": "ACTIVE",
+  "org_form": "Allmennaksjeselskap (ASA)",
+  "registered_date": "2010-06-28",
+  "nace_codes": [
+    "65.120 - Skadeforsikring",
+    "66.290 - Tjenester tilknyttet forsikringsvirksomhet ikke nevnt annet sted",
+    "66.220 - Forsikringsformidling"
+  ],
+  "address": "Schweigaards gate 21, 0191 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": 2314,
+  "vat_registered": true,
+  "website": "https://www.gjensidige.no",
+  "contact": {
+    "email": null,
+    "phone": "+47 20 02 95 17",
+    "postal_address": "Schweigaards gate 21, 0191 OSLO",
+    "visiting_address": "Schweigaards gate 21, 0191 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Geir Holmgren",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Dag Mejdell",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Gunnar Robert Sellæg",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Gyrid Skalleberg Ingerø",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Mari Thjømøe",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Nils Jakob Røsholt",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Simona Trombetta",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Tor Magne Lønnum",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Ellen Kristin Enger",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Ruben Pettersen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Sebastian Buur Kristiansen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "DELOITTE AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [],
+  "description": "Livet er fullt av oppturer og nedturer. Og alt midt imellom. Vi har forsikringene du trenger for menneskene, tingene og dyrene du er glad i.",
+  "social_links": [
+    "https://www.facebook.com/gjensidigenorge",
+    "https://www.instagram.com/gjensidige",
+    "https://www.linkedin.com/company/6888"
+  ],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "GJENSIDIGE FORSIKRING ASA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995568217",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:15.061085+00:00",
+      "evidence": "enhet.navn: GJENSIDIGE FORSIKRING ASA",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995568217",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:15.061085+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Allmennaksjeselskap (ASA)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995568217",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:15.061085+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ASA'}}, 'beskrivelse': 'Allmennaksjeselskap', 'kode': 'ASA'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2010-06-28",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995568217",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:15.061085+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2010-06-28",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "65.120 - Skadeforsikring",
+        "66.290 - Tjenester tilknyttet forsikringsvirksomhet ikke nevnt annet sted",
+        "66.220 - Forsikringsformidling"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995568217",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:15.061085+00:00",
+      "evidence": "naeringskoder: ['65.120 - Skadeforsikring', '66.290 - Tjenester tilknyttet forsikringsvirksomhet ikke nevnt annet sted', '66.220 - Forsikringsformidling']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Schweigaards gate 21, 0191 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995568217",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:15.061085+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Schweigaards gate 21'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0191', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "employees",
+      "value": 2314,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995568217",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:15.061085+00:00",
+      "evidence": "antallAnsatte: 2314",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered employee headcount reported to the Aa-register (NAV/SSB)."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995568217",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:15.061085+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "website",
+      "value": "https://www.gjensidige.no",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995568217",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:15.061085+00:00",
+      "evidence": "hjemmeside: www.gjensidige.no",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official corporate homepage URL explicitly declared in Enhetsregisteret."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Geir Holmgren",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995568217/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:15.061085+00:00",
+      "evidence": "rolle: Daglig leder -> Geir Holmgren",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Dag Mejdell",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995568217/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:43:15.061085+00:00",
+      "evidence": "rolle: Styrets leder -> Dag Mejdell",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:43:21.707882+00:00",
+  "last_checked_at": "2026-10-14T08:43:21.707882+00:00",
+  "history_ref": "rev_1791967401_995568217",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 4,
+    "cost_usd": 0.0,
+    "duration_ms": 7378,
+    "cached": false
+  }
+}

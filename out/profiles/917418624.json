@@ -1,0 +1,354 @@
+{
+  "org_number": "917418624",
+  "legal_name": "2S TILLER & NÆSS MALERSERVICE - JOMFRUSLETTFJELL HYTTESERVICE AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2016-07-04",
+  "nace_codes": [
+    "43.340 - Maler- og glassarbeid"
+  ],
+  "address": "C/O Lars Anders Tiller, Tranberglia 10, 2819 GJØVIK",
+  "municipality": "GJØVIK",
+  "municipality_number": "3407",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "C/O Lars Anders Tiller, Tranberglia 10, 2819 GJØVIK",
+    "visiting_address": "C/O Lars Anders Tiller, Tranberglia 10, 2819 GJØVIK"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Per Anders Normann",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Pål Kristian Næss Tiller",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "RØSTE REGNSKAP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 1589643.0,
+      "profit": 77766.0,
+      "operating_profit": 77766.0,
+      "net_profit": 55102.0,
+      "assets": 461295.0,
+      "equity": 421478.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624"
+    },
+    {
+      "year": 2024,
+      "revenue": 1871035.0,
+      "profit": -220173.0,
+      "operating_profit": -220173.0,
+      "net_profit": -221948.0,
+      "assets": 537434.0,
+      "equity": 366376.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624"
+    },
+    {
+      "year": 2023,
+      "revenue": 1911775.0,
+      "profit": 278060.0,
+      "operating_profit": 278060.0,
+      "net_profit": 217504.0,
+      "assets": 764986.0,
+      "equity": 588324.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2S TILLER & NÆSS MALERSERVICE - JOMFRUSLETTFJELL HYTTESERVICE AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917418624",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:54.422762+00:00",
+      "evidence": "enhet.navn: 2S TILLER & NÆSS MALERSERVICE - JOMFRUSLETTFJELL HYTTESERVICE AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917418624",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:54.422762+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917418624",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:54.422762+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2016-07-04",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917418624",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:54.422762+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2016-07-04",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "43.340 - Maler- og glassarbeid"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917418624",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:54.422762+00:00",
+      "evidence": "naeringskoder: ['43.340 - Maler- og glassarbeid']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "C/O Lars Anders Tiller, Tranberglia 10, 2819 GJØVIK",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917418624",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:54.422762+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['C/O Lars Anders Tiller', 'Tranberglia 10'], 'kommune': 'GJØVIK', 'kommunenummer': '3407', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '2819', 'poststed': 'GJØVIK'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917418624",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:54.422762+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Per Anders Normann",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917418624/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:54.422762+00:00",
+      "evidence": "rolle: Styrets leder -> Per Anders Normann",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 1589643.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:55.553001+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 1589643.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 77766.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:55.553001+00:00",
+      "evidence": "driftsresultat.driftsresultat: 77766.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 421478.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:55.553001+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 421478.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 461295.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:55.553001+00:00",
+      "evidence": "eiendeler.sumEiendeler: 461295.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 1871035.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:55.553001+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 1871035.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -220173.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:55.553001+00:00",
+      "evidence": "driftsresultat.driftsresultat: -220173.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 366376.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:55.553001+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 366376.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 537434.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:55.553001+00:00",
+      "evidence": "eiendeler.sumEiendeler: 537434.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 1911775.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:55.553001+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 1911775.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 278060.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:55.553001+00:00",
+      "evidence": "driftsresultat.driftsresultat: 278060.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 588324.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:55.553001+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 588324.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 764986.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917418624",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:55.553001+00:00",
+      "evidence": "eiendeler.sumEiendeler: 764986.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:46:55.567462+00:00",
+  "last_checked_at": "2026-10-14T08:46:55.567462+00:00",
+  "history_ref": "rev_1791967615_917418624",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 6435,
+    "cached": false
+  }
+}

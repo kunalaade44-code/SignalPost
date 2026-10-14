@@ -1,0 +1,309 @@
+{
+  "org_number": "921360053",
+  "legal_name": "2DALE AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2018-09-07",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Østvangveien 24, 0588 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Østvangveien 24, 0588 OSLO",
+    "visiting_address": "Østvangveien 24, 0588 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Torgeir Dale",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Emilie Heggem",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -1157.0,
+      "operating_profit": -1157.0,
+      "net_profit": 444725.0,
+      "assets": 1982333.0,
+      "equity": 1982333.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921360053"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -6118.0,
+      "operating_profit": -6118.0,
+      "net_profit": 320104.0,
+      "assets": 1544123.0,
+      "equity": 1537608.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921360053"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -5.0,
+      "operating_profit": -5.0,
+      "net_profit": 63048.0,
+      "assets": 1225874.0,
+      "equity": 1217503.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921360053"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2DALE AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921360053",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:36.363729+00:00",
+      "evidence": "enhet.navn: 2DALE AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921360053",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:36.363729+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921360053",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:36.363729+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2018-09-07",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921360053",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:36.363729+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2018-09-07",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921360053",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:36.363729+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Østvangveien 24, 0588 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921360053",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:36.363729+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Østvangveien 24'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0588', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921360053",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:36.363729+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Torgeir Dale",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921360053/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:36.363729+00:00",
+      "evidence": "rolle: Styrets leder -> Torgeir Dale",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -1157.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921360053",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:36.779204+00:00",
+      "evidence": "driftsresultat.driftsresultat: -1157.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 1982333.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921360053",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:36.779204+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 1982333.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 1982333.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921360053",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:36.779204+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1982333.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -6118.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921360053",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:36.779204+00:00",
+      "evidence": "driftsresultat.driftsresultat: -6118.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 1537608.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921360053",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:36.779204+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 1537608.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 1544123.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921360053",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:36.779204+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1544123.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -5.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921360053",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:36.779204+00:00",
+      "evidence": "driftsresultat.driftsresultat: -5.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 1217503.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921360053",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:36.779204+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 1217503.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 1225874.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921360053",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:36.779204+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1225874.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:47:37.197069+00:00",
+  "last_checked_at": "2026-10-14T08:47:37.197069+00:00",
+  "history_ref": "rev_1791967657_921360053",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5389,
+    "cached": false
+  }
+}

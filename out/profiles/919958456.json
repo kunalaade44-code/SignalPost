@@ -1,0 +1,309 @@
+{
+  "org_number": "919958456",
+  "legal_name": "101 INVEST AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2017-11-23",
+  "nace_codes": [
+    "85.531 - Undervisning ved godkjente trafikkskoler"
+  ],
+  "address": "Hovsveien 8, 1831 ASKIM",
+  "municipality": "INDRE ØSTFOLD",
+  "municipality_number": "3118",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Hovsveien 8, 1831 ASKIM",
+    "visiting_address": "Hovsveien 8, 1831 ASKIM"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Cristin Stene",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "OPTIMAL-ØKONOMI AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -12223.0,
+      "operating_profit": -12223.0,
+      "net_profit": -12268.0,
+      "assets": 61519.0,
+      "equity": -67063.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919958456"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -8553.0,
+      "operating_profit": -8553.0,
+      "net_profit": -8563.0,
+      "assets": 32004.0,
+      "equity": -54794.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919958456"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -8497.0,
+      "operating_profit": -8497.0,
+      "net_profit": -8497.0,
+      "assets": 30064.0,
+      "equity": -46231.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919958456"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "101 INVEST AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919958456",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:23.772643+00:00",
+      "evidence": "enhet.navn: 101 INVEST AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919958456",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:23.772643+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919958456",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:23.772643+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2017-11-23",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919958456",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:23.772643+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2017-11-23",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "85.531 - Undervisning ved godkjente trafikkskoler"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919958456",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:23.772643+00:00",
+      "evidence": "naeringskoder: ['85.531 - Undervisning ved godkjente trafikkskoler']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Hovsveien 8, 1831 ASKIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919958456",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:23.772643+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Hovsveien 8'], 'kommune': 'INDRE ØSTFOLD', 'kommunenummer': '3118', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1831', 'poststed': 'ASKIM'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919958456",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:23.772643+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Cristin Stene",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/919958456/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:23.772643+00:00",
+      "evidence": "rolle: Styrets leder -> Cristin Stene",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -12223.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919958456",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:24.695998+00:00",
+      "evidence": "driftsresultat.driftsresultat: -12223.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -67063.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919958456",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:24.695998+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -67063.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 61519.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919958456",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:24.695998+00:00",
+      "evidence": "eiendeler.sumEiendeler: 61519.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -8553.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919958456",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:24.695998+00:00",
+      "evidence": "driftsresultat.driftsresultat: -8553.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -54794.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919958456",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:24.695998+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -54794.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 32004.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919958456",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:24.695998+00:00",
+      "evidence": "eiendeler.sumEiendeler: 32004.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -8497.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919958456",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:24.695998+00:00",
+      "evidence": "driftsresultat.driftsresultat: -8497.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": -46231.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919958456",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:24.695998+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -46231.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 30064.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/919958456",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:24.695998+00:00",
+      "evidence": "eiendeler.sumEiendeler: 30064.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:47:25.332864+00:00",
+  "last_checked_at": "2026-10-14T08:47:25.332864+00:00",
+  "history_ref": "rev_1791967645_919958456",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5705,
+    "cached": false
+  }
+}

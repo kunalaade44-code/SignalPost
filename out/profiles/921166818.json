@@ -1,0 +1,328 @@
+{
+  "org_number": "921166818",
+  "legal_name": "2B IT AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2018-07-16",
+  "nace_codes": [
+    "70.200 - Bedriftsrådgivning og annen administrativ rådgivning"
+  ],
+  "address": "Bolignummer H0401, Hanskemakerbakken 6, 7018 TRONDHEIM",
+  "municipality": "TRONDHEIM",
+  "municipality_number": "5001",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Bolignummer H0401, Hanskemakerbakken 6, 7018 TRONDHEIM",
+    "visiting_address": "Bolignummer H0401, Hanskemakerbakken 6, 7018 TRONDHEIM"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Tore Bisgaard",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Gunn Magni Grønnæss",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "FOLKELIG REGNSKAP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2023,
+      "revenue": 911711.0,
+      "profit": 214035.0,
+      "operating_profit": 214035.0,
+      "net_profit": 180631.0,
+      "assets": 993804.0,
+      "equity": 276834.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921166818"
+    },
+    {
+      "year": 2022,
+      "revenue": null,
+      "profit": null,
+      "operating_profit": null,
+      "net_profit": 0.0,
+      "assets": 0.0,
+      "equity": 0.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921166818"
+    },
+    {
+      "year": 2021,
+      "revenue": 532672.0,
+      "profit": -251999.0,
+      "operating_profit": -251999.0,
+      "net_profit": -202597.0,
+      "assets": 1099669.0,
+      "equity": 140373.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921166818"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2B IT AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921166818",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:34.043068+00:00",
+      "evidence": "enhet.navn: 2B IT AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921166818",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:34.043068+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921166818",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:34.043068+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2018-07-16",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921166818",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:34.043068+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2018-07-16",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "70.200 - Bedriftsrådgivning og annen administrativ rådgivning"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921166818",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:34.043068+00:00",
+      "evidence": "naeringskoder: ['70.200 - Bedriftsrådgivning og annen administrativ rådgivning']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Bolignummer H0401, Hanskemakerbakken 6, 7018 TRONDHEIM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921166818",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:34.043068+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Bolignummer H0401', 'Hanskemakerbakken 6'], 'kommune': 'TRONDHEIM', 'kommunenummer': '5001', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '7018', 'poststed': 'TRONDHEIM'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921166818",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:34.043068+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Tore Bisgaard",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921166818/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:34.043068+00:00",
+      "evidence": "rolle: Styrets leder -> Tore Bisgaard",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 911711.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921166818",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:34.801862+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 911711.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 214035.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921166818",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:34.801862+00:00",
+      "evidence": "driftsresultat.driftsresultat: 214035.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 276834.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921166818",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:34.801862+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 276834.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 993804.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921166818",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:34.801862+00:00",
+      "evidence": "eiendeler.sumEiendeler: 993804.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2022",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921166818",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:34.801862+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2022 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2022",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921166818",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:34.801862+00:00",
+      "evidence": "eiendeler.sumEiendeler: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2022 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2021",
+      "value": 532672.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921166818",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:34.801862+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 532672.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2021 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2021",
+      "value": -251999.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921166818",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:34.801862+00:00",
+      "evidence": "driftsresultat.driftsresultat: -251999.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2021 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2021",
+      "value": 140373.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921166818",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:34.801862+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 140373.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2021 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2021",
+      "value": 1099669.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921166818",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:34.801862+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1099669.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2021 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:47:34.816180+00:00",
+  "last_checked_at": "2026-10-14T08:47:34.816180+00:00",
+  "history_ref": "rev_1791967654_921166818",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5113,
+    "cached": false
+  }
+}

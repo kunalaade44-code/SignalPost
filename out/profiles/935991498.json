@@ -1,0 +1,241 @@
+{
+  "org_number": "935991498",
+  "legal_name": "2M HÅNDVERK AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-08-19",
+  "nace_codes": [
+    "41.000 - Oppføring av bygninger"
+  ],
+  "address": "Levre skolevei 5B, 1346 GJETTUM",
+  "municipality": "BÆRUM",
+  "municipality_number": "3201",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Levre skolevei 5B, 1346 GJETTUM",
+    "visiting_address": "Levre skolevei 5B, 1346 GJETTUM"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Maciej Stanislaw Gruszowski",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Marcin Lukasz Medynski",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "EFIRMA REGNSKAP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 239000.0,
+      "profit": 206045.0,
+      "operating_profit": 206045.0,
+      "net_profit": 162146.0,
+      "assets": 256779.0,
+      "equity": 185646.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935991498"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2M HÅNDVERK AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935991498",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:17.915039+00:00",
+      "evidence": "enhet.navn: 2M HÅNDVERK AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935991498",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:17.915039+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935991498",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:17.915039+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-08-19",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935991498",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:17.915039+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-08-19",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "41.000 - Oppføring av bygninger"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935991498",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:17.915039+00:00",
+      "evidence": "naeringskoder: ['41.000 - Oppføring av bygninger']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Levre skolevei 5B, 1346 GJETTUM",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935991498",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:17.915039+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Levre skolevei 5B'], 'kommune': 'BÆRUM', 'kommunenummer': '3201', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1346', 'poststed': 'GJETTUM'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935991498",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:17.915039+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Maciej Stanislaw Gruszowski",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935991498/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:17.915039+00:00",
+      "evidence": "rolle: Daglig leder -> Maciej Stanislaw Gruszowski",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Marcin Lukasz Medynski",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935991498/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:17.915039+00:00",
+      "evidence": "rolle: Styrets leder -> Marcin Lukasz Medynski",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 239000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935991498",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:18.343000+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 239000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 206045.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935991498",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:18.343000+00:00",
+      "evidence": "driftsresultat.driftsresultat: 206045.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 185646.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935991498",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:18.343000+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 185646.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 256779.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935991498",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:18.343000+00:00",
+      "evidence": "eiendeler.sumEiendeler: 256779.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:18.356669+00:00",
+  "last_checked_at": "2026-10-14T08:51:18.356669+00:00",
+  "history_ref": "rev_1791967878_935991498",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4679,
+    "cached": false
+  }
+}

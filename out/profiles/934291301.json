@@ -1,0 +1,171 @@
+{
+  "org_number": "934291301",
+  "legal_name": "3228-50/1 HOLDING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-10-17",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Vestsidavegen 383, 2160 VORMSUND",
+  "municipality": "NES",
+  "municipality_number": "3228",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Vestsidavegen 383, 2160 VORMSUND",
+    "visiting_address": "Vestsidavegen 383, 2160 VORMSUND"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "André Næss Hønsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "André Næss Hønsen",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3228-50/1 HOLDING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934291301",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:44.624563+00:00",
+      "evidence": "enhet.navn: 3228-50/1 HOLDING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934291301",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:44.624563+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934291301",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:44.624563+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-10-17",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934291301",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:44.624563+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-10-17",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934291301",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:44.624563+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Vestsidavegen 383, 2160 VORMSUND",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934291301",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:44.624563+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Vestsidavegen 383'], 'kommune': 'NES', 'kommunenummer': '3228', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '2160', 'poststed': 'VORMSUND'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934291301",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:44.624563+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "André Næss Hønsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934291301/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:44.624563+00:00",
+      "evidence": "rolle: Daglig leder -> André Næss Hønsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "André Næss Hønsen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934291301/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:44.624563+00:00",
+      "evidence": "rolle: Styrets leder -> André Næss Hønsen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:45.461235+00:00",
+  "last_checked_at": "2026-10-14T08:50:45.461235+00:00",
+  "history_ref": "rev_1791967845_934291301",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4817,
+    "cached": false
+  }
+}

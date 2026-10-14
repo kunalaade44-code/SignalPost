@@ -1,0 +1,253 @@
+{
+  "org_number": "936056997",
+  "legal_name": "3B BYGG & EIENDOM AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-08-29",
+  "nace_codes": [
+    "43.320 - Snekkerarbeid"
+  ],
+  "address": "Sverres gate 17B, 0652 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Sverres gate 17B, 0652 OSLO",
+    "visiting_address": "Sverres gate 17B, 0652 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Marcus Dodaj",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Eder Dodaj",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Etien Dodaj",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Marcus Dodaj",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "LT ACCOUNTING AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 591041.0,
+      "profit": 154781.0,
+      "operating_profit": 154781.0,
+      "net_profit": 119355.0,
+      "assets": 420978.0,
+      "equity": 149355.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936056997"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3B BYGG & EIENDOM AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936056997",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.336816+00:00",
+      "evidence": "enhet.navn: 3B BYGG & EIENDOM AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936056997",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.336816+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936056997",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.336816+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-08-29",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936056997",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.336816+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-08-29",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "43.320 - Snekkerarbeid"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936056997",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.336816+00:00",
+      "evidence": "naeringskoder: ['43.320 - Snekkerarbeid']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Sverres gate 17B, 0652 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936056997",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.336816+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Sverres gate 17B'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0652', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936056997",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.336816+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Marcus Dodaj",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936056997/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.336816+00:00",
+      "evidence": "rolle: Daglig leder -> Marcus Dodaj",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Eder Dodaj",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936056997/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.336816+00:00",
+      "evidence": "rolle: Styrets leder -> Eder Dodaj",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 591041.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936056997",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:19.429426+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 591041.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 154781.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936056997",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:19.429426+00:00",
+      "evidence": "driftsresultat.driftsresultat: 154781.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 149355.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936056997",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:19.429426+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 149355.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 420978.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936056997",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:19.429426+00:00",
+      "evidence": "eiendeler.sumEiendeler: 420978.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:19.450243+00:00",
+  "last_checked_at": "2026-10-14T08:51:19.450243+00:00",
+  "history_ref": "rev_1791967879_936056997",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5281,
+    "cached": false
+  }
+}

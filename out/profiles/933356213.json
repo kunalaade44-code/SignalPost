@@ -1,0 +1,272 @@
+{
+  "org_number": "933356213",
+  "legal_name": "2BARCTIC AS",
+  "status": "IN_LIQUIDATION",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-04-24",
+  "nace_codes": [
+    "70.200 - Bedriftsrådgivning og annen administrativ rådgivning"
+  ],
+  "address": "c/o Rune Bjerke, Hilda Magnussens vei 6A, 1459 NESODDEN",
+  "municipality": "NESODDEN",
+  "municipality_number": "3212",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "c/o Rune Bjerke, Hilda Magnussens vei 6A, 1459 NESODDEN",
+    "visiting_address": "c/o Rune Bjerke, Hilda Magnussens vei 6A, 1459 NESODDEN"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Rune Bjerke",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Evan Mathias Bjerke",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 0.0,
+      "profit": -8845.0,
+      "operating_profit": -8845.0,
+      "net_profit": -11288.0,
+      "assets": 36603.0,
+      "equity": 8156.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933356213"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -10562.0,
+      "operating_profit": -10562.0,
+      "net_profit": -10556.0,
+      "assets": 45444.0,
+      "equity": 19444.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933356213"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2BARCTIC AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933356213",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:28.697097+00:00",
+      "evidence": "enhet.navn: 2BARCTIC AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "IN_LIQUIDATION",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933356213",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:28.697097+00:00",
+      "evidence": "konkurs=False, underAvvikling=True, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933356213",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:28.697097+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-04-24",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933356213",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:28.697097+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-04-24",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "70.200 - Bedriftsrådgivning og annen administrativ rådgivning"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933356213",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:28.697097+00:00",
+      "evidence": "naeringskoder: ['70.200 - Bedriftsrådgivning og annen administrativ rådgivning']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "c/o Rune Bjerke, Hilda Magnussens vei 6A, 1459 NESODDEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933356213",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:28.697097+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['c/o Rune Bjerke', 'Hilda Magnussens vei 6A'], 'kommune': 'NESODDEN', 'kommunenummer': '3212', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1459', 'poststed': 'NESODDEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933356213",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:28.697097+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Rune Bjerke",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933356213/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:28.697097+00:00",
+      "evidence": "rolle: Styrets leder -> Rune Bjerke",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933356213",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:29.246481+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -8845.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933356213",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:29.246481+00:00",
+      "evidence": "driftsresultat.driftsresultat: -8845.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 8156.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933356213",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:29.246481+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 8156.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 36603.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933356213",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:29.246481+00:00",
+      "evidence": "eiendeler.sumEiendeler: 36603.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -10562.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933356213",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:29.246481+00:00",
+      "evidence": "driftsresultat.driftsresultat: -10562.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 19444.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933356213",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:29.246481+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 19444.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 45444.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933356213",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:29.246481+00:00",
+      "evidence": "eiendeler.sumEiendeler: 45444.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:29.265757+00:00",
+  "last_checked_at": "2026-10-14T08:50:29.265757+00:00",
+  "history_ref": "rev_1791967829_933356213",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4844,
+    "cached": false
+  }
+}

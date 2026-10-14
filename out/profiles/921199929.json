@@ -1,0 +1,329 @@
+{
+  "org_number": "921199929",
+  "legal_name": "3D PRINTING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2018-07-27",
+  "nace_codes": [
+    "74.110 - Industri-, produkt- og motedesignvirksomhet"
+  ],
+  "address": "Skarehaugene 88, 5174 MATHOPEN",
+  "municipality": "BERGEN",
+  "municipality_number": "4601",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Skarehaugene 88, 5174 MATHOPEN",
+    "visiting_address": "Skarehaugene 88, 5174 MATHOPEN"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Carl Marius Vårdal Egge",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 89158.0,
+      "profit": 14231.0,
+      "operating_profit": 14231.0,
+      "net_profit": 11271.0,
+      "assets": 33357.0,
+      "equity": -450856.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929"
+    },
+    {
+      "year": 2024,
+      "revenue": 12485.0,
+      "profit": 7955.0,
+      "operating_profit": 7955.0,
+      "net_profit": 7955.0,
+      "assets": 12257.0,
+      "equity": -462125.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -7000.0,
+      "operating_profit": -7000.0,
+      "net_profit": -7000.0,
+      "assets": 0.0,
+      "equity": -470080.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3D PRINTING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921199929",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:35.548577+00:00",
+      "evidence": "enhet.navn: 3D PRINTING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921199929",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:35.548577+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921199929",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:35.548577+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2018-07-27",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921199929",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:35.548577+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2018-07-27",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "74.110 - Industri-, produkt- og motedesignvirksomhet"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921199929",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:35.548577+00:00",
+      "evidence": "naeringskoder: ['74.110 - Industri-, produkt- og motedesignvirksomhet']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Skarehaugene 88, 5174 MATHOPEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921199929",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:35.548577+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Skarehaugene 88'], 'kommune': 'BERGEN', 'kommunenummer': '4601', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '5174', 'poststed': 'MATHOPEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921199929",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:35.548577+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Carl Marius Vårdal Egge",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/921199929/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:47:35.548577+00:00",
+      "evidence": "rolle: Styrets leder -> Carl Marius Vårdal Egge",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 89158.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:35.918885+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 89158.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 14231.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:35.918885+00:00",
+      "evidence": "driftsresultat.driftsresultat: 14231.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -450856.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:35.918885+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -450856.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 33357.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:35.918885+00:00",
+      "evidence": "eiendeler.sumEiendeler: 33357.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 12485.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:35.918885+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 12485.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 7955.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:35.918885+00:00",
+      "evidence": "driftsresultat.driftsresultat: 7955.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": -462125.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:35.918885+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -462125.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 12257.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:35.918885+00:00",
+      "evidence": "eiendeler.sumEiendeler: 12257.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -7000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:35.918885+00:00",
+      "evidence": "driftsresultat.driftsresultat: -7000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": -470080.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:35.918885+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -470080.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/921199929",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:47:35.918885+00:00",
+      "evidence": "eiendeler.sumEiendeler: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:47:35.954718+00:00",
+  "last_checked_at": "2026-10-14T08:47:35.954718+00:00",
+  "history_ref": "rev_1791967655_921199929",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4688,
+    "cached": false
+  }
+}

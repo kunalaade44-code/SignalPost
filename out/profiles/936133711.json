@@ -1,0 +1,222 @@
+{
+  "org_number": "936133711",
+  "legal_name": "0805 SKR-HOLDING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-09-15",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Likollen 32, 1481 HAGAN",
+  "municipality": "NITTEDAL",
+  "municipality_number": "3232",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Likollen 32, 1481 HAGAN",
+    "visiting_address": "Likollen 32, 1481 HAGAN"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Sturla Kjetil Rambjør",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "ABACUS ØKONOMITJENESTER AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 0.0,
+      "profit": -7750.0,
+      "operating_profit": -7750.0,
+      "net_profit": 176255.0,
+      "assets": 13865135.0,
+      "equity": 13858635.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936133711"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "0805 SKR-HOLDING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936133711",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.344152+00:00",
+      "evidence": "enhet.navn: 0805 SKR-HOLDING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936133711",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.344152+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936133711",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.344152+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-09-15",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936133711",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.344152+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-09-15",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936133711",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.344152+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Likollen 32, 1481 HAGAN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936133711",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.344152+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Likollen 32'], 'kommune': 'NITTEDAL', 'kommunenummer': '3232', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1481', 'poststed': 'HAGAN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936133711",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.344152+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Sturla Kjetil Rambjør",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936133711/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:18.344152+00:00",
+      "evidence": "rolle: Styrets leder -> Sturla Kjetil Rambjør",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936133711",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:19.432278+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -7750.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936133711",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:19.432278+00:00",
+      "evidence": "driftsresultat.driftsresultat: -7750.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 13858635.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936133711",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:19.432278+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 13858635.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 13865135.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936133711",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:19.432278+00:00",
+      "evidence": "eiendeler.sumEiendeler: 13865135.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:19.450275+00:00",
+  "last_checked_at": "2026-10-14T08:51:19.450275+00:00",
+  "history_ref": "rev_1791967879_936133711",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5279,
+    "cached": false
+  }
+}

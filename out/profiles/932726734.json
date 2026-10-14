@@ -1,0 +1,315 @@
+{
+  "org_number": "932726734",
+  "legal_name": "1852TST AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2023-12-28",
+  "nace_codes": [
+    "71.129 - Annen teknisk konsulentvirksomhet"
+  ],
+  "address": "Ingrids veg 10, 6429 MOLDE",
+  "municipality": "MOLDE",
+  "municipality_number": "1506",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Ingrids veg 10, 6429 MOLDE",
+    "visiting_address": "Ingrids veg 10, 6429 MOLDE"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Trond Stokke",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Trond Stokke",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "BDO AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -21644.0,
+      "operating_profit": -21644.0,
+      "net_profit": 139467.0,
+      "assets": 2020072.0,
+      "equity": 254864.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932726734"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -8722.0,
+      "operating_profit": -8722.0,
+      "net_profit": 91181.0,
+      "assets": 1919389.0,
+      "equity": 115397.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932726734"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": null,
+      "operating_profit": null,
+      "net_profit": 0.0,
+      "assets": 1852832.0,
+      "equity": 24216.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932726734"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1852TST AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932726734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:17.091681+00:00",
+      "evidence": "enhet.navn: 1852TST AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932726734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:17.091681+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932726734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:17.091681+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2023-12-28",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932726734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:17.091681+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2023-12-28",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "71.129 - Annen teknisk konsulentvirksomhet"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932726734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:17.091681+00:00",
+      "evidence": "naeringskoder: ['71.129 - Annen teknisk konsulentvirksomhet']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Ingrids veg 10, 6429 MOLDE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932726734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:17.091681+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Ingrids veg 10'], 'kommune': 'MOLDE', 'kommunenummer': '1506', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '6429', 'poststed': 'MOLDE'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932726734",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:17.091681+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Trond Stokke",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932726734/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:17.091681+00:00",
+      "evidence": "rolle: Daglig leder -> Trond Stokke",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Trond Stokke",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932726734/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:17.091681+00:00",
+      "evidence": "rolle: Styrets leder -> Trond Stokke",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -21644.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932726734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:17.529648+00:00",
+      "evidence": "driftsresultat.driftsresultat: -21644.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 254864.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932726734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:17.529648+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 254864.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 2020072.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932726734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:17.529648+00:00",
+      "evidence": "eiendeler.sumEiendeler: 2020072.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -8722.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932726734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:17.529648+00:00",
+      "evidence": "driftsresultat.driftsresultat: -8722.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 115397.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932726734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:17.529648+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 115397.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 1919389.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932726734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:17.529648+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1919389.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 24216.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932726734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:17.529648+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 24216.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 1852832.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932726734",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:17.529648+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1852832.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:17.868928+00:00",
+  "last_checked_at": "2026-10-14T08:50:17.868928+00:00",
+  "history_ref": "rev_1791967817_932726734",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5162,
+    "cached": false
+  }
+}

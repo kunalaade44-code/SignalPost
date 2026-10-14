@@ -1,0 +1,235 @@
+{
+  "org_number": "936608612",
+  "legal_name": "1. ETASJE AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-11-19",
+  "nace_codes": [
+    "70.200 - Bedriftsrådgivning og annen administrativ rådgivning"
+  ],
+  "address": "Brinken 25B, 0654 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Brinken 25B, 0654 OSLO",
+    "visiting_address": "Brinken 25B, 0654 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Erlend Sevaldson Moe",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Erlend Sevaldson Moe",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 0.0,
+      "profit": -5628.0,
+      "operating_profit": -5628.0,
+      "net_profit": -5636.0,
+      "assets": 17863.0,
+      "equity": 17863.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936608612"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1. ETASJE AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936608612",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.343931+00:00",
+      "evidence": "enhet.navn: 1. ETASJE AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936608612",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.343931+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936608612",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.343931+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-11-19",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936608612",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.343931+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-11-19",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "70.200 - Bedriftsrådgivning og annen administrativ rådgivning"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936608612",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.343931+00:00",
+      "evidence": "naeringskoder: ['70.200 - Bedriftsrådgivning og annen administrativ rådgivning']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Brinken 25B, 0654 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936608612",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.343931+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Brinken 25B'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0654', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936608612",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.343931+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Erlend Sevaldson Moe",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936608612/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.343931+00:00",
+      "evidence": "rolle: Daglig leder -> Erlend Sevaldson Moe",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Erlend Sevaldson Moe",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936608612/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:26.343931+00:00",
+      "evidence": "rolle: Styrets leder -> Erlend Sevaldson Moe",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936608612",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:26.777722+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -5628.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936608612",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:26.777722+00:00",
+      "evidence": "driftsresultat.driftsresultat: -5628.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 17863.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936608612",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:26.777722+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 17863.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 17863.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936608612",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:26.777722+00:00",
+      "evidence": "eiendeler.sumEiendeler: 17863.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:26.794001+00:00",
+  "last_checked_at": "2026-10-14T08:51:26.794001+00:00",
+  "history_ref": "rev_1791967886_936608612",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4677,
+    "cached": false
+  }
+}

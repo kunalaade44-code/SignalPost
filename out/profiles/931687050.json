@@ -1,0 +1,309 @@
+{
+  "org_number": "931687050",
+  "legal_name": "1G1 INVEST AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2023-07-05",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Kantengutua 23, 2760 BRANDBU",
+  "municipality": "GRAN",
+  "municipality_number": "3446",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Kantengutua 23, 2760 BRANDBU",
+    "visiting_address": "Kantengutua 23, 2760 BRANDBU"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Kjartan Andreas Kolden Engen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "BARSTEN REGNSKAP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -6758.0,
+      "operating_profit": -6758.0,
+      "net_profit": -6758.0,
+      "assets": 393608.0,
+      "equity": 3608.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931687050"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -9616.0,
+      "operating_profit": -9616.0,
+      "net_profit": -9616.0,
+      "assets": 400365.0,
+      "equity": 10365.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931687050"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -10020.0,
+      "operating_profit": -10020.0,
+      "net_profit": -10020.0,
+      "assets": 259981.0,
+      "equity": 19981.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931687050"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1G1 INVEST AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931687050",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:01.401006+00:00",
+      "evidence": "enhet.navn: 1G1 INVEST AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931687050",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:01.401006+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931687050",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:01.401006+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2023-07-05",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931687050",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:01.401006+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2023-07-05",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931687050",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:01.401006+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Kantengutua 23, 2760 BRANDBU",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931687050",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:01.401006+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Kantengutua 23'], 'kommune': 'GRAN', 'kommunenummer': '3446', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '2760', 'poststed': 'BRANDBU'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931687050",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:01.401006+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Kjartan Andreas Kolden Engen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931687050/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:01.401006+00:00",
+      "evidence": "rolle: Styrets leder -> Kjartan Andreas Kolden Engen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -6758.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931687050",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:02.543314+00:00",
+      "evidence": "driftsresultat.driftsresultat: -6758.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 3608.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931687050",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:02.543314+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 3608.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 393608.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931687050",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:02.543314+00:00",
+      "evidence": "eiendeler.sumEiendeler: 393608.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -9616.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931687050",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:02.543314+00:00",
+      "evidence": "driftsresultat.driftsresultat: -9616.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 10365.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931687050",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:02.543314+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 10365.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 400365.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931687050",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:02.543314+00:00",
+      "evidence": "eiendeler.sumEiendeler: 400365.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -10020.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931687050",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:02.543314+00:00",
+      "evidence": "driftsresultat.driftsresultat: -10020.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 19981.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931687050",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:02.543314+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 19981.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 259981.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/931687050",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:02.543314+00:00",
+      "evidence": "eiendeler.sumEiendeler: 259981.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:02.554476+00:00",
+  "last_checked_at": "2026-10-14T08:50:02.554476+00:00",
+  "history_ref": "rev_1791967802_931687050",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5222,
+    "cached": false
+  }
+}

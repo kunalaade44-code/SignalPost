@@ -1,0 +1,253 @@
+{
+  "org_number": "934948947",
+  "legal_name": "11 EIENDOM AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-01-30",
+  "nace_codes": [
+    "68.110 - Kjøp og salg av egen fast eiendom"
+  ],
+  "address": "Villvinveien 1, 3154 TOLVSRØD",
+  "municipality": "TØNSBERG",
+  "municipality_number": "3905",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Villvinveien 1, 3154 TOLVSRØD",
+    "visiting_address": "Villvinveien 1, 3154 TOLVSRØD"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Thomas Lonkemoen Værø",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Rune Lonkemoen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Thomas Lonkemoen Værø",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "ENTER REVISJON AS",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "ØKONOMIKONTROLL BW AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 218000.0,
+      "profit": 87740.0,
+      "operating_profit": 87740.0,
+      "net_profit": -176646.0,
+      "assets": 5343832.0,
+      "equity": -153146.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934948947"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "11 EIENDOM AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934948947",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:52.732077+00:00",
+      "evidence": "enhet.navn: 11 EIENDOM AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934948947",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:52.732077+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934948947",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:52.732077+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-01-30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934948947",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:52.732077+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-01-30",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "68.110 - Kjøp og salg av egen fast eiendom"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934948947",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:52.732077+00:00",
+      "evidence": "naeringskoder: ['68.110 - Kjøp og salg av egen fast eiendom']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Villvinveien 1, 3154 TOLVSRØD",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934948947",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:52.732077+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Villvinveien 1'], 'kommune': 'TØNSBERG', 'kommunenummer': '3905', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '3154', 'poststed': 'TOLVSRØD'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934948947",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:52.732077+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Thomas Lonkemoen Værø",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934948947/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:52.732077+00:00",
+      "evidence": "rolle: Daglig leder -> Thomas Lonkemoen Værø",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Rune Lonkemoen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934948947/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:52.732077+00:00",
+      "evidence": "rolle: Styrets leder -> Rune Lonkemoen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 218000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934948947",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:53.847620+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 218000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 87740.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934948947",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:53.847620+00:00",
+      "evidence": "driftsresultat.driftsresultat: 87740.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": -153146.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934948947",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:53.847620+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: -153146.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 5343832.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/934948947",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:53.847620+00:00",
+      "evidence": "eiendeler.sumEiendeler: 5343832.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:53.866345+00:00",
+  "last_checked_at": "2026-10-14T08:50:53.866345+00:00",
+  "history_ref": "rev_1791967853_934948947",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4478,
+    "cached": false
+  }
+}

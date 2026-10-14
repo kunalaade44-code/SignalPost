@@ -1,0 +1,333 @@
+{
+  "org_number": "932212803",
+  "legal_name": "3BH INVEST AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2023-10-09",
+  "nace_codes": [
+    "43.120 - Grunnarbeid"
+  ],
+  "address": "Fustvassvegen 413, 8664 MOSJØEN",
+  "municipality": "VEFSN",
+  "municipality_number": "1824",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Fustvassvegen 413, 8664 MOSJØEN",
+    "visiting_address": "Fustvassvegen 413, 8664 MOSJØEN"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Hallbjørn Berg-Hansen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Hallbjørn Berg-Hansen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Sindre Nygård Berg-Hansen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Eskil Berg-Hansen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "BDO AS",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "SAGA REGNSKAP HELGELAND AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -918039.0,
+      "operating_profit": -918039.0,
+      "net_profit": 1807892.0,
+      "assets": 437981475.0,
+      "equity": 390760810.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932212803"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -1683089.0,
+      "operating_profit": -1683089.0,
+      "net_profit": -67043425.0,
+      "assets": 465061463.0,
+      "equity": 395952918.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932212803"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": null,
+      "operating_profit": null,
+      "net_profit": 0.0,
+      "assets": 39357.0,
+      "equity": 32347.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932212803"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "3BH INVEST AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932212803",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.827301+00:00",
+      "evidence": "enhet.navn: 3BH INVEST AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932212803",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.827301+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932212803",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.827301+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2023-10-09",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932212803",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.827301+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2023-10-09",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "43.120 - Grunnarbeid"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932212803",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.827301+00:00",
+      "evidence": "naeringskoder: ['43.120 - Grunnarbeid']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Fustvassvegen 413, 8664 MOSJØEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932212803",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.827301+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Fustvassvegen 413'], 'kommune': 'VEFSN', 'kommunenummer': '1824', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '8664', 'poststed': 'MOSJØEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932212803",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.827301+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Hallbjørn Berg-Hansen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932212803/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.827301+00:00",
+      "evidence": "rolle: Daglig leder -> Hallbjørn Berg-Hansen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Hallbjørn Berg-Hansen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/932212803/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:09.827301+00:00",
+      "evidence": "rolle: Styrets leder -> Hallbjørn Berg-Hansen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -918039.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932212803",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:10.635054+00:00",
+      "evidence": "driftsresultat.driftsresultat: -918039.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 390760810.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932212803",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:10.635054+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 390760810.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 437981475.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932212803",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:10.635054+00:00",
+      "evidence": "eiendeler.sumEiendeler: 437981475.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -1683089.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932212803",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:10.635054+00:00",
+      "evidence": "driftsresultat.driftsresultat: -1683089.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 395952918.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932212803",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:10.635054+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 395952918.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 465061463.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932212803",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:10.635054+00:00",
+      "evidence": "eiendeler.sumEiendeler: 465061463.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 32347.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932212803",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:10.635054+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 32347.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 39357.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/932212803",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:10.635054+00:00",
+      "evidence": "eiendeler.sumEiendeler: 39357.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:10.665682+00:00",
+  "last_checked_at": "2026-10-14T08:50:10.665682+00:00",
+  "history_ref": "rev_1791967810_932212803",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4856,
+    "cached": false
+  }
+}

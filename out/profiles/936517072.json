@@ -1,0 +1,152 @@
+{
+  "org_number": "936517072",
+  "legal_name": "0LOSS AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-11-04",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Helleberget 11, 7507 STJØRDAL",
+  "municipality": "STJØRDAL",
+  "municipality_number": "5035",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Helleberget 11, 7507 STJØRDAL",
+    "visiting_address": "Helleberget 11, 7507 STJØRDAL"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Øyvinn Lossius",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "0LOSS AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936517072",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.581897+00:00",
+      "evidence": "enhet.navn: 0LOSS AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936517072",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.581897+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936517072",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.581897+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-11-04",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936517072",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.581897+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-11-04",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936517072",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.581897+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Helleberget 11, 7507 STJØRDAL",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936517072",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.581897+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Helleberget 11'], 'kommune': 'STJØRDAL', 'kommunenummer': '5035', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '7507', 'poststed': 'STJØRDAL'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936517072",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.581897+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Øyvinn Lossius",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936517072/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:23.581897+00:00",
+      "evidence": "rolle: Styrets leder -> Øyvinn Lossius",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:24.837234+00:00",
+  "last_checked_at": "2026-10-14T08:51:24.837234+00:00",
+  "history_ref": "rev_1791967884_936517072",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5293,
+    "cached": false
+  }
+}

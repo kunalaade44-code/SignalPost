@@ -1,0 +1,310 @@
+{
+  "org_number": "933403882",
+  "legal_name": "1331 EIENDOM AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-05-03",
+  "nace_codes": [
+    "68.200 - Utleie av egen eller leid fast eiendom"
+  ],
+  "address": "Winston Churchills veg 37, 9014 TROMSØ",
+  "municipality": "TROMSØ",
+  "municipality_number": "5501",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Winston Churchills veg 37, 9014 TROMSØ",
+    "visiting_address": "Winston Churchills veg 37, 9014 TROMSØ"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Åsmund Nikolai Nilsen Skulbru",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Silje Nyborg Jensen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Åsmund Nikolai Nilsen Skulbru",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "FORTUNA REGNSKAP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 1548814.0,
+      "profit": 102723.0,
+      "operating_profit": 102723.0,
+      "net_profit": -459701.0,
+      "assets": 10537371.0,
+      "equity": 1077565.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933403882"
+    },
+    {
+      "year": 2024,
+      "revenue": 709352.0,
+      "profit": 167989.0,
+      "operating_profit": 167989.0,
+      "net_profit": -162734.0,
+      "assets": 9808902.0,
+      "equity": 1537267.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933403882"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1331 EIENDOM AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933403882",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:29.242273+00:00",
+      "evidence": "enhet.navn: 1331 EIENDOM AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933403882",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:29.242273+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933403882",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:29.242273+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-05-03",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933403882",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:29.242273+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-05-03",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "68.200 - Utleie av egen eller leid fast eiendom"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933403882",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:29.242273+00:00",
+      "evidence": "naeringskoder: ['68.200 - Utleie av egen eller leid fast eiendom']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Winston Churchills veg 37, 9014 TROMSØ",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933403882",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:29.242273+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Winston Churchills veg 37'], 'kommune': 'TROMSØ', 'kommunenummer': '5501', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '9014', 'poststed': 'TROMSØ'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933403882",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:29.242273+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Åsmund Nikolai Nilsen Skulbru",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933403882/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:29.242273+00:00",
+      "evidence": "rolle: Daglig leder -> Åsmund Nikolai Nilsen Skulbru",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Silje Nyborg Jensen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933403882/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:29.242273+00:00",
+      "evidence": "rolle: Styrets leder -> Silje Nyborg Jensen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 1548814.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933403882",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:30.342263+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 1548814.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": 102723.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933403882",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:30.342263+00:00",
+      "evidence": "driftsresultat.driftsresultat: 102723.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 1077565.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933403882",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:30.342263+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 1077565.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 10537371.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933403882",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:30.342263+00:00",
+      "evidence": "eiendeler.sumEiendeler: 10537371.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 709352.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933403882",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:30.342263+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 709352.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 167989.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933403882",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:30.342263+00:00",
+      "evidence": "driftsresultat.driftsresultat: 167989.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 1537267.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933403882",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:30.342263+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 1537267.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 9808902.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933403882",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:30.342263+00:00",
+      "evidence": "eiendeler.sumEiendeler: 9808902.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:30.360930+00:00",
+  "last_checked_at": "2026-10-14T08:50:30.360930+00:00",
+  "history_ref": "rev_1791967830_933403882",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4766,
+    "cached": false
+  }
+}

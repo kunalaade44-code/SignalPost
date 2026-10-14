@@ -1,0 +1,304 @@
+{
+  "org_number": "933901491",
+  "legal_name": "2T INVEST AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2024-08-08",
+  "nace_codes": [
+    "68.200 - Utleie av egen eller leid fast eiendom"
+  ],
+  "address": "Torvveien 3, 1940 BJØRKELANGEN",
+  "municipality": "AURSKOG-HØLAND",
+  "municipality_number": "3226",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Torvveien 3, 1940 BJØRKELANGEN",
+    "visiting_address": "Torvveien 3, 1940 BJØRKELANGEN"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Ramunas Goveika",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Ramunas Goveika",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "REGNSKAP GROUP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 0.0,
+      "profit": -14701.0,
+      "operating_profit": -14701.0,
+      "net_profit": -14701.0,
+      "assets": 33731.0,
+      "equity": 4494.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933901491"
+    },
+    {
+      "year": 2024,
+      "revenue": 0.0,
+      "profit": -5021.0,
+      "operating_profit": -5021.0,
+      "net_profit": -5021.0,
+      "assets": 31295.0,
+      "equity": 19195.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933901491"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2T INVEST AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933901491",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:39.458076+00:00",
+      "evidence": "enhet.navn: 2T INVEST AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933901491",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:39.458076+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933901491",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:39.458076+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2024-08-08",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933901491",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:39.458076+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2024-08-08",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "68.200 - Utleie av egen eller leid fast eiendom"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933901491",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:39.458076+00:00",
+      "evidence": "naeringskoder: ['68.200 - Utleie av egen eller leid fast eiendom']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Torvveien 3, 1940 BJØRKELANGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933901491",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:39.458076+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Torvveien 3'], 'kommune': 'AURSKOG-HØLAND', 'kommunenummer': '3226', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1940', 'poststed': 'BJØRKELANGEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933901491",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:39.458076+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Ramunas Goveika",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933901491/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:39.458076+00:00",
+      "evidence": "rolle: Daglig leder -> Ramunas Goveika",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Ramunas Goveika",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933901491/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:50:39.458076+00:00",
+      "evidence": "rolle: Styrets leder -> Ramunas Goveika",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933901491",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:39.859096+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -14701.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933901491",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:39.859096+00:00",
+      "evidence": "driftsresultat.driftsresultat: -14701.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 4494.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933901491",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:39.859096+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 4494.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 33731.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933901491",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:39.859096+00:00",
+      "evidence": "eiendeler.sumEiendeler: 33731.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933901491",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:39.859096+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -5021.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933901491",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:39.859096+00:00",
+      "evidence": "driftsresultat.driftsresultat: -5021.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 19195.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933901491",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:39.859096+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 19195.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 31295.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/933901491",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:50:39.859096+00:00",
+      "evidence": "eiendeler.sumEiendeler: 31295.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:50:40.570401+00:00",
+  "last_checked_at": "2026-10-14T08:50:40.570401+00:00",
+  "history_ref": "rev_1791967840_933901491",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5773,
+    "cached": false
+  }
+}

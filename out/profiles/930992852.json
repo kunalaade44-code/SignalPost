@@ -1,0 +1,304 @@
+{
+  "org_number": "930992852",
+  "legal_name": "2KSOLUTION AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2023-03-09",
+  "nace_codes": [
+    "41.000 - Oppføring av bygninger"
+  ],
+  "address": "Bjørnstjerne Bjørnsons gate 55, 3044 DRAMMEN",
+  "municipality": "DRAMMEN",
+  "municipality_number": "3301",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Bjørnstjerne Bjørnsons gate 55, 3044 DRAMMEN",
+    "visiting_address": "Bjørnstjerne Bjørnsons gate 55, 3044 DRAMMEN"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Guntis Kovalevskis",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Guntis Kovalevskis",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "BHR FINANS & REGNSKAP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2024,
+      "revenue": 3204265.0,
+      "profit": 256896.0,
+      "operating_profit": 256896.0,
+      "net_profit": 192984.0,
+      "assets": 356362.0,
+      "equity": 204453.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930992852"
+    },
+    {
+      "year": 2023,
+      "revenue": 50000.0,
+      "profit": -16617.0,
+      "operating_profit": -16617.0,
+      "net_profit": -12961.0,
+      "assets": 70701.0,
+      "equity": 11469.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930992852"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2KSOLUTION AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930992852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.102416+00:00",
+      "evidence": "enhet.navn: 2KSOLUTION AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930992852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.102416+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930992852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.102416+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2023-03-09",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930992852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.102416+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2023-03-09",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "41.000 - Oppføring av bygninger"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930992852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.102416+00:00",
+      "evidence": "naeringskoder: ['41.000 - Oppføring av bygninger']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Bjørnstjerne Bjørnsons gate 55, 3044 DRAMMEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930992852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.102416+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Bjørnstjerne Bjørnsons gate 55'], 'kommune': 'DRAMMEN', 'kommunenummer': '3301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '3044', 'poststed': 'DRAMMEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930992852",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.102416+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Guntis Kovalevskis",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930992852/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.102416+00:00",
+      "evidence": "rolle: Daglig leder -> Guntis Kovalevskis",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Guntis Kovalevskis",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930992852/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:56.102416+00:00",
+      "evidence": "rolle: Styrets leder -> Guntis Kovalevskis",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 3204265.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930992852",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.922793+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 3204265.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 256896.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930992852",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.922793+00:00",
+      "evidence": "driftsresultat.driftsresultat: 256896.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 204453.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930992852",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.922793+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 204453.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 356362.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930992852",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.922793+00:00",
+      "evidence": "eiendeler.sumEiendeler: 356362.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 50000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930992852",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.922793+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 50000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -16617.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930992852",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.922793+00:00",
+      "evidence": "driftsresultat.driftsresultat: -16617.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 11469.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930992852",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.922793+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 11469.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 70701.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930992852",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:56.922793+00:00",
+      "evidence": "eiendeler.sumEiendeler: 70701.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:49:57.256430+00:00",
+  "last_checked_at": "2026-10-14T08:49:57.256430+00:00",
+  "history_ref": "rev_1791967797_930992852",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5109,
+    "cached": false
+  }
+}

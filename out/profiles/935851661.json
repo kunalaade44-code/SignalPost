@@ -1,0 +1,215 @@
+{
+  "org_number": "935851661",
+  "legal_name": "1816 INVEST AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2025-07-15",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Vidnesveien 131, 1816 SKIPTVET",
+  "municipality": "SKIPTVET",
+  "municipality_number": "3116",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Vidnesveien 131, 1816 SKIPTVET",
+    "visiting_address": "Vidnesveien 131, 1816 SKIPTVET"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Alf Børre Stafseng",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Lene Nielsen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "DIRECTA AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -8057.0,
+      "operating_profit": -8057.0,
+      "net_profit": -6224.0,
+      "assets": 1423776.0,
+      "equity": 23776.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935851661"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "1816 INVEST AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935851661",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.609695+00:00",
+      "evidence": "enhet.navn: 1816 INVEST AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935851661",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.609695+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935851661",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.609695+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2025-07-15",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935851661",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.609695+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2025-07-15",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935851661",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.609695+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Vidnesveien 131, 1816 SKIPTVET",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935851661",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.609695+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Vidnesveien 131'], 'kommune': 'SKIPTVET', 'kommunenummer': '3116', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '1816', 'poststed': 'SKIPTVET'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935851661",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.609695+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Alf Børre Stafseng",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/935851661/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:13.609695+00:00",
+      "evidence": "rolle: Styrets leder -> Alf Børre Stafseng",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -8057.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935851661",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:14.059470+00:00",
+      "evidence": "driftsresultat.driftsresultat: -8057.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 23776.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935851661",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:14.059470+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 23776.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 1423776.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/935851661",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:14.059470+00:00",
+      "evidence": "eiendeler.sumEiendeler: 1423776.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:15.916328+00:00",
+  "last_checked_at": "2026-10-14T08:51:15.916328+00:00",
+  "history_ref": "rev_1791967875_935851661",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 6368,
+    "cached": false
+  }
+}

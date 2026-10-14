@@ -1,0 +1,152 @@
+{
+  "org_number": "837408482",
+  "legal_name": "2R2K HOLDING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2026-03-23",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "Havnegata 10, 3040 DRAMMEN",
+  "municipality": "DRAMMEN",
+  "municipality_number": "3301",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Havnegata 10, 3040 DRAMMEN",
+    "visiting_address": "Havnegata 10, 3040 DRAMMEN"
+  },
+  "roles": [
+    {
+      "role": "Styrets leder",
+      "name": "Blazej Marek Rybczynski",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2R2K HOLDING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837408482",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.503507+00:00",
+      "evidence": "enhet.navn: 2R2K HOLDING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837408482",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.503507+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837408482",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.503507+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2026-03-23",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837408482",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.503507+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2026-03-23",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837408482",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.503507+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Havnegata 10, 3040 DRAMMEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837408482",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.503507+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Havnegata 10'], 'kommune': 'DRAMMEN', 'kommunenummer': '3301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '3040', 'poststed': 'DRAMMEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837408482",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.503507+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Blazej Marek Rybczynski",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/837408482/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:45:56.503507+00:00",
+      "evidence": "rolle: Styrets leder -> Blazej Marek Rybczynski",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:45:57.009656+00:00",
+  "last_checked_at": "2026-10-14T08:45:57.009656+00:00",
+  "history_ref": "rev_1791967557_837408482",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4508,
+    "cached": false
+  }
+}

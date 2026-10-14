@@ -1,0 +1,221 @@
+{
+  "org_number": "936997732",
+  "legal_name": "316 PRODUKSJON AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2026-01-20",
+  "nace_codes": [
+    "25.530 - Bearbeiding av metaller"
+  ],
+  "address": "Myra 11, 8610 MO I RANA",
+  "municipality": "RANA",
+  "municipality_number": "1833",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Myra 11, 8610 MO I RANA",
+    "visiting_address": "Myra 11, 8610 MO I RANA"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Helge Johan Karstensen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Helge Johan Karstensen",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Håvard Eide Løkaas",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "ØKONOMENE AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": null,
+      "operating_profit": null,
+      "net_profit": 0.0,
+      "assets": 525000.0,
+      "equity": 525000.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936997732"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "316 PRODUKSJON AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936997732",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:30.130328+00:00",
+      "evidence": "enhet.navn: 316 PRODUKSJON AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936997732",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:30.130328+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936997732",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:30.130328+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2026-01-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936997732",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:30.130328+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2026-01-20",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "25.530 - Bearbeiding av metaller"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936997732",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:30.130328+00:00",
+      "evidence": "naeringskoder: ['25.530 - Bearbeiding av metaller']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Myra 11, 8610 MO I RANA",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936997732",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:30.130328+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Myra 11'], 'kommune': 'RANA', 'kommunenummer': '1833', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '8610', 'poststed': 'MO I RANA'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936997732",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:30.130328+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Helge Johan Karstensen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936997732/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:30.130328+00:00",
+      "evidence": "rolle: Daglig leder -> Helge Johan Karstensen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Helge Johan Karstensen",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936997732/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:51:30.130328+00:00",
+      "evidence": "rolle: Styrets leder -> Helge Johan Karstensen",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "equity_2025",
+      "value": 525000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936997732",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:30.915355+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 525000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 525000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/936997732",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:51:30.915355+00:00",
+      "evidence": "eiendeler.sumEiendeler: 525000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:51:30.956457+00:00",
+  "last_checked_at": "2026-10-14T08:51:30.956457+00:00",
+  "history_ref": "rev_1791967890_936997732",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4122,
+    "cached": false
+  }
+}

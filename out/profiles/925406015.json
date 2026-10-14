@@ -1,0 +1,354 @@
+{
+  "org_number": "925406015",
+  "legal_name": "24/7 TAXI AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2020-08-07",
+  "nace_codes": [
+    "49.330 - Passasjertransport på forespørsel utført av fører med kjøretøy"
+  ],
+  "address": "Ravnkollbakken 61, 0971 OSLO",
+  "municipality": "OSLO",
+  "municipality_number": "0301",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Ravnkollbakken 61, 0971 OSLO",
+    "visiting_address": "Ravnkollbakken 61, 0971 OSLO"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Ahsan Iqbal",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Zeeshan Mohammad",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "VEKST REGNSKAP AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -5570.0,
+      "operating_profit": -5570.0,
+      "net_profit": -4345.0,
+      "assets": 25655.0,
+      "equity": 25655.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015"
+    },
+    {
+      "year": 2024,
+      "revenue": 0.0,
+      "profit": 0.0,
+      "operating_profit": 0.0,
+      "net_profit": 0.0,
+      "assets": 24430.0,
+      "equity": 24430.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015"
+    },
+    {
+      "year": 2023,
+      "revenue": 0.0,
+      "profit": 0.0,
+      "operating_profit": 0.0,
+      "net_profit": 0.0,
+      "assets": 24430.0,
+      "equity": 24430.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "24/7 TAXI AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925406015",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:28.000102+00:00",
+      "evidence": "enhet.navn: 24/7 TAXI AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925406015",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:28.000102+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925406015",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:28.000102+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2020-08-07",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925406015",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:28.000102+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2020-08-07",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "49.330 - Passasjertransport på forespørsel utført av fører med kjøretøy"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925406015",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:28.000102+00:00",
+      "evidence": "naeringskoder: ['49.330 - Passasjertransport på forespørsel utført av fører med kjøretøy']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Ravnkollbakken 61, 0971 OSLO",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925406015",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:28.000102+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Ravnkollbakken 61'], 'kommune': 'OSLO', 'kommunenummer': '0301', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '0971', 'poststed': 'OSLO'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925406015",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:28.000102+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Ahsan Iqbal",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925406015/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:28.000102+00:00",
+      "evidence": "rolle: Daglig leder -> Ahsan Iqbal",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Zeeshan Mohammad",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/925406015/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:48:28.000102+00:00",
+      "evidence": "rolle: Styrets leder -> Zeeshan Mohammad",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -5570.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:28.415497+00:00",
+      "evidence": "driftsresultat.driftsresultat: -5570.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 25655.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:28.415497+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 25655.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 25655.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:28.415497+00:00",
+      "evidence": "eiendeler.sumEiendeler: 25655.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:28.415497+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:28.415497+00:00",
+      "evidence": "driftsresultat.driftsresultat: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 24430.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:28.415497+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 24430.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 24430.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:28.415497+00:00",
+      "evidence": "eiendeler.sumEiendeler: 24430.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:28.415497+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 0.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:28.415497+00:00",
+      "evidence": "driftsresultat.driftsresultat: 0.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 24430.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:28.415497+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 24430.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 24430.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/925406015",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:48:28.415497+00:00",
+      "evidence": "eiendeler.sumEiendeler: 24430.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:48:28.834273+00:00",
+  "last_checked_at": "2026-10-14T08:48:28.834273+00:00",
+  "history_ref": "rev_1791967708_925406015",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 6713,
+    "cached": false
+  }
+}

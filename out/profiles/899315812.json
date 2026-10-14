@@ -1,0 +1,373 @@
+{
+  "org_number": "899315812",
+  "legal_name": "2N MONTASJE AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2013-01-15",
+  "nace_codes": [
+    "43.340 - Maler- og glassarbeid"
+  ],
+  "address": "Digerudvegen 1, 2208 KONGSVINGER",
+  "municipality": "KONGSVINGER",
+  "municipality_number": "3401",
+  "employees": null,
+  "vat_registered": true,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Digerudvegen 1, 2208 KONGSVINGER",
+    "visiting_address": "Digerudvegen 1, 2208 KONGSVINGER"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Jean Kenneth Fredrik Nyström",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Jean Kenneth Fredrik Nyström",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Varamedlem",
+      "name": "Nils Carl Mikael Nygren",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Regnskapsfører",
+      "name": "PROGRESSUM KONGSVINGER AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": 1901733.0,
+      "profit": -37886.0,
+      "operating_profit": -37886.0,
+      "net_profit": -29311.0,
+      "assets": 915744.0,
+      "equity": 451048.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812"
+    },
+    {
+      "year": 2024,
+      "revenue": 1740936.0,
+      "profit": -51238.0,
+      "operating_profit": -51238.0,
+      "net_profit": -39773.0,
+      "assets": 838672.0,
+      "equity": 480358.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812"
+    },
+    {
+      "year": 2023,
+      "revenue": 2024741.0,
+      "profit": 74562.0,
+      "operating_profit": 74562.0,
+      "net_profit": 57962.0,
+      "assets": 908115.0,
+      "equity": 520131.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "2N MONTASJE AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/899315812",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:06.877757+00:00",
+      "evidence": "enhet.navn: 2N MONTASJE AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/899315812",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:06.877757+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/899315812",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:06.877757+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2013-01-15",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/899315812",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:06.877757+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2013-01-15",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "43.340 - Maler- og glassarbeid"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/899315812",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:06.877757+00:00",
+      "evidence": "naeringskoder: ['43.340 - Maler- og glassarbeid']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Digerudvegen 1, 2208 KONGSVINGER",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/899315812",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:06.877757+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Digerudvegen 1'], 'kommune': 'KONGSVINGER', 'kommunenummer': '3401', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '2208', 'poststed': 'KONGSVINGER'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": true,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/899315812",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:06.877757+00:00",
+      "evidence": "registrertIMvaregisteret: True",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Jean Kenneth Fredrik Nyström",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/899315812/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:06.877757+00:00",
+      "evidence": "rolle: Daglig leder -> Jean Kenneth Fredrik Nyström",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Jean Kenneth Fredrik Nyström",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/899315812/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:46:06.877757+00:00",
+      "evidence": "rolle: Styrets leder -> Jean Kenneth Fredrik Nyström",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "revenue_2025",
+      "value": 1901733.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:07.306851+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 1901733.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -37886.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:07.306851+00:00",
+      "evidence": "driftsresultat.driftsresultat: -37886.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 451048.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:07.306851+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 451048.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 915744.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:07.306851+00:00",
+      "evidence": "eiendeler.sumEiendeler: 915744.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2024",
+      "value": 1740936.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:07.306851+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 1740936.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -51238.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:07.306851+00:00",
+      "evidence": "driftsresultat.driftsresultat: -51238.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 480358.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:07.306851+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 480358.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 838672.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:07.306851+00:00",
+      "evidence": "eiendeler.sumEiendeler: 838672.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "revenue_2023",
+      "value": 2024741.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:07.306851+00:00",
+      "evidence": "driftsresultat.driftsinntekter.sumDriftsinntekter: 2024741.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating revenue (driftsinntekter) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": 74562.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:07.306851+00:00",
+      "evidence": "driftsresultat.driftsresultat: 74562.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 520131.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:07.306851+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 520131.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 908115.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/899315812",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:46:07.306851+00:00",
+      "evidence": "eiendeler.sumEiendeler: 908115.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:46:07.696927+00:00",
+  "last_checked_at": "2026-10-14T08:46:07.696927+00:00",
+  "history_ref": "rev_1791967567_899315812",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 4528,
+    "cached": false
+  }
+}

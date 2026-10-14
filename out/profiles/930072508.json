@@ -1,0 +1,265 @@
+{
+  "org_number": "930072508",
+  "legal_name": "0GCS AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2022-11-22",
+  "nace_codes": [
+    "28.130 - Produksjon av pumper og kompressorer ellers"
+  ],
+  "address": "Stemmeveien 48, 5009 BERGEN",
+  "municipality": "BERGEN",
+  "municipality_number": "4601",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "Stemmeveien 48, 5009 BERGEN",
+    "visiting_address": "Stemmeveien 48, 5009 BERGEN"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Knut Christian Brinch",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Hans Kristian Steensnæs Omenaas",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Knut Christian Brinch",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -15000.0,
+      "operating_profit": -15000.0,
+      "net_profit": -15000.0,
+      "assets": 15000.0,
+      "equity": 15000.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930072508"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": null,
+      "operating_profit": null,
+      "net_profit": 0.0,
+      "assets": 30000.0,
+      "equity": 30000.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930072508"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "0GCS AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930072508",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:40.494725+00:00",
+      "evidence": "enhet.navn: 0GCS AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930072508",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:40.494725+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930072508",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:40.494725+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2022-11-22",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930072508",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:40.494725+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2022-11-22",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "28.130 - Produksjon av pumper og kompressorer ellers"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930072508",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:40.494725+00:00",
+      "evidence": "naeringskoder: ['28.130 - Produksjon av pumper og kompressorer ellers']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "Stemmeveien 48, 5009 BERGEN",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930072508",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:40.494725+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['Stemmeveien 48'], 'kommune': 'BERGEN', 'kommunenummer': '4601', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '5009', 'poststed': 'BERGEN'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930072508",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:40.494725+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Knut Christian Brinch",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930072508/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:40.494725+00:00",
+      "evidence": "rolle: Daglig leder -> Knut Christian Brinch",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Hans Kristian Steensnæs Omenaas",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930072508/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:40.494725+00:00",
+      "evidence": "rolle: Styrets leder -> Hans Kristian Steensnæs Omenaas",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -15000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930072508",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:41.258350+00:00",
+      "evidence": "driftsresultat.driftsresultat: -15000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 15000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930072508",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:41.258350+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 15000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 15000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930072508",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:41.258350+00:00",
+      "evidence": "eiendeler.sumEiendeler: 15000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 30000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930072508",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:41.258350+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 30000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 30000.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930072508",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:41.258350+00:00",
+      "evidence": "eiendeler.sumEiendeler: 30000.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:49:41.292509+00:00",
+  "last_checked_at": "2026-10-14T08:49:41.292509+00:00",
+  "history_ref": "rev_1791967781_930072508",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5942,
+    "cached": false
+  }
+}

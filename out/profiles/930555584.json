@@ -1,0 +1,346 @@
+{
+  "org_number": "930555584",
+  "legal_name": "33G HOLDING AS",
+  "status": "ACTIVE",
+  "org_form": "Aksjeselskap (AS)",
+  "registered_date": "2022-12-30",
+  "nace_codes": [
+    "00.000 - Uoppgitt"
+  ],
+  "address": "c/o Karl-Even Giske, Skulevegen 35, 6052 GISKE",
+  "municipality": "GISKE",
+  "municipality_number": "1532",
+  "employees": null,
+  "vat_registered": false,
+  "website": null,
+  "contact": {
+    "email": null,
+    "phone": null,
+    "postal_address": "c/o Karl-Even Giske, Skulevegen 35, 6052 GISKE",
+    "visiting_address": "c/o Karl-Even Giske, Skulevegen 35, 6052 GISKE"
+  },
+  "roles": [
+    {
+      "role": "Daglig leder",
+      "name": "Karl Even Giske",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styrets leder",
+      "name": "Karl Even Giske",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Silje Bente Giske",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Renate Giske",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Styremedlem",
+      "name": "Rolf Kjell Giske",
+      "from_date": null,
+      "resigned": false
+    },
+    {
+      "role": "Revisor",
+      "name": "BDO AS",
+      "from_date": null,
+      "resigned": false
+    }
+  ],
+  "financials": [
+    {
+      "year": 2025,
+      "revenue": null,
+      "profit": -21560.0,
+      "operating_profit": -21560.0,
+      "net_profit": 6051162.0,
+      "assets": 31869139.0,
+      "equity": 31758551.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930555584"
+    },
+    {
+      "year": 2024,
+      "revenue": null,
+      "profit": -19884.0,
+      "operating_profit": -19884.0,
+      "net_profit": 5962700.0,
+      "assets": 29289948.0,
+      "equity": 29207389.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930555584"
+    },
+    {
+      "year": 2023,
+      "revenue": null,
+      "profit": -13001.0,
+      "operating_profit": -13001.0,
+      "net_profit": 5950259.0,
+      "assets": 26286999.0,
+      "equity": 26244689.0,
+      "currency": "NOK",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930555584"
+    }
+  ],
+  "description": null,
+  "social_links": [],
+  "facts": [
+    {
+      "field": "legal_name",
+      "value": "33G HOLDING AS",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930555584",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:50.391346+00:00",
+      "evidence": "enhet.navn: 33G HOLDING AS",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered legal company name from Brønnøysundregistrene."
+    },
+    {
+      "field": "status",
+      "value": "ACTIVE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930555584",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:50.391346+00:00",
+      "evidence": "konkurs=False, underAvvikling=False, slettedato=None",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Entity operating status determined from official legal registers."
+    },
+    {
+      "field": "org_form",
+      "value": "Aksjeselskap (AS)",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930555584",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:50.391346+00:00",
+      "evidence": "organisasjonsform: {'_links': {'self': {'href': 'https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS'}}, 'beskrivelse': 'Aksjeselskap', 'kode': 'AS'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official organizational structure registered with Foretaksregisteret/Enhetsregisteret."
+    },
+    {
+      "field": "registered_date",
+      "value": "2022-12-30",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930555584",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:50.391346+00:00",
+      "evidence": "registreringsdatoEnhetsregisteret: 2022-12-30",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Date the entity was first registered in Enhetsregisteret."
+    },
+    {
+      "field": "nace_codes",
+      "value": [
+        "00.000 - Uoppgitt"
+      ],
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930555584",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:50.391346+00:00",
+      "evidence": "naeringskoder: ['00.000 - Uoppgitt']",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Standard Industrial Classification (NACE) registered with Statistics Norway (SSB)."
+    },
+    {
+      "field": "address",
+      "value": "c/o Karl-Even Giske, Skulevegen 35, 6052 GISKE",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930555584",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:50.391346+00:00",
+      "evidence": "forretningsadresse: {'adresse': ['c/o Karl-Even Giske', 'Skulevegen 35'], 'kommune': 'GISKE', 'kommunenummer': '1532', 'land': 'Norge', 'landkode': 'NO', 'postnummer': '6052', 'poststed': 'GISKE'}",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Official registered office address from Enhetsregisteret."
+    },
+    {
+      "field": "vat_registered",
+      "value": false,
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930555584",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:50.391346+00:00",
+      "evidence": "registrertIMvaregisteret: False",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registration status in Merverdiavgiftsregisteret (Norwegian VAT Register)."
+    },
+    {
+      "field": "role_daglig_leder",
+      "value": "Karl Even Giske",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930555584/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:50.391346+00:00",
+      "evidence": "rolle: Daglig leder -> Karl Even Giske",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Daglig leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "role_styrets_leder",
+      "value": "Karl Even Giske",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930555584/roller",
+      "source_type": "registry_enheter",
+      "retrieved_at": "2026-10-14T08:49:50.391346+00:00",
+      "evidence": "rolle: Styrets leder -> Karl Even Giske",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Registered corporate appointment (Styrets leder) from Brønnøysundregistrene."
+    },
+    {
+      "field": "operating_profit_2025",
+      "value": -21560.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930555584",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:50.930530+00:00",
+      "evidence": "driftsresultat.driftsresultat: -21560.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2025",
+      "value": 31758551.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930555584",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:50.930530+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 31758551.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2025",
+      "value": 31869139.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930555584",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:50.930530+00:00",
+      "evidence": "eiendeler.sumEiendeler: 31869139.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2025 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2024",
+      "value": -19884.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930555584",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:50.930530+00:00",
+      "evidence": "driftsresultat.driftsresultat: -19884.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2024",
+      "value": 29207389.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930555584",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:50.930530+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 29207389.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2024",
+      "value": 29289948.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930555584",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:50.930530+00:00",
+      "evidence": "eiendeler.sumEiendeler: 29289948.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2024 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "operating_profit_2023",
+      "value": -13001.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930555584",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:50.930530+00:00",
+      "evidence": "driftsresultat.driftsresultat: -13001.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim operating profit (driftsresultat) for fiscal year 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "equity_2023",
+      "value": 26244689.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930555584",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:50.930530+00:00",
+      "evidence": "egenkapitalGjeld.egenkapital.sumEgenkapital: 26244689.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim equity (egenkapital) as of year-end 2023 filed with Regnskapsregisteret."
+    },
+    {
+      "field": "assets_2023",
+      "value": 26286999.0,
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/930555584",
+      "source_type": "registry_regnskap",
+      "retrieved_at": "2026-10-14T08:49:50.930530+00:00",
+      "evidence": "eiendeler.sumEiendeler: 26286999.0 NOK",
+      "match_signals": [
+        "exact_orgnr_in_official_registry"
+      ],
+      "confidence": 1.0,
+      "explanation": "Verbatim total assets (sum eiendeler) for fiscal year 2023 filed with Regnskapsregisteret."
+    }
+  ],
+  "rejected_facts": [],
+  "profile_updated_at": "2026-10-14T08:49:50.953961+00:00",
+  "last_checked_at": "2026-10-14T08:49:50.953961+00:00",
+  "history_ref": "rev_1791967790_930555584",
+  "is_tracked": false,
+  "run_metadata": {
+    "requests": 3,
+    "cost_usd": 0.0,
+    "duration_ms": 5615,
+    "cached": false
+  }
+}
