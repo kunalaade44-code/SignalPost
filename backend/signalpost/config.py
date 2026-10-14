@@ -14,6 +14,7 @@ class Settings(BaseSettings):
     )
 
     # General
+    is_vercel: bool = is_vercel
     app_name: str = "Signalpost"
     app_env: str = "development"
     log_level: str = "INFO"

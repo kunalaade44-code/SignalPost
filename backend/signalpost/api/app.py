@@ -1,6 +1,7 @@
 import asyncio
 import json
 import logging
+import os
 import time
 import uuid
 from datetime import UTC, datetime
@@ -63,6 +64,7 @@ app.add_middleware(
 )
 
 
+@app.get("/")
 @app.get("/api")
 def api_index():
     """API overview and discovery index."""
@@ -95,6 +97,7 @@ class BulkAddCompaniesRequest(BaseModel):
     force_refresh: bool = Field(default=False)
 
 
+@app.get("/health")
 @app.get("/api/health")
 def health_check():
     """Health check endpoint confirming API status and database connectivity."""
@@ -108,6 +111,7 @@ def health_check():
     }
 
 
+@app.get("/stats")
 @app.get("/api/stats")
 def get_system_stats():
     """Returns database summary statistics and budget limits snapshot."""
@@ -158,6 +162,7 @@ def get_system_stats():
     }
 
 
+@app.get("/company/{orgnr}", response_model=CompanyProfile)
 @app.get("/api/company/{orgnr}", response_model=CompanyProfile)
 async def get_company_profile(
     orgnr: str,
@@ -204,6 +209,7 @@ async def get_company_profile(
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@app.get("/company/{orgnr}/history")
 @app.get("/api/company/{orgnr}/history")
 def get_company_diff_history(orgnr: str):
     """Returns the full audit log and field-level diff history for an organization."""
@@ -231,6 +237,7 @@ def get_company_diff_history(orgnr: str):
         }
 
 
+@app.get("/companies")
 @app.get("/api/companies")
 def list_companies(
     search: str | None = None,
@@ -300,6 +307,7 @@ def list_companies(
         }
 
 
+@app.get("/companies/search")
 @app.get("/api/companies/search")
 async def search_companies_by_name(q: str = Query(..., min_length=2, description="Search query")):
     """Searches official Brønnøysundregistrene Enhetsregisteret by company name."""
@@ -309,6 +317,7 @@ async def search_companies_by_name(q: str = Query(..., min_length=2, description
     return {"query": q, "results": results, "count": len(results)}
 
 
+@app.get("/companies/{orgnr}/preview")
 @app.get("/api/companies/{orgnr}/preview")
 async def preview_company(orgnr: str):
     """Previews verified company identity and checks existing database state."""
@@ -363,6 +372,7 @@ async def preview_company(orgnr: str):
     }
 
 
+@app.post("/companies", response_model=CompanyProfile)
 @app.post("/api/companies", response_model=CompanyProfile)
 async def add_company(request: AddCompanyRequest):
     """Profiles a company and automatically adds it to the tracked watchlist."""
@@ -403,6 +413,7 @@ async def add_company(request: AddCompanyRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@app.post("/companies/bulk")
 @app.post("/api/companies/bulk")
 async def add_companies_bulk(request: BulkAddCompaniesRequest, background_tasks: BackgroundTasks):
     """Queues bulk company additions with automatic watchlist tracking."""
@@ -438,6 +449,7 @@ async def add_companies_bulk(request: BulkAddCompaniesRequest, background_tasks:
     }
 
 
+@app.patch("/companies/{orgnr}/track")
 @app.patch("/api/companies/{orgnr}/track")
 def toggle_company_track(orgnr: str):
     """Toggles watchlist tracking status for a company."""
@@ -527,6 +539,7 @@ async def _run_batch_worker(run_id: str, org_numbers: list[str], concurrency: in
     state["duration_seconds"] = round(duration, 2)
 
 
+@app.post("/run")
 @app.post("/api/run")
 async def start_batch_run(
     request: BatchRunRequest,
@@ -576,6 +589,7 @@ async def start_batch_run(
     }
 
 
+@app.get("/runs/{run_id}")
 @app.get("/api/runs/{run_id}")
 async def get_run_status_or_stream(run_id: str, stream: bool = Query(default=True)):
     """
@@ -605,6 +619,7 @@ async def get_run_status_or_stream(run_id: str, stream: bool = Query(default=Tru
     return StreamingResponse(event_generator(), media_type="text/event-stream")
 
 
+@app.get("/reports/quality")
 @app.get("/api/reports/quality")
 def get_latest_quality_report():
     """Returns the latest batch quality report if generated."""
@@ -620,17 +635,19 @@ def get_latest_quality_report():
         raise HTTPException(status_code=500, detail=f"Failed to read report: {e}")
 
 
-# Static frontend mounting (Vite SPA)
-FRONTEND_DIST = Path(__file__).resolve().parents[3] / "frontend" / "dist"
-if FRONTEND_DIST.exists() and (FRONTEND_DIST / "index.html").exists():
-    app.mount("/assets", StaticFiles(directory=str(FRONTEND_DIST / "assets")), name="assets")
+# Static frontend mounting (Vite SPA) - Disabled on Vercel where frontend is served via Vercel Services
+if not settings.is_vercel and not os.environ.get("VERCEL"):
+    FRONTEND_DIST = Path(__file__).resolve().parents[3] / "frontend" / "dist"
+    if FRONTEND_DIST.exists() and (FRONTEND_DIST / "index.html").exists():
+        app.mount("/assets", StaticFiles(directory=str(FRONTEND_DIST / "assets")), name="assets")
 
-    @app.get("/{full_path:path}")
-    async def serve_frontend(full_path: str):
-        if full_path.startswith("api"):
-            raise HTTPException(status_code=404, detail="API route not found")
-        file_path = FRONTEND_DIST / full_path
-        if file_path.is_file():
-            return FileResponse(file_path)
-        return FileResponse(FRONTEND_DIST / "index.html")
+        @app.get("/{full_path:path}")
+        async def serve_frontend(full_path: str):
+            if full_path.startswith("api"):
+                raise HTTPException(status_code=404, detail="API route not found")
+            file_path = FRONTEND_DIST / full_path
+            if file_path.is_file():
+                return FileResponse(file_path)
+            return FileResponse(FRONTEND_DIST / "index.html")
+
 
