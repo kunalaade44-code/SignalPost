@@ -85,7 +85,7 @@ def main():
 
     elif args.command == "serve":
         import uvicorn
-        print(f"\n🚀 Starting Signalpost Web Application on http://{args.host}:{args.port}\n")
+        print(f"\nStarting Signalpost Web Application on http://{args.host}:{args.port}\n")
         uvicorn.run("signalpost.api.app:app", host=args.host, port=args.port, reload=args.reload)
 
 
