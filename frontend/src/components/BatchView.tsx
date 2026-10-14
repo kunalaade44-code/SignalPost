@@ -102,8 +102,9 @@ export const BatchView: React.FC<BatchViewProps> = ({ onSelectOrgnr }) => {
     setInputText(samples.join('\n'));
   };
 
-  const requestsUsed = (runState?.processed_count || 0) * 3;
-  const costUsed = (runState?.processed_count || 0) * 0.0002;
+  const completedCount = Math.min(runState?.processed_count || 0, runState?.total_companies || 0);
+  const requestsUsed = completedCount * 3;
+  const costUsed = completedCount * 0.0002;
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 animate-in fade-in duration-300">
@@ -286,8 +287,8 @@ export const BatchView: React.FC<BatchViewProps> = ({ onSelectOrgnr }) => {
             </div>
 
             <span className="text-sm font-bold text-slate-900 dark:text-white">
-              {runState.processed_count} / {runState.total_companies} Companies (
-              {runState.progress_pct}%)
+              {Math.min(runState.processed_count, runState.total_companies)} / {runState.total_companies} Companies (
+              {Math.min(100, Math.max(0, runState.progress_pct)).toFixed(1)}%)
             </span>
           </div>
 
@@ -295,7 +296,7 @@ export const BatchView: React.FC<BatchViewProps> = ({ onSelectOrgnr }) => {
           <div className="w-full h-3 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
             <div
               className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-emerald-400 transition-all duration-300"
-              style={{ width: `${runState.progress_pct}%` }}
+              style={{ width: `${Math.min(100, Math.max(0, runState.progress_pct))}%` }}
             />
           </div>
 

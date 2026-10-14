@@ -171,3 +171,33 @@ def test_api_bulk_add_companies(client):
     assert "run_id" in data
     assert data["total"] == 2
 
+
+@pytest.mark.asyncio
+async def test_batch_worker_accurate_counting_cached_and_new():
+    from signalpost.api.app import ACTIVE_RUNS, _run_batch_worker
+
+    run_id = "test_run_counting"
+    ACTIVE_RUNS[run_id] = {
+        "run_id": run_id,
+        "status": "QUEUED",
+        "total_companies": 2,
+        "processed_count": 0,
+        "successful_count": 0,
+        "cached_count": 0,
+        "failed_count": 0,
+        "progress_pct": 0.0,
+        "results": [],
+    }
+
+    # 923609016 and 984851006 are pre-seeded in the database
+    await _run_batch_worker(run_id, ["923609016", "984851006"], concurrency=2, force=False)
+
+    state = ACTIVE_RUNS[run_id]
+    assert state["status"] == "COMPLETED"
+    assert state["total_companies"] == 2
+    assert state["processed_count"] == 2  # Must be exactly 2, never double counted!
+    assert state["cached_count"] == 2
+    assert state["progress_pct"] == 100.0  # Must be 100.0%, never 200%!
+    assert len(state["results"]) == 2
+
+

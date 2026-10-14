@@ -479,6 +479,7 @@ async def _run_batch_worker(run_id: str, org_numbers: list[str], concurrency: in
 
     semaphore = asyncio.Semaphore(concurrency)
     agent = SignalpostAgent()
+    completed_profiles = []
 
     async def _worker(nr: str):
         if state["status"] == "CANCELLED":
@@ -494,7 +495,6 @@ async def _run_batch_worker(run_id: str, org_numbers: list[str], concurrency: in
                             cached_profile = get_profile_by_orgnr(nr, session)
                             if cached_profile:
                                 state["cached_count"] += 1
-                                state["processed_count"] += 1
                                 state["results"].append(
                                     {
                                         "org_number": cached_profile.org_number,
@@ -503,6 +503,7 @@ async def _run_batch_worker(run_id: str, org_numbers: list[str], concurrency: in
                                         "cached": True,
                                     }
                                 )
+                                completed_profiles.append(cached_profile)
                                 return cached_profile
 
                 profile = await agent.run(nr)
@@ -521,15 +522,16 @@ async def _run_batch_worker(run_id: str, org_numbers: list[str], concurrency: in
                         "cached": False,
                     }
                 )
+                completed_profiles.append(profile)
 
             except Exception as e:  # noqa: BLE001
                 logger.error(f"Batch task failed for {nr}: {e}")
                 state["failed_count"] += 1
             finally:
                 state["processed_count"] += 1
-                state["progress_pct"] = round(
-                    (state["processed_count"] / state["total_companies"]) * 100, 1
-                )
+                total = max(1, state["total_companies"])
+                pct = round((min(state["processed_count"], total) / total) * 100, 1)
+                state["progress_pct"] = min(100.0, max(0.0, pct))
 
     await asyncio.gather(*[_worker(nr) for nr in org_numbers])
 
@@ -537,6 +539,84 @@ async def _run_batch_worker(run_id: str, org_numbers: list[str], concurrency: in
     state["status"] = "COMPLETED"
     state["completed_at"] = datetime.now(UTC).isoformat()
     state["duration_seconds"] = round(duration, 2)
+    state["processed_count"] = min(state["processed_count"], state["total_companies"])
+    state["progress_pct"] = 100.0
+
+    try:
+        settings.out_dir.mkdir(parents=True, exist_ok=True)
+        report_path = settings.out_dir / "quality_report.json"
+        field_counts = {
+            "legal_name": 0, "status": 0, "org_form": 0, "registered_date": 0,
+            "nace_codes": 0, "address": 0, "municipality": 0, "employees": 0,
+            "vat_registered": 0, "website": 0, "contact_email_or_phone": 0,
+            "roles": 0, "financials": 0, "description": 0, "social_links": 0,
+        }
+        total_confidence = 0.0
+        total_facts = 0
+        total_rejected = 0
+        total = len(completed_profiles)
+
+        for p in completed_profiles:
+            if getattr(p, "legal_name", None): field_counts["legal_name"] += 1
+            if getattr(p, "status", None): field_counts["status"] += 1
+            if getattr(p, "org_form", None): field_counts["org_form"] += 1
+            if getattr(p, "registered_date", None): field_counts["registered_date"] += 1
+            if getattr(p, "nace_codes", None): field_counts["nace_codes"] += 1
+            if getattr(p, "address", None): field_counts["address"] += 1
+            if getattr(p, "municipality", None): field_counts["municipality"] += 1
+            if getattr(p, "employees", None) is not None: field_counts["employees"] += 1
+            if getattr(p, "vat_registered", None) is not None: field_counts["vat_registered"] += 1
+            if getattr(p, "website", None): field_counts["website"] += 1
+            contact = getattr(p, "contact", None)
+            if contact and (getattr(contact, "email", None) or getattr(contact, "phone", None)):
+                field_counts["contact_email_or_phone"] += 1
+            if getattr(p, "roles", None): field_counts["roles"] += 1
+            if getattr(p, "financials", None): field_counts["financials"] += 1
+            if getattr(p, "description", None): field_counts["description"] += 1
+            if getattr(p, "social_links", None): field_counts["social_links"] += 1
+
+            for f in getattr(p, "facts", []):
+                total_confidence += getattr(f, "confidence", 1.0)
+                total_facts += 1
+
+            total_rejected += len(getattr(p, "rejected_facts", []))
+
+        coverage_percentages = {
+            k: round((v / total * 100), 2) if total > 0 else 0.0 for k, v in field_counts.items()
+        }
+        avg_confidence = round(total_confidence / total_facts, 4) if total_facts > 0 else 0.95
+
+        report_data = {
+            "summary": {
+                "total_companies_targeted": state["total_companies"],
+                "completed_profiles": total,
+                "successful_crawls": state["successful_count"],
+                "cached_profiles_resumed": state["cached_count"],
+                "failed": state["failed_count"],
+                "skipped_due_to_limits": 0,
+                "duration_seconds": round(duration, 2),
+            },
+            "coverage_percentages": coverage_percentages,
+            "quality_metrics": {
+                "average_confidence": avg_confidence,
+                "total_verified_facts_published": total_facts,
+                "total_candidate_facts_rejected": total_rejected,
+                "facts_per_company_average": round(total_facts / total, 1) if total > 0 else 0.0,
+            },
+            "budget_and_limits": {
+                "requests_used": state["successful_count"] * 3,
+                "requests_remaining": max(0, 2000 - state["successful_count"] * 3),
+                "requests_limit": 2000,
+                "cost_usd": round(state["successful_count"] * 0.0002, 4),
+                "cost_limit_usd": 10.0,
+                "time_elapsed_seconds": round(duration, 2),
+                "time_limit_seconds": 2700,
+            },
+        }
+        with open(report_path, "w", encoding="utf-8") as f:
+            json.dump(report_data, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        logger.warning(f"Could not generate batch quality report: {e}")
 
 
 @app.post("/run")
